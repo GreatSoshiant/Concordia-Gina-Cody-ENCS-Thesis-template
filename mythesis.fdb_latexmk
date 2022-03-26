@@ -1,5 +1,5 @@
 # Fdb version 3
-["bibtex mythesis"] 1648309069 "mythesis.aux" "mythesis.bbl" "mythesis" 1648309077
+["bibtex mythesis"] 1648309069 "mythesis.aux" "mythesis.bbl" "mythesis" 1648309832
   "/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter2/chapter2.aux" 1648309070 1990 18980a4fc054c09b1025ac3b9c95f380 ""
   "/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter3/chapter3.aux" 1648309077 11599 2e7eb2da1322a75e12e7878d576977b9 ""
   "/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter4/chapter4.aux" 1648309077 16214 8e4761e3797db683993a3986b28a9bcd ""
@@ -13,7 +13,7 @@
   (generated)
   "mythesis.bbl"
   "mythesis.blg"
-["pdflatex"] 1648309069 "/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.tex" "/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.pdf" "mythesis" 1648309077
+["pdflatex"] 1648309069 "/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.tex" "/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.pdf" "mythesis" 1648309832
   "/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.aux" 1648309077 7577 840cb51ac9e22c85129cf4726e87fcf9 ""
   "/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.tex" 1648300480 7177 58f2b64b5aac185f98b85bb948eb3c29 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -191,7 +191,7 @@
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1647127704 2724741 2b9b83fb55536aa6afae116785620a4e ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
   "chapters/chapter2/chapter2.aux" 1648309070 1990 18980a4fc054c09b1025ac3b9c95f380 "pdflatex"
-  "chapters/chapter2/chapter2.tex" 1648309061 5371 58901aeed1a8ccdb30f494216efffbe7 ""
+  "chapters/chapter2/chapter2.tex" 1648309829 5371 58901aeed1a8ccdb30f494216efffbe7 ""
   "chapters/chapter3/chapter3.aux" 1648309077 11599 2e7eb2da1322a75e12e7878d576977b9 "pdflatex"
   "chapters/chapter3/chapter3.tex" 1648230144 77342 ba1ada276824f070e9ab86e68a6650ea ""
   "chapters/chapter3/table.tex" 1648147819 4502 1dc4143d7394ac4265d3e80bd27c5dc9 ""
@@ -220,16 +220,16 @@
   "mythesis.toc" 1648309077 10052 e537d1939430face0112598471011c69 "pdflatex"
   "setup/packages.tex" 1648146765 691 eff8122135133768409c1ae79e786735 ""
   (generated)
+  "mythesis.log"
+  "chapters/chapter2/chapter2.aux"
   "mythesis.toc"
   "mythesis.pdf"
-  "chapters/chapter3/chapter3.aux"
-  "chapters/chapter5/chapter5.aux"
   "/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.pdf"
-  "chapters/chapter4/chapter4.aux"
-  "mythesis.aux"
-  "chapters/chapter2/chapter2.aux"
   "mythesis.lof"
-  "mythesis.log"
-  "mythesis.out"
   "/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.log"
+  "chapters/chapter3/chapter3.aux"
+  "mythesis.out"
+  "mythesis.aux"
+  "chapters/chapter4/chapter4.aux"
+  "chapters/chapter5/chapter5.aux"
   "mythesis.lot"
