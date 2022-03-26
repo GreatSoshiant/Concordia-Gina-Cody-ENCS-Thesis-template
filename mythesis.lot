@@ -1,0 +1,14 @@
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1}{\ignorespaces What does the square mean? \relax }}{17}{table.caption.12}%
+\contentsline {table}{\numberline {2}{\ignorespaces Results of each \texttt {DELEGATECALL}-based upgrade pattern for the time-period {Sep-05-2020} to {Jul-20-2021} (2,064,595 blocks).\relax }}{32}{table.caption.27}%
+\contentsline {table}{\numberline {3}{\ignorespaces Results of each admin type in upgradeable contracts for the time-period {Sep-05-2020} to {Jul-20-2021} (2,064,595 blocks).\relax }}{39}{table.caption.32}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4}{\ignorespaces Evaluation Framework on selection of data feeders. For details see Section~\ref {evaluation_framework}\relax }}{59}{table.caption.45}%
+\contentsline {table}{\numberline {5}{\ignorespaces A classification of the existing oracle implementations using the modular framework described in Section~\ref {overview_workflow}. {$\bullet $} indicates the properties (columns) are implemented in the corresponding oracle (rows), and $\times $ indicates the property is not applicable. $\dagger $ First Come First Serve $\star $\textit {The Market Creator assigns the designated reporter} $\star $$\star $ \textit {{The series of reported prices will be sent to requester without aggregation (See~\ref {provideranddatavetting})}} \relax }}{72}{table.caption.56}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

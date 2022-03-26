@@ -1,0 +1,28 @@
+\chapter{Background}
+\label{chap:background}
+This chapter covers background information discussed in this dissertation. We assume that the reader has basic familiarity with \textit{Blockchain} and \textit{Ethereum} concepts and we explain the more detailed aspects of Ethereum Virtual Machine (EVM), Ethereum infrastructure, and Decentralized Applications running on top of Ethereum. 
+
+
+\section{Smart Contracts}
+Smart contracts are pieces of codes that are deployed to a blockchain systems, to remove the barrier of trusting middleman and to run specific logic. Ethereum is the first and mostly used public blockchain that introduced rich smart contracts that are not just limited to some specific scripts (like Bitcoin scripting language). Smart contracts are supposed to be immutable and tamper proof which means the code cannot be changed just after deployment to the blockchain.
+
+Smart contracts (in Ethereum) are usually written in High-Level programming languages such as Solidity and Vyper and compiled into a Low-Level EVM bytecodes using a compiler (\eg Solc). An EVM bytecode is a binary string that is interpretable by EVM. Then EVM bytecode will be deployed to the Ethereum main blockchain.
+
+To understand the process of deployment of a smart contract one should have familiarity with different types of accounts in Ethereum. There are two types of Ethereum accounts: \textit{Externally Owned Account (EOA)} and \textit{Contract Account}. 
+EOA is an account that is controlled by a private key and keeps balance of Ethers that the account has and also a \textit{nonce}, which indicates the number of transactions sent by the account and act like a counter to mitigate replay attacks. Any external actor can generate a random private key and use ECDSA encryption algorithm to generate the public key from the private key. Ethereum uses SECP-256k1 curve for ECDSA as described in the Ethereum yellow paper.
+The EOA addresses can create new transactions, sign them with the private key related to the account and send it to Ethereum network to be confirmed and recorded on the main Ethereum chain. This transaction can:
+\begin{enumerate}
+    \item Send Ether to another EOA.
+    \item Create a new \textit{Contract Account} by sending a bytecode.
+    \item Calling a \textit{Contract Account} to execute a logic.
+\end{enumerate}
+
+For sending Ether into another EOA account the sender should specify the address which should be an EOA and not a contract account and also an amount to be sent. Creating a new \textit{Contract Account} is a bit tricky. The EOA should send a transaction containing the bytecode of the contract and setting the destination address to \emph{null}. Then EVM will create an address for the newly generated contract. The newly generated account (which is a contract account) keeps four fields: A \textit{nonce} which is similar to nonce in EOA and keeps track of number of transactions created by that account, Ether balance which indicates number of Ether the account holds, \textit{Contract Code} which keeps the bytecode of the account which is executed each time a transaction calls the account, and \textit{Contract Storage} which is a Merkle Patricia Tree data structure that maintain the data related to the contract account. Detailed explanation of the contract storage can be found in Section \textblue{refer}.
+
+% explain how a contract is being called --> function selector etc.
+% explain what is a storage layout merkle trie etc
+
+
+\paragraph{Synthetic Assets.} The red-black coin primitive can be generalized to produce black coins that match the price of any financial asset, not just a currency like the USD, simply by changing the price that the oracle references. For example, a black coin for one share of the company Apple (APPL) would use an ETH/APPL price feed (possibly constructed by bridging ETH/USD and APPL/USD prices) and otherwise be exactly the same. These black coins are ``synthetic assets'' because they expose the holder to the price movements of the asset but do not afford the holder any other benefits of holding the financial instrument (\eg shareholder votes or dividends for equities; physical delivery for futures; or the ability to settle a loan, or option contract on the asset). What a red coin represents in this example is less natural than for a stablecoin: it is a bet that ETH will increase in price faster than APPL.
+
+\paragraph{Liquidations.} The worst-case scenario for a red-black coin is a decline in the value of ETH/USD. As a primitive, red-black coins simply force the holders to take on this risk. By contrast, liquidations are the main preventative mechanism used by full-fledged systems like Dai. Liquidations are controversial: many vault holders have lost ETH due to liquidations, they require special monitoring tools (\eg \texttt{DeFiSaver.com}), any analysis includes assumptions about how humans behave and how fast market actions can be taken, and maligned incentives (\eg return DAI for ETH when ETH/DAI is in decline) can lead to economic crises and de-leveraging spirals~\cite{GPH+20,KMM20}. Liquidations failed Dai on Ethereum's "Black Thursday" event in March 2020 and required a bail-out. In this paper, red-black coins can be thought of as "Dai without liquidations". Since liquidations have a downside, it is important to weigh these against what they contribute.

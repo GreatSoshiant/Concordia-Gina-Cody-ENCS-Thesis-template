@@ -12,7 +12,10 @@
 \usepackage{times}            % use Times New Roman font
 \usepackage[titletoc,title]{appendix}     % include Appendix command, add to ToC
 \usepackage{setspace}         % control double/single line spacing
-
+\usepackage[pdftex]{graphicx}
+\usepackage{caption,tabularx,booktabs}
+\usepackage{array}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 %% OPTIONAL PACKAGES
 %\counterwithout{footnote}{chapter}        % do no reset footnote # between chapters
 \usepackage[hyphens]{url}     % print links
@@ -33,23 +36,91 @@
 \usepackage{blindtext}
 
 %% CUSTOM MACROS
+\usepackage{xspace}
+\newcommand{\etal}{\textit{et al.}\xspace}
+\newcommand{\etc}{\textit{etc.}\xspace}
+\newcommand{\ie}{\textit{i.e.,}\xspace}
+\newcommand{\eg}{\textit{e.g.,}\xspace}
+\newcommand{\cf}{\textit{cf.}\xspace}
+\newcommand{\supra}{\textit{Supra}\xspace}
+\newcommand{\nee}{\textit{n\'ee}\xspace}
+\newcommand{\aka}{\textit{a.k.a.,}\xspace}
+
+% = = = Arrow -> (\lt)
+\newcommand{\lt}{$\rightarrow$\xspace}
+
+% = = = Keywords (kw)
+\newcommand{\kw}[1]{\textsf{#1}}
+
+% = = = Colored text (textblue)
+\newcommand{\textblue}[1]{\textcolor{blue}{#1}}
+
+% = = = Compact Lists (compactlist, compactlistn)
+\newenvironment{compactlist}
+  {\begin{itemize} 
+  \setlength{\itemsep}{0pt} 
+  \setlength{\parskip}{0pt}} 
+  {\end{itemize}}
+  
+\newenvironment{compactlistn}
+  {\begin{enumerate} 
+  \setlength{\itemsep}{0pt} 
+  \setlength{\parskip}{0pt}} 
+  {\end{enumerate}}
+  
+\renewcommand{\labelitemi}{$\bullet$}
+  
+
+%------------------------Crypto----------------------%  
+
+% = = = Zp, Gq and Zq
+\newcommand{\Zp}{\mathbb{Z}^{*}_{p}}
+\newcommand{\Zq}{\mathbb{Z}_{q}}
+\newcommand{\Gq}{\mathbb{G}_{q}}
+
+% = = = Encryption, etc.
+\newcommand{\Enc}[1]{\mathsf{Enc}(#1)}
+\newcommand{\EncB}[1]{\llbracket #1 \rrbracket}
+\newcommand{\ReRand}[1]{\mathsf{ReRand}(#1)}
+\newcommand{\Hash}[1]{\mathcal{H}(#1)}
+\newcommand{\Sign}[1]{\mathsf{Sig}(#1)}
+\newcommand{\Comm}[1]{\mathsf{Comm}(#1)}
+\newcommand{\Open}[1]{\mathsf{Open}(#1)}
+
+% = = = Tuples
+\newcommand{\tuple}[1]{\left \langle #1 \right \rangle}
+
+
+%-------------------Custom for Paper----------------------%
+
+% = = = Name
+\newcommand{\Name}{\textsf{System Name}\xspace}
+\newcommand{\dai}{\textsf{Dai}\xspace}
+\newcommand{\cdp}{\textsf{CDP}\xspace}
+\newcommand{\vault}{\textsf{Vault}\xspace}
+
 %\newcommand{\tickyes}{{\small\checkmark}}
 %\newcommand{\tickno}{{\small$\times$}}
-
+% TABLES:
+\usepackage{adjustbox}
+\newcommand{\headrow}[1]{\multicolumn{1}{c}{\adjustbox{angle=30,lap=\width-0.5em}{#1}}}
+\newcommand{\full}{$\bullet$}
+\newcommand{\prt}{$\circ$}
+\newcommand{\none}{$\times$}
 %% CUSTOM COMMANDS
 %\newcommand{\subhead}[1]{\noindent{\textbf{#1.}}}
-
+\input{setup/packages}
 %% THESIS SETTINGS
-\author{John Doe}
+\author{Mehdi Salehi}
 \title{My Super Thesis}
 
 % As of 2019, title is no longer used...
 %\titleOfPhDAuthor{Mr.}         % or Ms., Mrs., Miss, etc. (only for PhD's)
 
 % if PhD, uncomment:
-\PhD
+%\PhD
 % else if Master's, uncomment:
-%\mastersDegree{Master of Applied Science}
+\mastersDegree{Master of Applied Science}
 
 \program{Information and Systems Engineering}
 %\program{Computer Science}
@@ -66,16 +137,16 @@
 \examinerFirst{Dr.\ Examiner1}
 \examinerSecond{Dr.\ Examiner2}
 \examinerExternalToProgram{Dr.\ ExternalToProgram}
-\supervisor{Dr.\ Supervisor}
+\supervisor{Dr.Jeremy Clark\ Supervisor}
 %% Following two lines are required if you have a co-supervisor
-%\hasCosupervisor
-%\coSupervisor{Dr.\ Co-supervisor}
+\hasCosupervisor
+\coSupervisor{Dr. Mohammad Mannan\ Co-supervisor}
 
 %% Comment to use current month, needs to match initial submission
-\submitmonth{May}
-\submityear{2019}
+\submitmonth{March}
+\submityear{2022}
 %% Comment if date of defence is unknown yet, fill for final submission
-\defencedate{July 1, 2019}
+\defencedate{April 1, 2022}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -86,20 +157,14 @@
 \begin{abstract}
 {%trick to force double spacing in the abstract, otherwise some paragraphs may show single spaced
 \setstretch{1.6667}
-\blindtext[1]
 
-\blindtext[1]
-
-\blindtext[1]
-
-\blindtext[1]
 }
 \end{abstract}
 
 %\doublespacing
 \begin{acknowledgments}
 	% keep this section even if empty
-	\blindtext[2]
+
 \end{acknowledgments}
 
 
@@ -110,36 +175,36 @@
 Hello~\cite{cold-boot-attack}.
 
 \section{Motivation}
-\blindtext[5]
+
 
 \section{Thesis Statement}
-\blindtext[2]
+
 
 \section{Objectives and Contributions}
-\blindtext[3]
+
 
 \section{Related Publications}
-\blindtext[1]
+
 
 \section{Outline}
-The rest of the thesis is organized as follows...
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Background}
-\label{chap:background}
-\blindtext[10]
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Then}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\include{chapters/chapter2/chapter2}
+\include{chapters/chapter3/chapter3}
+\include{chapters/chapter4/chapter4}
+\include{chapters/chapter5/chapter5}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Conclusion and future work}
 \label{chap:conclusion}
 
-\blindtext[5]
+
 
 
 
@@ -151,7 +216,7 @@ The rest of the thesis is organized as follows...
 \addcontentsline{toc}{chapter}{Bibliography}  %  Add Bibliography to TOC
 \singlespacing % save space in the bibliography
 \bibliographystyle{abbrv}
-\bibliography{references}
+\bibliography{references,bib/pulp.bib,bib/new.bib,bib/bib.bib}
 
 
 
@@ -170,27 +235,27 @@ The rest of the thesis is organized as follows...
 \chapter{First Appendix}
 \label{chap:apdx1}
 
-\blindmathpaper
+
 
 \chapter{Concordia Logos}
 \label{chap:logos}
-\begin{figure}[h!]
-	\centering
-	\includegraphics{logos/Concordia_University_logo}
-	\caption{Concordia University}
-\end{figure}
-\vspace{2em}
-\begin{figure}[h!]
-	\centering
-	\includegraphics{logos/Concordia_GinaCody_vertical}
-	\caption{Gina Cody School of Engineering and Computer Science (vertical)}
-\end{figure}
-\vspace{2em}
-\begin{figure}[h!]
-	\centering
-	\includegraphics{logos/Concordia_GinaCody_horizontal}
-	\caption{Gina Cody School of Engineering and Computer Science (horizontal)}
-\end{figure}
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics{logos/Concordia_University_logo}
+%	\caption{Concordia University}
+%\end{figure}
+%\vspace{2em}
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics{logos/Concordia_GinaCody_vertical}
+%	\caption{Gina Cody School of Engineering and Computer Science (vertical)}
+%\end{figure}
+%\vspace{2em}
+%\begin{figure}[h!]
+%	\centering
+%	\includegraphics{logos/Concordia_GinaCody_horizontal}
+%	\caption{Gina Cody School of Engineering and Computer Science (horizontal)}
+%\end{figure}
 
 \end{appendices}
 

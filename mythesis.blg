@@ -1,0 +1,79 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: mythesis.aux
+A level-1 auxiliary file: chapters/chapter2/chapter2.aux
+A level-1 auxiliary file: chapters/chapter3/chapter3.aux
+A level-1 auxiliary file: chapters/chapter4/chapter4.aux
+A level-1 auxiliary file: chapters/chapter5/chapter5.aux
+The style file: abbrv.bst
+Database file #1: references.bib
+Database file #2: bib/pulp.bib
+Database file #3: bib/new.bib
+Database file #4: bib/bib.bib
+Warning--empty journal in adams2021uniswap
+Warning--empty journal in benligiraydecentralized
+Warning--empty year in benligiraydecentralized
+Warning--empty journal in delegatecallForwarders
+Warning--empty year in delegatecallForwarders
+Warning--can't use both volume and number fields in CDM20
+Warning--empty journal in certikReport
+Warning--empty year in certikReport
+Warning--empty journal in bentFinanceHack
+Warning--empty year in bentFinanceHack
+Warning--empty journal in firat2002knowledge
+Warning--empty journal in frowisnot
+Warning--empty year in frowisnot
+Warning--empty journal in tobBlogPost
+Warning--empty year in tobBlogPost
+Warning--empty journal in aaveBreak
+Warning--empty year in aaveBreak
+Warning--empty journal in smart_contract_sanctuary
+Warning--empty year in smart_contract_sanctuary
+Warning--empty journal in securityAdvise
+Warning--empty year in securityAdvise
+Warning--empty journal in openzeppelinPost
+Warning--empty year in openzeppelinPost
+Warning--empty journal in uupsAttacks
+Warning--empty year in uupsAttacks
+You've used 156 entries,
+            2118 wiz_defined-function locations,
+            1251 strings with 28004 characters,
+and the built_in function-call counts, 49008 in all, are:
+= -- 4773
+> -- 2392
+< -- 37
++ -- 979
+- -- 794
+* -- 3031
+:= -- 8249
+add.period$ -- 475
+call.type$ -- 156
+change.case$ -- 867
+chr.to.int$ -- 0
+cite$ -- 181
+duplicate$ -- 1994
+empty$ -- 3773
+format.name$ -- 794
+if$ -- 10254
+int.to.chr$ -- 0
+int.to.str$ -- 156
+missing$ -- 142
+newline$ -- 765
+num.names$ -- 312
+pop$ -- 1032
+preamble$ -- 1
+purify$ -- 708
+quote$ -- 0
+skip$ -- 1455
+stack$ -- 0
+substring$ -- 2329
+swap$ -- 460
+text.length$ -- 37
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 620
+warning$ -- 25
+while$ -- 453
+width$ -- 159
+write$ -- 1605
+(There were 25 warnings)

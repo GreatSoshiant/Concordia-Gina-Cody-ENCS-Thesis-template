@@ -1,0 +1,881 @@
+\begin{thebibliography}{100}
+
+\bibitem{adams2019uniswap}
+H.~Adams.
+\newblock Uniswap.
+\newblock {\em URl: https://uniswap.org/docs}, 2019.
+
+\bibitem{adams2021uniswap}
+H.~Adams, N.~Zinsmeister, M.~Salem, R.~Keefer, and D.~Robinson.
+\newblock Uniswap v3 core.
+\newblock 2021.
+
+\bibitem{adler2018astraea}
+J.~Adler, R.~Berryhill, A.~Veneris, Z.~Poulos, N.~Veira, and A.~Kastania.
+\newblock Astraea: A decentralized blockchain oracle.
+\newblock In {\em 2018 IEEE International Conference on Internet of Things
+  (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE
+  Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data
+  (SmartData)}, pages 1145--1152. IEEE, 2018.
+
+\bibitem{al2020trustworthy}
+H.~Al-Breiki, M.~H.~U. Rehman, K.~Salah, and D.~Svetinovic.
+\newblock Trustworthy blockchain oracles: Review, comparison, and open research
+  challenges.
+\newblock {\em IEEE Access}, 8:85675--85685, 2020.
+
+\bibitem{alizadeh2012survey}
+M.~Alizadeh, M.~Zamani, A.~R. Shahemabad, J.~Shayan, and A.~Azarnik.
+\newblock A survey on attacks in rfid networks.
+\newblock {\em Open International Journal of Informatics (OIJI)}, 1(1):15--24,
+  2012.
+
+\bibitem{angeris2020improved}
+G.~Angeris and T.~Chitra.
+\newblock Improved price oracles: Constant function market makers.
+\newblock {\em arXiv preprint arXiv:2003.10001}, 2020.
+
+\bibitem{atzei2017survey}
+N.~Atzei, M.~Bartoletti, and T.~Cimoli.
+\newblock A survey of attacks on ethereum smart contracts (sok).
+\newblock In {\em International conference on principles of security and
+  trust}, pages 164--186. Springer, 2017.
+
+\bibitem{balancer}
+Balancer.
+\newblock A protocol for programmable liquidity.
+\newblock {\em URl: https://balancer.finance/}, 2020.
+
+\bibitem{benligiraydecentralized}
+B.~Benligiray, S.~Milic, and H.~V{\"a}nttinen.
+\newblock Decentralized apis for web 3.0.
+
+\bibitem{bernanioraclize}
+T.~Bernani.
+\newblock Oraclize.
+\newblock {\em URl: https://www.oraclize.it/}, 2016.
+
+\bibitem{biryukov2017findel}
+A.~Biryukov, D.~Khovratovich, and S.~Tikhomirov.
+\newblock Findel: Secure derivative contracts for ethereum.
+\newblock In {\em International Conference on Financial Cryptography and Data
+  Security}, pages 453--467. Springer, 2017.
+
+\bibitem{bissias2016analysis}
+G.~Bissias, B.~N. Levine, A.~P. Ozisik, and G.~Andresen.
+\newblock An analysis of attacks on blockchain consensus.
+\newblock {\em arXiv preprint arXiv:1610.07985}, 2016.
+
+\bibitem{BS73}
+F.~Black and M.~Scholes.
+\newblock The pricing of options and corporate liabilities.
+\newblock {\em Journal of Political Economy}, 81(3), 1973.
+
+\bibitem{chainlinknft}
+C.~Blog.
+\newblock 16 ways to create dynamic non-fungible tokens (nft) using chainlink
+  oracles.
+\newblock {\em URl:
+  https://blog.chain.link/create-dynamic-nfts-using-chainlink-oracles/}, 2021.
+
+\bibitem{crypto-2018-28858}
+D.~Boneh, J.~Bonneau, B.~B{\"u}nz, and B.~Fisch.
+\newblock Verifiable delay functions.
+\newblock In {\em Advances in Cryptology -- CRYPTO 2018}, volume 10991 of {\em
+  Lecture Notes in Computer Science}, pages 757--788. Springer, 2018.
+
+\bibitem{brassard1988minimum}
+G.~Brassard, D.~Chaum, and C.~Cr{\'e}peau.
+\newblock Minimum disclosure proofs of knowledge.
+\newblock {\em Journal of computer and system sciences}, 37(2):156--189, 1988.
+
+\bibitem{brasser2017software}
+F.~Brasser, U.~M{\"u}ller, A.~Dmitrienko, K.~Kostiainen, S.~Capkun, and A.-R.
+  Sadeghi.
+\newblock Software grand exposure:$\{$SGX$\}$ cache attacks are practical.
+\newblock In {\em 11th $\{$USENIX$\}$ Workshop on Offensive Technologies
+  ($\{$WOOT$\}$ 17)}, 2017.
+
+\bibitem{chainlinkocr}
+L.~Breidenbach, C.~Cachin, A.~Coventry, A.~Juels, and A.~Miller.
+\newblock Chainlink off-chain reporting protocol.
+\newblock {\em URl:
+  https://blog.chain.link/off-chain-reporting-live-on-mainnet/}, 2021.
+
+\bibitem{bunz2017proofs}
+B.~B{\"u}nz, S.~Goldfeder, and J.~Bonneau.
+\newblock Proofs-of-delay and randomness beacons in ethereum.
+\newblock {\em IEEE Security and Privacy on the blockchain (IEEE S\&B)}, 2017.
+
+\bibitem{delegatecallForwarders}
+V.~Buterin.
+\newblock Delegatecall forwarders: how to save ~50-98% on making many new
+  contracts with the same code.
+
+\bibitem{vitalikuni}
+V.~Buterin.
+\newblock Uni should become an oracle token.
+\newblock {\em URl:
+  https://gov.uniswap.org/t/uni-should-become-an-oracle-token/11988}, 2021.
+
+\bibitem{DUOnet}
+Y.~Cao, M.~Dai, S.~Kou, L.~Li, and C.~Yang.
+\newblock Designing stable coins.
+\newblock Technical report, Duo Network Whitepaper, 2018.
+
+\bibitem{castro2002practical}
+M.~Castro and B.~Liskov.
+\newblock Practical byzantine fault tolerance and proactive recovery.
+\newblock {\em ACM Transactions on Computer Systems (TOCS)}, 20(4):398--461,
+  2002.
+
+\bibitem{chainlinkvrf}
+Chainlink.
+\newblock Chainlink vrf: On-chain verifiable randomness.
+\newblock {\em URl:
+  https://blog.chain.link/verifiable-random-functions-vrf-random-number-generation-rng-feature/},
+  2020.
+
+\bibitem{linkOracleProblem}
+ChainLink.
+\newblock What is the blockchain oracle problem.
+\newblock {\em URl:
+  https://blog.chain.link/what-is-the-blockchain-oracle-problem/}, 2020.
+
+\bibitem{chatterjee2019probabilistic}
+K.~Chatterjee, A.~K. Goharshady, and A.~Pourdamghani.
+\newblock Probabilistic smart contracts: Secure randomness on the blockchain.
+\newblock In {\em 2019 IEEE International Conference on Blockchain and
+  Cryptocurrency (ICBC)}, pages 403--412. IEEE, 2019.
+
+\bibitem{chen2020survey}
+H.~Chen, M.~Pendleton, L.~Njilla, and S.~Xu.
+\newblock A survey on ethereum systems security: Vulnerabilities, attacks, and
+  defenses.
+\newblock {\em ACM Computing Surveys (CSUR)}, 53(3):1--43, 2020.
+
+\bibitem{chen2021smart}
+J.~Chen, X.~Xia, D.~Lo, and J.~Grundy.
+\newblock Why do smart contracts self-destruct? investigating the selfdestruct
+  function on ethereum.
+\newblock {\em ACM Transactions on Software Engineering and Methodology
+  (TOSEM)}, 31(2):1--37, 2021.
+
+\bibitem{chen2017adaptive}
+T.~Chen, X.~Li, Y.~Wang, J.~Chen, Z.~Li, X.~Luo, M.~H. Au, and X.~Zhang.
+\newblock An adaptive gas cost mechanism for ethereum to defend against
+  under-priced dos attacks.
+\newblock In {\em International {C}onference on {I}nformation {S}ecurity
+  practice and experience}, pages 3--24. Springer, 2017.
+
+\bibitem{clark2014decentralizing}
+J.~Clark, J.~Bonneau, E.~W. Felten, J.~A. Kroll, A.~Miller, and A.~Narayanan.
+\newblock On decentralizing prediction markets and order books.
+\newblock In {\em Workshop on the Economics of Information Security, State
+  College, Pennsylvania}, 2014.
+
+\bibitem{CDM20}
+J.~Clark, D.~Demirag, and S.~Moosavi.
+\newblock Demystifying stablecoins.
+\newblock In {\em Communications of the ACM}, volume~63, July 2020.
+
+\bibitem{clark2019sok}
+J.~Clark, D.~Demirag, and S.~Moosavi.
+\newblock Sok: Demystifying stablecoins.
+\newblock {\em CACM}, 2020.
+
+\bibitem{clark2013sok}
+J.~Clark and P.~C. Van~Oorschot.
+\newblock Sok: Ssl and https: Revisiting past challenges and evaluating
+  certificate trust model enhancements.
+\newblock In {\em 2013 IEEE Symposium on Security and Privacy}, pages 511--525.
+  IEEE, 2013.
+
+\bibitem{coinmonkMKRgovernance}
+Coinmonk.
+\newblock Vulnerabilities in maker: Oracle-governance attacks, attack daos, and
+  (de)centralization.
+\newblock {\em URl:
+  https://medium.com/coinmonks/vulnerabilities-in-maker-oracle-governance-attacks-attack-daos-and-de-centralization-d943685adc2f},
+  2019.
+
+\bibitem{certikReport}
+C.~Company.
+\newblock The state of defi security 2021.
+
+\bibitem{compoundPriceFeed}
+Compound.
+\newblock Open price feed.
+\newblock {\em URl: https://compound.finance/docs/prices}, 2020.
+
+\bibitem{attacksonethereum}
+Consensys.
+\newblock Ethereum smart contract best practices, 2020.
+
+\bibitem{tellordispute}
+T.~Core.
+\newblock Staking, disputes, and voting.
+\newblock {\em URl:
+  https://medium.com/tellor/staking-disputes-and-voting-ad09c66eb7bc/}, 2019.
+
+\bibitem{costan2016intel}
+V.~Costan and S.~Devadas.
+\newblock Intel sgx explained.
+\newblock {\em IACR Cryptol. ePrint Arch.}, 2016(86):1--118, 2016.
+
+\bibitem{chainlinkdosattack}
+T.~B. Crypto.
+\newblock Chainlink nodes were targeted in an attack last weekend that cost
+  them at least 700 eth.
+\newblock {\em URl:
+  https://www.theblockcrypto.com/post/76986/chainlink-nodes-attack-eth}, 2020.
+
+\bibitem{defiattacksreport}
+T.~B. Crypto.
+\newblock Defi attacks: the general picture.
+\newblock {\em URl:
+  https://www.theblockcrypto.com/research/105472/defi-attacks-the-general-picture},
+  2021.
+
+\bibitem{daian2020flash}
+P.~Daian, S.~Goldfeder, T.~Kell, Y.~Li, X.~Zhao, I.~Bentov, L.~Breidenbach, and
+  A.~Juels.
+\newblock Flash boys 2.0: Frontrunning in decentralized exchanges, miner
+  extractable value, and consensus instability.
+\newblock In {\em 2020 IEEE Symposium on Security and Privacy (SP)}, pages
+  910--927. IEEE, 2020.
+
+\bibitem{darkdao}
+P.~Daian, T.~Kell, I.~Miers, and A.~Juels.
+\newblock On-chain vote buying and the rise of dark daos.
+\newblock {\em URl:
+  https://hackingdistributed.com/2018/07/02/on-chain-vote-buying/}, 2018.
+
+\bibitem{compoundcoinbasepro}
+Decrypt.
+\newblock Oracle exploit sees \$89 million liquidated on compound.
+\newblock {\em URl:
+  https://decrypt.co/49657/oracle-exploit-sees-100-million-liquidated-on-compound},
+  2020.
+
+\bibitem{dhillon2017dao}
+V.~Dhillon, D.~Metcalf, and M.~Hooper.
+\newblock The {DAO} hacked.
+\newblock In {\em Blockchain Enabled Applications}, pages 67--78. Springer,
+  2017.
+
+\bibitem{DIAOracle}
+DIA.
+\newblock Dia --- transparent oracles for a decentralised financial ecosystem,
+  2020.
+
+\bibitem{dodopmm}
+DODO.
+\newblock The dodo advantage.
+\newblock {\em URl: https://dodoex.github.io/docs/docs/advantages}, 2020.
+
+\bibitem{douceur2002sybil}
+J.~R. Douceur.
+\newblock The sybil attack.
+\newblock In {\em International workshop on peer-to-peer systems}, pages
+  251--260. Springer, 2002.
+
+\bibitem{ellis2017chainlink}
+S.~Ellis, A.~Juels, and S.~Nazarov.
+\newblock Chainlink: A decentralized oracle network.
+\newblock {\em Retrieved March}, 11:2018, 2017.
+
+\bibitem{etherollincident}
+S.~Eskandari.
+\newblock Etherroll bug thread.
+\newblock {\em URl: https://twitter.com/sbetamc/status/1263220679937265671},
+  2020.
+
+\bibitem{EBSC15}
+S.~Eskandari, D.~Barrera, E.~Stobert, and J.~Clark.
+\newblock A first look at the usability of {B}itcoin key management.
+\newblock In {\em USEC}, 2015.
+
+\bibitem{eskandari2017feasibility}
+S.~Eskandari, J.~Clark, V.~Sundaresan, and M.~Adham.
+\newblock On the feasibility of decentralized derivatives markets.
+\newblock In {\em International Conference on Financial Cryptography and Data
+  Security}, pages 553--567. Springer, 2017.
+
+\bibitem{eskandari2019sok}
+S.~Eskandari, S.~Moosavi, and J.~Clark.
+\newblock Sok: Transparent dishonesty: front-running attacks on blockchain.
+\newblock In {\em International Conference on Financial Cryptography and Data
+  Security}, pages 170--189. Springer, 2019.
+
+\bibitem{eskandari2021sok}
+S.~Eskandari, M.~Salehi, W.~C. Gu, and J.~Clark.
+\newblock Sok: Oracles from the ground truth to market manipulation.
+\newblock In {\em Proceedings of the 3rd ACM Conference on Advances in
+  Financial Technologies}, pages 127--141, 2021.
+
+\bibitem{geth}
+Ethereum.
+\newblock Official go implementation of the ethereum protocol, 2015.
+
+\bibitem{etheroll}
+Etheroll.
+\newblock Ethereum casino.
+\newblock {\em URl: https://etheroll.com/}, 2020.
+
+\bibitem{bentFinanceHack}
+B.~Finance.
+\newblock Bent update.
+
+\bibitem{firat2002knowledge}
+A.~Firat, S.~Madnick, and B.~Grosof.
+\newblock Knowledge integration to overcome ontological heterogeneity:
+  Challenges from financial information systems.
+\newblock 2002.
+
+\bibitem{flashbots}
+Flashbots.
+\newblock Flashbots.
+\newblock {\em URl: https://github.com/flashbots/pm}, 2021.
+
+\bibitem{FoBo19}
+B.~Ford and R.~B{\"o}hme.
+\newblock Rationality is self-defeating in permissionless systems, 2019.
+
+\bibitem{makerdaooutage}
+M.~Forum.
+\newblock Scientific governance and risk \#120.
+\newblock {\em URl:
+  https://forum.makerdao.com/t/agenda-discussion-scientific-governance-and-risk-120-thursday-december-3-16-00-utc/5357},
+  2020.
+
+\bibitem{frowisnot}
+M.~Fr{\"o}wis and R.~B{\"o}hme.
+\newblock Not all code are {Create2} equal.
+
+\bibitem{goldbe-vrf-01}
+S.~Goldberg, D.~Papadopoulos, and J.~V{\v c}el{\'a}k.
+\newblock {Verifiable Random Functions (VRFs)}.
+\newblock Internet-Draft draft-goldbe-vrf-01, Internet Engineering Task Force,
+  June 2017.
+\newblock Work in Progress.
+
+\bibitem{gramoli2020blockchain}
+V.~Gramoli.
+\newblock From blockchain consensus back to byzantine consensus.
+\newblock {\em Future Generation Computer Systems}, 107:760--769, 2020.
+
+\bibitem{GRB20}
+W.~Gu, A.~Raghuvanshi, and D.~Boneh.
+\newblock Empirical measurements on pricing oracles and decentralized
+  governance for stablecoins.
+\newblock In {\em Cryptoeconomic Systems}, 2020.
+
+\bibitem{gu2020empirical}
+W.~C. Gu, A.~Raghuvanshi, and D.~Boneh.
+\newblock Empirical measurements on pricing oracles and decentralized
+  governance for stablecoins.
+\newblock {\em Available at SSRN 3611231}, 2020.
+
+\bibitem{GPH+20}
+L.~Gudgeon, D.~Perez, D.~Harz, B.~Livshits, and A.~Gervais.
+\newblock The decentralized financial crisis.
+\newblock In {\em CVCBT}, 2020.
+
+\bibitem{hakimpour2001resolving}
+F.~Hakimpour and A.~Geppert.
+\newblock Resolving semantic heterogeneity in schema integration.
+\newblock In {\em Proceedings of the international conference on Formal
+  Ontology in Information Systems-Volume 2001}, pages 297--308, 2001.
+
+\bibitem{cold-boot-attack}
+J.~A. Halderman, S.~D. Schoen, N.~Heninger, W.~Clarkson, W.~Paul, J.~A.
+  Calandrino, A.~J. Feldman, J.~Appelbaum, and E.~W. Felten.
+\newblock Lest we remember: Cold-boot attacks on encryption keys.
+\newblock {\em Communications of the ACM}, 52(5):91--98, May 2009.
+
+\bibitem{hanson2003combinatorial}
+R.~Hanson.
+\newblock Combinatorial information market design.
+\newblock {\em Information Systems Frontiers}, 5(1):107--119, 2003.
+
+\bibitem{Har03}
+L.~Harris.
+\newblock {\em Trading and exchanges: market microstructure for practitioners}.
+\newblock Oxford, 2003.
+
+\bibitem{he2020characterizing}
+N.~He, L.~Wu, H.~Wang, Y.~Guo, and X.~Jiang.
+\newblock Characterizing code clones in the ethereum smart contract ecosystem.
+\newblock In {\em International Conference on Financial Cryptography and Data
+  Security}, pages 654--675. Springer, 2020.
+
+\bibitem{heilman2015eclipse}
+E.~Heilman, A.~Kendler, A.~Zohar, and S.~Goldberg.
+\newblock Eclipse attacks on bitcoin's peer-to-peer network.
+\newblock In {\em 24th $\{$USENIX$\}$ Security Symposium ($\{$USENIX$\}$
+  Security 15)}, pages 129--144, 2015.
+
+\bibitem{henningsen2019eclipsing}
+S.~Henningsen, D.~Teunis, M.~Florian, and B.~Scheuermann.
+\newblock Eclipsing ethereum peers with false friends.
+\newblock In {\em 2019 IEEE European Symposium on Security and Privacy
+  Workshops (EuroS\&PW)}, pages 300--309. IEEE, 2019.
+
+\bibitem{HvO17}
+C.~{Herley} and P.~C. {Van Oorschot}.
+\newblock Sok: Science, security and the elusive goal of security as a
+  scientific pursuit.
+\newblock In {\em 2017 IEEE Symposium on Security and Privacy (SP)}, pages
+  99--120, 2017.
+
+\bibitem{hertzog2017bancor}
+E.~Hertzog, G.~Benartzi, and G.~Benartzi.
+\newblock Bancor protocol: continuous liquidity for cryptographic tokens
+  through their smart contracts.
+\newblock {\em White paper}, 2017.
+
+\bibitem{huobiDeFiLabs}
+H.~D. Insight.
+\newblock Price oracle - a must have infrastructure.
+\newblock {\em URl:
+  https://www.huobidefilabs.io/en/Insight/1313163603254243330/}, 2020.
+
+\bibitem{KGCWF18}
+H.~Kalodner, S.~Goldfeder, X.~Chen, S.~M. Weinberg, and E.~W. Felten.
+\newblock Arbitrum: Scalable, private smart contracts.
+\newblock In {\em USENIX Security}, 2018.
+
+\bibitem{KL17}
+D.~Khovratovich and J.~Law.
+\newblock Sovrin: digital identities in the blockchain era.
+\newblock Technical report, Sovrin, 2017.
+
+\bibitem{klages2020stablecoins}
+A.~Klages-Mundt, D.~Harz, L.~Gudgeon, J.-Y. Liu, and A.~Minca.
+\newblock Stablecoins 2.0: Economic foundations and risk-based models.
+\newblock In {\em Proceedings of the 2nd ACM Conference on Advances in
+  Financial Technologies}, pages 59--79, 2020.
+
+\bibitem{klages2019stability}
+A.~Klages-Mundt and A.~Minca.
+\newblock ({I}n) stability for the blockchain: Deleveraging spirals and
+  stablecoin attacks.
+\newblock {\em arXiv preprint arXiv:1906.02152}, 2019.
+
+\bibitem{KMM20}
+A.~Klages-Mundt and A.~Minca.
+\newblock While stability lasts: A stochastic model of stablecoins.
+\newblock Technical report, arXiv, 2020.
+
+\bibitem{kroll2013economics}
+J.~A. Kroll, I.~C. Davey, and E.~W. Felten.
+\newblock The economics of bitcoin mining, or bitcoin in the presence of
+  adversaries.
+\newblock In {\em Proceedings of WEIS}, volume 2013, page~11, 2013.
+
+\bibitem{lambur2019data}
+H.~Lambur, A.~Lu, and R.~Cai.
+\newblock Uma data verification mechanism: Adding economic guarantees to
+  blockchain oracles.
+\newblock {\em Risk Labs, Inc., Tech. Rep., Jul}, 2019.
+
+\bibitem{stuxnetattack}
+Langner.
+\newblock The stuxnet story.
+\newblock {\em URl: https://www.langner.com/2020/07/the-stuxnet-story/}, 2020.
+
+\bibitem{langner2011stuxnet}
+R.~Langner.
+\newblock Stuxnet: Dissecting a cyberwarfare weapon.
+\newblock {\em IEEE Security \& Privacy}, 9(3):49--51, 2011.
+
+\bibitem{kleros}
+C.~Lesaege, F.~Ast, and W.~George.
+\newblock Kleros the justice protocol.
+\newblock {\em URl:
+  https://kleros.io/static/whitepaper\_en-8bd3a0480b45c39899787e17049ded26.pdf},
+  2019.
+
+\bibitem{lin2017survey}
+I.-C. Lin and T.-C. Liao.
+\newblock A survey of blockchain security issues and challenges.
+\newblock {\em IJ Network Security}, 19(5):653--659, 2017.
+
+\bibitem{liu2020first}
+B.~Liu and P.~Szalachowski.
+\newblock A first look into defi oracles.
+\newblock {\em arXiv preprint arXiv:2005.04377}, 2020.
+
+\bibitem{lo2020reliability}
+S.~K. Lo, X.~Xu, M.~Staples, and L.~Yao.
+\newblock Reliability analysis for blockchain oracles.
+\newblock {\em Computers \& Electrical Engineering}, 83:106582, 2020.
+
+\bibitem{makerdaoflashloanattack}
+LongForWisdom.
+\newblock Flash loans and securing the maker protocol.
+\newblock {\em URl:
+  https://forum.makerdao.com/t/urgent-flash-loans-and-securing-the-maker-protocol/4901},
+  2020.
+
+\bibitem{madnick2006improving}
+S.~Madnick and H.~Zhu.
+\newblock Improving data quality through effective use of data semantics.
+\newblock {\em Data \& Knowledge Engineering}, 59(2):460--475, 2006.
+
+\bibitem{MAKERDAOOracle}
+MakerDAO.
+\newblock Introducing oracles v2 and defi feeds, 2019.
+
+\bibitem{maram2021candid}
+D.~Maram, H.~Malvai, F.~Zhang, N.~Jean-Louis, A.~Frolov, T.~Kell, T.~Lobban,
+  C.~Moy, A.~Juels, and A.~Miller.
+\newblock Candid: can-do decentralized identity with legacy compatibility,
+  sybil-resistance, and accountability.
+\newblock In {\em 2021 IEEE Symposium on Security and Privacy (SP)}, pages
+  1348--1366. IEEE, 2021.
+
+\bibitem{mccorry2021sok}
+P.~McCorry, C.~Buckland, B.~Yee, and D.~Song.
+\newblock Sok: Validating bridges as a scaling solution for blockchains.
+\newblock {\em Cryptology ePrint Archive}, 2021.
+
+\bibitem{micali1999verifiable}
+S.~Micali, M.~Rabin, and S.~Vadhan.
+\newblock Verifiable random functions.
+\newblock In {\em 40th annual symposium on foundations of computer science
+  (cat. No. 99CB37039)}, pages 120--130. IEEE, 1999.
+
+\bibitem{MSS20}
+A.~Moin, K.~Sekniqi, and E.~G. Sirer.
+\newblock So{K}: A classification framework for stablecoin designs.
+\newblock In {\em Financial Cryptography}, 2020.
+
+\bibitem{mondal2019blockchain}
+S.~Mondal, K.~P. Wijewardena, S.~Karuppuswami, N.~Kriti, D.~Kumar, and
+  P.~Chahal.
+\newblock Blockchain inspired rfid-based information architecture for food
+  supply chain.
+\newblock {\em IEEE Internet of Things Journal}, 6(3):5803--5813, 2019.
+
+\bibitem{muller2000weather}
+A.~M{\"u}ller and M.~Grandi.
+\newblock Weather derivatives: a risk management tool for weather-sensitive
+  industries.
+\newblock {\em The Geneva Papers on Risk and Insurance. Issues and Practice},
+  25(2):273--287, 2000.
+
+\bibitem{minimalProxy}
+P.~Murray, N.~Welch, and J.~Messerman.
+\newblock Minimal proxy contract.
+\newblock EIP-1167, 2018.
+
+\bibitem{nexusmutualbug}
+N.~Mutual.
+\newblock Responsible vulnerability disclosure.
+\newblock {\em URl:
+  https://medium.com/nexus-mutual/responsible-vulnerability-disclosure-ece3fe3bcefa},
+  2020.
+
+\bibitem{nestwhitepaper}
+NEST.
+\newblock Nest protocol: A distributed price oracle network.
+\newblock {\em URl: https://nestprotocol.org/doc/ennestwhitepaper.pdf}, 2020.
+
+\bibitem{neudecker2015simulation}
+T.~Neudecker, P.~Andelfinger, and H.~Hartenstein.
+\newblock A simulation model for analysis of attacks on the bitcoin
+  peer-to-peer network.
+\newblock In {\em 2015 IFIP/IEEE International Symposium on Integrated Network
+  Management (IM)}, pages 1327--1332. IEEE, 2015.
+
+\bibitem{neudecker2019short}
+T.~Neudecker and H.~Hartenstein.
+\newblock Short paper: An empirical analysis of blockchain forks in bitcoin.
+\newblock In {\em International Conference on Financial Cryptography and Data
+  Security}, pages 84--92. Springer, 2019.
+
+\bibitem{tobBlogPost}
+T.~of~Bits.
+\newblock Contract upgrade anti-patterns.
+
+\bibitem{aaveBreak}
+T.~of~Bits~Blog.
+\newblock Breaking aave upgradeability.
+
+\bibitem{chainlinkExplicitStaking}
+C.~Oracle.
+\newblock Explicit staking in chainlink 2.0: An overview.
+\newblock {\em URl:
+  https://blog.chain.link/explicit-staking-in-chainlink-2-0/}, 2021.
+
+\bibitem{smart_contract_sanctuary}
+M.~Ortner and S.~Eskandari.
+\newblock Smart contract sanctuary.
+
+\bibitem{securityAdvise}
+S.~Palladino.
+\newblock Security advisory: Initialize {UUPS} implementation contracts.
+
+\bibitem{openzeppelinPost}
+S.~PALLADINO.
+\newblock The state of smart contract upgrades.
+
+\bibitem{uupsAttacks}
+S.~Palladino.
+\newblock Uupsupgradeable vulnerability post-mortem.
+
+\bibitem{bzxPeckShield}
+PeckShield.
+\newblock bzx hack ii full disclosure (with detailed profit analysis), 2020.
+
+\bibitem{perez2022dissimilar}
+D.~Perez and L.~Gudgeon.
+\newblock Dissimilar redundancy in defi.
+\newblock {\em arXiv preprint arXiv:2201.12563}, 2022.
+
+\bibitem{perez2019broken}
+D.~Perez and B.~Livshits.
+\newblock Broken metre: Attacking resource metering in evm.
+\newblock {\em arXiv preprint arXiv:1909.07220}, 2019.
+
+\bibitem{PHP+19}
+I.~G.~A. Pernice, S.~Henningsen, R.~Proskalovich, M.~Florian, and H.~Elendner.
+\newblock Monetary stabilization in cryptocurrencies: Design approaches and
+  open questions.
+\newblock In {\em CVCBT}, 2019.
+
+\bibitem{peterson2015augur}
+J.~Peterson and J.~Krug.
+\newblock Augur: a decentralized, open-source platform for prediction markets.
+\newblock {\em arXiv preprint arXiv: 1501.01042}, 2015.
+
+\bibitem{pinna2019massive}
+A.~Pinna, S.~Ibba, G.~Baralla, R.~Tonelli, and M.~Marchesi.
+\newblock A massive analysis of {E}thereum smart contracts empirical study and
+  code metrics.
+\newblock {\em IEEE Access}, 7:78194--78213, 2019.
+
+\bibitem{pooltogether}
+PoolTogether.
+\newblock Pooltogether is a no-loss, audited savings game powered by blockchain
+  technology.
+\newblock {\em URl: https://www.pooltogether.com/}, 2020.
+
+\bibitem{bandwhitepaper}
+B.~Protocol.
+\newblock Bandchain whitepaper.
+\newblock {\em URl:
+  https://docs.bandchain.org/whitepaper/system-overview.html}, 2020.
+
+\bibitem{qin2020attacking}
+K.~Qin, L.~Zhou, B.~Livshits, and A.~Gervais.
+\newblock Attacking the defi ecosystem with flash loans for fun and profit.
+\newblock {\em arXiv preprint arXiv:2003.03810}, 2020.
+
+\bibitem{QZLG20}
+K.~Qin, L.~Zhou, B.~Livshits, and A.~Gervais.
+\newblock Attacking the {D}e{F}i ecosystem with flash loans for fun and profit.
+\newblock Technical Report 2003.03810v2, arXiv, 2020.
+
+\bibitem{cofixblog}
+H.~Qureshi.
+\newblock Introducing cofix: a next-generation amm.
+\newblock {\em URl:
+  https://medium.com/dragonfly-research/introducing-cofix-a-next-generation-amm-199aea686b6b},
+  2020.
+
+\bibitem{reijsbergen2021transaction}
+D.~Reijsbergen, S.~Sridhar, B.~Monnot, S.~Leonardos, S.~Skoulakis, and
+  G.~Piliouras.
+\newblock Transaction fees on a honeymoon: Ethereum's eip-1559 one month later.
+\newblock In {\em 2021 IEEE International Conference on Blockchain
+  (Blockchain)}, pages 196--204. IEEE, 2021.
+
+\bibitem{RoNi20}
+D.~Robinson and A.~Niemerg.
+\newblock The yield protocol: On-chain lending with interest rate discovery.
+\newblock Technical report, Yield.is, Apr 2020.
+
+\bibitem{rodler2021evmpatch}
+M.~Rodler, W.~Li, G.~O. Karame, and L.~Davi.
+\newblock $\{$EVMPatch$\}$: Timely and automated patching of ethereum smart
+  contracts.
+\newblock In {\em 30th USENIX Security Symposium (USENIX Security 21)}, pages
+  1289--1306, 2021.
+
+\bibitem{RKYCC19}
+S.~Ruoti, B.~Kaiser, A.~Yerukhimovich, J.~Clark, and R.~Cunningham.
+\newblock Blockchain technology: What is it good for?
+\newblock {\em Communications of the ACM}, 63(1):46--53, 2020.
+
+\bibitem{SCM21}
+M.~Salehi, J.~Clark, and M.~Mannan.
+\newblock Red-black coins: Dai without liquidations.
+\newblock In {\em Financial Cryptography: DeFi}, 2021.
+
+\bibitem{salehi2021red}
+M.~Salehi, J.~Clark, and M.~Mannan.
+\newblock Red-black coins: Dai without liquidations.
+\newblock In {\em International Conference on Financial Cryptography and Data
+  Security}, pages 136--145. Springer, 2021.
+
+\bibitem{sallam2018survey}
+S.~Sallam and B.~D. Beheshti.
+\newblock A survey on lightweight cryptographic algorithms.
+\newblock In {\em TENCON 2018-2018 IEEE Region 10 Conference}, pages
+  1784--1789. IEEE, 2018.
+
+\bibitem{Sam15}
+R.~Sams.
+\newblock A note on cryptocurrency stabilisation: Seigniorage shares.
+\newblock [Online], 2015.
+
+\bibitem{Sey09}
+R.~U. Seydel.
+\newblock {\em Tools for computational finance}.
+\newblock Springer, fourth edition, 2009.
+
+\bibitem{uniswapexplained}
+A.~Shevchenko.
+\newblock Uniswap and automated market makers, explained.
+\newblock {\em URl:
+  https://cointelegraph.com/explained/uniswap-and-automated-market-makers-explained},
+  2020.
+
+\bibitem{sonar2014survey}
+K.~Sonar and H.~Upadhyay.
+\newblock A survey: Ddos attack on internet of things.
+\newblock {\em International Journal of Engineering Research and Development},
+  10(11):58--63, 2014.
+
+\bibitem{synthetixIncident}
+Synthetix.
+\newblock Synthetix response to oracle incident.
+\newblock {\em URl: https://blog.synthetix.io/response-to-oracle-incident/},
+  2019.
+
+\bibitem{synthetix}
+Synthetix.
+\newblock A derivatives liquidity protocol.
+\newblock {\em URl: https://www.synthetix.io/}, 2020.
+
+\bibitem{sztorc2015truthcoin}
+P.~Sztorc.
+\newblock Truthcoin.
+\newblock {\em peer-to-peer oracle system and prediction marketplace.}, 2015.
+
+\bibitem{tellorWhitepaper}
+Tellor.
+\newblock {A decentralized Oracle}.
+
+\bibitem{eip2362}
+Tellor-io.
+\newblock Eip-2362: Pull oracle interface.
+\newblock {\em URl: https://github.com/tellor-io/EIP-2362}, 2020.
+
+\bibitem{tian2016agri}
+F.~Tian.
+\newblock An agri-food supply chain traceability system for china based on rfid
+  \& blockchain technology.
+\newblock In {\em 2016 13th international conference on service systems and
+  service management (ICSSSM)}, pages 1--6. IEEE, 2016.
+
+\bibitem{tlsnotary}
+TLSnotary.
+\newblock A mechanism for independently audited https sessions.
+\newblock {\em URl: https://tlsnotary.org/TLSNotary.pdf}, 2014.
+
+\bibitem{umawhitepaper}
+UMA.
+\newblock Uma data verification mechanism: Adding economic guarantees to
+  blockchain oracles.
+\newblock {\em URl:
+  https://github.com/UMAprotocol/whitepaper/blob/master/UMA-DVM-oracle-whitepaper.pdf},
+  2020.
+
+\bibitem{uniswaporacle}
+Uniswap.
+\newblock Uniswap oracle.
+\newblock {\em URl: https://uniswap.org/docs/v2/core-concepts/oracles}, 2020.
+
+\bibitem{vasek2014empirical}
+M.~Vasek, M.~Thornton, and T.~Moore.
+\newblock Empirical analysis of denial-of-service attacks in the bitcoin
+  ecosystem.
+\newblock In {\em International conference on financial cryptography and data
+  security}, pages 57--71. Springer, 2014.
+
+\bibitem{victor2019measuring}
+F.~Victor and B.~K. L{\"u}ders.
+\newblock Measuring ethereum-based erc20 token networks.
+\newblock In {\em International Conference on Financial Cryptography and Data
+  Security}, pages 113--129. Springer, 2019.
+
+\bibitem{walch2016path}
+A.~Walch.
+\newblock The path of the blockchain lexicon (and the law).
+\newblock {\em Rev. Banking \& Fin. L.}, 36:713, 2016.
+
+\bibitem{wang2020automated}
+Y.~Wang.
+\newblock Automated market makers for decentralized finance (defi).
+\newblock {\em arXiv preprint arXiv:2009.01676}, 2020.
+
+\bibitem{blackthursdayMaker}
+whiterabbit.
+\newblock Black thursday for makerdao: \$8.32 million was liquidated for 0 dai,
+  2020.
+
+\bibitem{williams2019decentralized}
+A.~K. Williams and J.~Peterson.
+\newblock Decentralized common knowledge oracles.
+\newblock {\em arXiv preprint arXiv:1912.01215}, 2019.
+
+\bibitem{wood2002denial}
+A.~D. Wood and J.~A. Stankovic.
+\newblock Denial of service in sensor networks.
+\newblock {\em computer}, 35(10):54--62, 2002.
+
+\bibitem{wood2014ethereum}
+G.~Wood et~al.
+\newblock Ethereum: A secure decentralised generalised transaction ledger.
+\newblock {\em Ethereum project yellow paper}, 151(2014):1--32, 2014.
+
+\bibitem{worboys1991semantic}
+M.~F. Worboys and S.~M. Deen.
+\newblock Semantic heterogeneity in distributed geographic databases.
+\newblock {\em ACM Sigmod Record}, 20(4):30--34, 1991.
+
+\bibitem{cofixwhitepaper}
+Zaugust.
+\newblock Cofix: A computable trading system.
+\newblock {\em URl: https://cofix.io/doc/Trading\_Compensation\_CoFiX.pdf},
+  2020.
+
+\bibitem{zelbst2019impact}
+P.~J. Zelbst, K.~W. Green, V.~E. Sower, and P.~L. Bond.
+\newblock The impact of rfid, iiot, and blockchain technologies on supply chain
+  transparency.
+\newblock {\em Journal of Manufacturing Technology Management}, 2019.
+
+\bibitem{zhang2016town}
+F.~Zhang, E.~Cecchetti, K.~Croman, A.~Juels, and E.~Shi.
+\newblock Town crier: An authenticated data feed for smart contracts.
+\newblock In {\em Proceedings of the 2016 aCM sIGSAC conference on computer and
+  communications security}, pages 270--282. ACM, 2016.
+
+\bibitem{zhang2019deco}
+F.~Zhang, S.~K.~D. Maram, H.~Malvai, S.~Goldfeder, and A.~Juels.
+\newblock Deco: Liberating web data using decentralized oracles for tls.
+\newblock {\em arXiv preprint arXiv:1909.00938}, 2019.
+
+\bibitem{zhang2019double}
+S.~Zhang and J.-H. Lee.
+\newblock Double-spending with a sybil attack in the bitcoin decentralized
+  network.
+\newblock {\em IEEE Transactions on Industrial Informatics}, 15(10):5715--5722,
+  2019.
+
+\end{thebibliography}
