@@ -17,10 +17,26 @@ The EOA addresses can create new transactions, sign them with the private key re
     \item Calling a \textit{Contract Account} to execute a logic.
 \end{enumerate}
 
-For sending Ether into another EOA account the sender should specify the address which should be an EOA and not a contract account and also an amount to be sent. Creating a new \textit{Contract Account} is a bit tricky. The EOA should send a transaction containing the bytecode of the contract and setting the destination address to \emph{null}. Then EVM will create an address for the newly generated contract. The newly generated account (which is a contract account) keeps four fields: A \textit{nonce} which is similar to nonce in EOA and keeps track of number of transactions created by that account, Ether balance which indicates number of Ether the account holds, \textit{Contract Code} which keeps the bytecode of the account which is executed each time a transaction calls the account, and \textit{Contract Storage} which is a Merkle Patricia Tree data structure that maintain the data related to the contract account. Detailed explanation of the contract storage can be found in Section \textblue{refer}.
+Each transaction type is explained below:
+
+\paragraph{Sending Ether.} 
+For sending Ether into another EOA account the sender should specify the address which should be an EOA and not a contract account and also an amount to be sent.
+
+\paragraph{Creating a new Contract Account.}
+Creating a new \textit{Contract Account} is a bit tricky. The EOA should send a transaction containing the bytecode of the contract and setting the destination address to \emph{null}. Then EVM will create an address for the newly generated contract. The newly generated account (which is a contract account) keeps four fields: A \textit{nonce} which is similar to nonce in EOA and keeps track of number of transactions created by that account, Ether balance which indicates number of Ether the account holds, \textit{Contract Code} which keeps the bytecode of the account which is executed each time a transaction calls the account, and \textit{Contract Storage} which is a Merkle Patricia Tree data structure that maintain the data related to the contract account. Detailed explanation of the contract storage can be found in Section \textblue{refer}. 
+The other important aspect of contract creation in Ethereum is how EVM generate a new address for newly generated contract account. In EOA contract creation, EVM calculates the contract address by using the transaction sender's address and it's nonce. The formula is show below:
+
+keccak256( 0xff ++ senderAddress ++ salt ++ keccak256(init-code))[12:]
+
+%the address generation formula explain here
+
+In addition, contract accounts also can create a new contract account using two different EVM opcodes: \texttt{Create} and \texttt{Create2}. For transactions originated by a contract account and consist of these two opcodes, EVM will deterministically calculate the address for the new account and then create a contract account with the related four fields explained above. The whole process of contract creation is similar for these two opcodes, but the main difference is how EVM calculates the address for the contract account. For \texttt{Create} opcode the calculation formula is the same as formula EVM uses for EOA contract creation (here the nonce is the nonce of contract account). But, for \texttt{Create2} opcode, EVM uses completely different formula to calculate it. 
 
 % explain how a contract is being called --> function selector etc.
 % explain what is a storage layout merkle trie etc
+%what is opcode?!
+%difference between message and transaction
+%run time and contract creation
 
 
 \paragraph{Synthetic Assets.} The red-black coin primitive can be generalized to produce black coins that match the price of any financial asset, not just a currency like the USD, simply by changing the price that the oracle references. For example, a black coin for one share of the company Apple (APPL) would use an ETH/APPL price feed (possibly constructed by bridging ETH/USD and APPL/USD prices) and otherwise be exactly the same. These black coins are ``synthetic assets'' because they expose the holder to the price movements of the asset but do not afford the holder any other benefits of holding the financial instrument (\eg shareholder votes or dividends for equities; physical delivery for futures; or the ability to settle a loan, or option contract on the asset). What a red coin represents in this example is less natural than for a stablecoin: it is a bet that ETH will increase in price faster than APPL.
