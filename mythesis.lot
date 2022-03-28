@@ -2,12 +2,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1}{\ignorespaces What does the square mean? \relax }}{18}{table.caption.14}%
-\contentsline {table}{\numberline {2}{\ignorespaces Results of each \texttt {DELEGATECALL}-based upgrade pattern for the time-period {Sep-05-2020} to {Jul-20-2021} (2,064,595 blocks).\relax }}{33}{table.caption.29}%
-\contentsline {table}{\numberline {3}{\ignorespaces Results of each admin type in upgradeable contracts for the time-period {Sep-05-2020} to {Jul-20-2021} (2,064,595 blocks).\relax }}{40}{table.caption.34}%
+\contentsline {table}{\numberline {1}{\ignorespaces What does the square mean? \relax }}{25}{table.caption.19}%
+\contentsline {table}{\numberline {2}{\ignorespaces Results of each \texttt {DELEGATECALL}-based upgrade pattern for the time-period {Sep-05-2020} to {Jul-20-2021} (2,064,595 blocks).\relax }}{40}{table.caption.34}%
+\contentsline {table}{\numberline {3}{\ignorespaces Results of each admin type in upgradeable contracts for the time-period {Sep-05-2020} to {Jul-20-2021} (2,064,595 blocks).\relax }}{47}{table.caption.39}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4}{\ignorespaces Evaluation Framework on selection of data feeders. For details see Section~\ref {evaluation_framework}\relax }}{60}{table.caption.47}%
-\contentsline {table}{\numberline {5}{\ignorespaces A classification of the existing oracle implementations using the modular framework described in Section~\ref {overview_workflow}. {$\bullet $} indicates the properties (columns) are implemented in the corresponding oracle (rows), and $\times $ indicates the property is not applicable. $\dagger $ First Come First Serve $\star $\textit {The Market Creator assigns the designated reporter} $\star $$\star $ \textit {{The series of reported prices will be sent to requester without aggregation (See~\ref {provideranddatavetting})}} \relax }}{73}{table.caption.58}%
+\contentsline {table}{\numberline {4}{\ignorespaces Evaluation Framework on selection of data feeders. For details see Section~\ref {evaluation_framework}\relax }}{66}{table.caption.50}%
+\contentsline {table}{\numberline {5}{\ignorespaces A classification of the existing oracle implementations using the modular framework described in Section~\ref {overview_workflow}. {$\bullet $} indicates the properties (columns) are implemented in the corresponding oracle (rows), and $\times $ indicates the property is not applicable. $\dagger $ First Come First Serve $\star $\textit {The Market Creator assigns the designated reporter} $\star $$\star $ \textit {{The series of reported prices will be sent to requester without aggregation (See~\ref {provideranddatavetting})}} \relax }}{79}{table.caption.61}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
