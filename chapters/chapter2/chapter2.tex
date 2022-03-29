@@ -126,7 +126,28 @@ Smart contracts cannot access external resources (\eg a website or an online dat
 
 To mitigate the problem stated above, different solutions are developed to answer the oracle problem and provide data for the applications in Ethereum that needs the real-world data. We will discuss the problem and solution in detail in Chapter~\ref{ch:oracle}.
 
+There are myriad of applications developed on top of Ethereum blockchain. Some of them uses the solutions describe in  Chapter~\ref{ch:oracle}, using one of them to address the oracle problem and bring real-world data on-chain. In later part of this section, we will explain the most favorable use-cases and applications on Ethereum.
+
+\subsection{Stablecoins/Synthetic assets}
 
 \paragraph{Synthetic Assets.} The red-black coin primitive can be generalized to produce black coins that match the price of any financial asset, not just a currency like the USD, simply by changing the price that the oracle references. For example, a black coin for one share of the company Apple (APPL) would use an ETH/APPL price feed (possibly constructed by bridging ETH/USD and APPL/USD prices) and otherwise be exactly the same. These black coins are ``synthetic assets'' because they expose the holder to the price movements of the asset but do not afford the holder any other benefits of holding the financial instrument (\eg shareholder votes or dividends for equities; physical delivery for futures; or the ability to settle a loan, or option contract on the asset). What a red coin represents in this example is less natural than for a stablecoin: it is a bet that ETH will increase in price faster than APPL.
+
+\subsection{Decentralized Exchange (DeX)}
+
+\subsection{Lending}
+
+\subsection{Ethereum Name Service(ENS)}
+
+\subsection{Derivatives}
+
+\subsection{Decentralized Autonomous Organization (DAO)}
+
+\subsection{Yield Farming}
+
+\subsection{NFTs and Gaming}
+
+\subsection{Privacy tools}
+
+\subsection{Decentralized Identity}
 
 \paragraph{Liquidations.} The worst-case scenario for a red-black coin is a decline in the value of ETH/USD. As a primitive, red-black coins simply force the holders to take on this risk. By contrast, liquidations are the main preventative mechanism used by full-fledged systems like Dai. Liquidations are controversial: many vault holders have lost ETH due to liquidations, they require special monitoring tools (\eg \texttt{DeFiSaver.com}), any analysis includes assumptions about how humans behave and how fast market actions can be taken, and maligned incentives (\eg return DAI for ETH when ETH/DAI is in decline) can lead to economic crises and de-leveraging spirals~\cite{GPH+20,KMM20}. Liquidations failed Dai on Ethereum's "Black Thursday" event in March 2020 and required a bail-out. In this paper, red-black coins can be thought of as "Dai without liquidations". Since liquidations have a downside, it is important to weigh these against what they contribute.
