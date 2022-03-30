@@ -132,7 +132,7 @@ A ``synthetic asset'' is an asset that tracks the price of another asset without
 
 The asset can also be a currency (\eg USD) and in this case, it will be a stablecoin. A stablecoin is an asset that supposed to be peg to a currency such as USD. There are a myriad of stablecoin platform in Ethereum such as \dai which we will discuss in Chapter~\ref{ch:dai}
 
-\subsection{Decentralized Exchange (DeX)\eg Uniswap}
+\subsection{Decentralized Exchange (DeX) \eg Uniswap}
 Decentralized Exchanges (DeX) are platforms that helps users to exchange their assets without need of an intermediary. Two main types of Decentralized Exchanges are Automated Market Maker (AMM) and Orderbook-based exchanges. 
 
 In AMMs (\eg Uniswap) a party named liquidity provider, creates pools for pairs of assets (could be more than two assets in a pool like Balancer protocol), and put liquidity on the pool. Users can exchange their assets in the pool. The smart contract will calculate the amount a user receive using a mathematic formula based on the amount of liquidity in the pool and the amount user wants to exchange. Because the calculations and market making is done by smart contract automatically, this type of DeX is called Automated Market Maker. 
@@ -153,7 +153,7 @@ Options are another type of derivatives in which the user has the right to buy~\
 
 
 \subsection{Yield Farming \eg Yearn}
-
+Protocols like Compound give their native tokens to the active users. For instance, in Compound lenders and borrowers receive Comp token.~\footnote{Native token of Compound.} The aggregated fees collected by users in a year counted as Annual Percentage Yield (APY) which is completely related to the price of native token. There are different platforms that do almost the same logic, but with different APRs at the moment. This brings the idea to develop Dapps that calculate the best APR and use different strategies to maximize the APR of the user. Yearn is one of the leading Dapps that build different strategies to farm most benefit yields for the users. There are other yield farming Dapps such as Harvest finance or Pickle finance.
 
 \subsection{Privacy tools \eg Tornado Cash}
 Ethereum blockchain do not ensure the anonymity and privacy on the main layer because of transparency. There are different solutions developed to bring privacy to the Ethereum transactions. One of the most favorite solutions is Tornado Cash. Tornado cash uses Zero-knowledge snarks to mix Ethers deposited into the contract and break the link between the deposited address and the withdrawn one. Another Dapp that uses Zero-knowledge to enable private transactions on Ethereum is Aztec protocol.
@@ -161,5 +161,5 @@ Ethereum blockchain do not ensure the anonymity and privacy on the main layer be
 
 
 
-\subsection{Liquidations.} 
-Bunch of applications and use-cases described above have a process in common named liquidation which will be discussed in Chapter~\ref{ch:dai}. Liquidation is used in stablecoins, synthetic assets, lending platforms, and derivatives.
+\subsection{Liquidations} 
+Bunch of applications and use-cases described above have a process in common named liquidation which will be discussed in Chapter~\ref{ch:dai}. Liquidation is used in stablecoins, synthetic assets, lending platforms, and derivatives. Liquidation happens when the value of the debt of a user exceeds a pre-specified portion of collateral provided by the user. So it means the user's collateral cannot back the debt in this situation. In traditional finance, the liquidation mostly managed by the broker or service provider. However, in DeFi, because of elimination of the intermediaries, the protocol incentivize the external actors, named \textit{Keepers}, to liquidate the position and top up the collateral or close buy the position.

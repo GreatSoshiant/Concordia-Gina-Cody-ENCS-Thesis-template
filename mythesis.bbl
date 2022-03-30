@@ -388,12 +388,6 @@ F.~Hakimpour and A.~Geppert.
 \newblock In {\em Proceedings of the international conference on Formal
   Ontology in Information Systems-Volume 2001}, pages 297--308, 2001.
 
-\bibitem{cold-boot-attack}
-J.~A. Halderman, S.~D. Schoen, N.~Heninger, W.~Clarkson, W.~Paul, J.~A.
-  Calandrino, A.~J. Feldman, J.~Appelbaum, and E.~W. Felten.
-\newblock Lest we remember: Cold-boot attacks on encryption keys.
-\newblock {\em Communications of the ACM}, 52(5):91--98, May 2009.
-
 \bibitem{hanson2003combinatorial}
 R.~Hanson.
 \newblock Combinatorial information market design.
