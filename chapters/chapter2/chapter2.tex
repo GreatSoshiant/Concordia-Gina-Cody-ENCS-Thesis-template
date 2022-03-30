@@ -126,26 +126,40 @@ To mitigate the problem stated above, different solutions are developed to answe
 
 There are myriad of applications developed on top of Ethereum blockchain. Some of them uses the solutions describe in  Chapter~\ref{ch:oracle}, using one of them to address the oracle problem and bring real-world data on-chain. In later part of this section, we will explain the most favorable use-cases and applications on Ethereum.
 
-\subsection{Stablecoins/Synthetic assets}
+\subsection{Stablecoins/Synthetic assets \eg \dai}
 
-\paragraph{Synthetic Assets.} The red-black coin primitive can be generalized to produce black coins that match the price of any financial asset, not just a currency like the USD, simply by changing the price that the oracle references. For example, a black coin for one share of the company Apple (APPL) would use an ETH/APPL price feed (possibly constructed by bridging ETH/USD and APPL/USD prices) and otherwise be exactly the same. These black coins are ``synthetic assets'' because they expose the holder to the price movements of the asset but do not afford the holder any other benefits of holding the financial instrument (\eg shareholder votes or dividends for equities; physical delivery for futures; or the ability to settle a loan, or option contract on the asset). What a red coin represents in this example is less natural than for a stablecoin: it is a bet that ETH will increase in price faster than APPL.
+A ``synthetic asset'' is an asset that tracks the price of another asset without holding the obligations of that asset. For instance, a synthetic asset of Apple share tracks the price of Apple share that does not receive dividends and not have any other obligations regarding the Apple share. This can be done by having the price of the asset provided by an oracle which is discussed above and some other ad-hoc mechanisms to stabilize the price of the asset. A DApp that providing synthetic assets is \textit{Synthetix}.
 
-\subsection{Decentralized Exchange (DeX)}
+The asset can also be a currency (\eg USD) and in this case, it will be a stablecoin. A stablecoin is an asset that supposed to be peg to a currency such as USD. There are a myriad of stablecoin platform in Ethereum such as \dai which we will discuss in Chapter~\ref{ch:dai}
 
-\subsection{Lending}
+\subsection{Decentralized Exchange (DeX)\eg Uniswap}
+Decentralized Exchanges (DeX) are platforms that helps users to exchange their assets without need of an intermediary. Two main types of Decentralized Exchanges are Automated Market Maker (AMM) and Orderbook-based exchanges. 
+
+In AMMs (\eg Uniswap) a party named liquidity provider, creates pools for pairs of assets (could be more than two assets in a pool like Balancer protocol), and put liquidity on the pool. Users can exchange their assets in the pool. The smart contract will calculate the amount a user receive using a mathematic formula based on the amount of liquidity in the pool and the amount user wants to exchange. Because the calculations and market making is done by smart contract automatically, this type of DeX is called Automated Market Maker. 
+
+In traditional finance, majority of exchanges are orderbook based. In orderbook based exchanges, a user put her order to sell specific amount of asset A for specific amount of asset B. On the other hand, another user puts an order to sell asset B for specific amount of asset A. The exchange will sort the orders of both sides and match the orders. This process is costly because of need of sorting and match making and not rational to be implemented on Ethereum mainnet. But, there are platforms such as Loopring, that implemented the whole process of order taking and match making off-chain using a layer two solution, and put the results on-chain.
+
+\subsection{Lending \eg Compound}
+In lending platforms, users can lend and borrow crypto assets. There are pools of assets in these platforms that a user can lend those assets by depositing into the pools and can borrow against them. The borrowers are obliged to pay fees which is directly be paid to the lenders. Compound and Aave are two most favorable lending Dapps on Ethereum at the time of writing the paper. 
 
 \subsection{Ethereum Name Service(ENS)}
+Ethereum name service is one of the most favorite Dapps in Ethereum that is not financial. ENS is a decentralized naming system that maps a human-readable names to Ethereum addresses. 
+ENS recently adds support for crypto addresses other than Ethereum. Also users can launch their own websites using their ENS.
 
-\subsection{Derivatives}
+\subsection{Derivatives \eg dYdX}
+Derivatives are financial contracts that is based on value of another underlying asset or a basket of assets which include options, swaps, and future contracts. dYdX is a decentralized trading platform that traders can go long or short up to 25x on specific assets like ETH, BTC, Link, \etc
+Having 25x leverage position means that the user have exposure of 25x on the price changes means that if the user longs 25x, and if the price increase by 1\%, the user gains 25\%. If the user takes 25x short position and the price falls 1\% then the user gains 25\%.
+Options are another type of derivatives in which the user has the right to buy~\footnote{Call option} or sell~\footnote{Put option} a specific amount of an asset, for a specific price~\footnote{strike price}. Options has a expiration date: in American options style, one can exercise the contract before expiration date whenever they want but in European style the user can just exercise on the expiration date. Opyn and Hegic protocols are two options platform in Ethereum.
 
-\subsection{Decentralized Autonomous Organization (DAO)}
 
-\subsection{Yield Farming}
+\subsection{Yield Farming \eg Yearn}
 
-\subsection{NFTs and Gaming}
 
-\subsection{Privacy tools}
+\subsection{Privacy tools \eg Tornado Cash}
+Ethereum blockchain do not ensure the anonymity and privacy on the main layer because of transparency. There are different solutions developed to bring privacy to the Ethereum transactions. One of the most favorite solutions is Tornado Cash. Tornado cash uses Zero-knowledge snarks to mix Ethers deposited into the contract and break the link between the deposited address and the withdrawn one. Another Dapp that uses Zero-knowledge to enable private transactions on Ethereum is Aztec protocol.
 
-\subsection{Decentralized Identity}
 
-\paragraph{Liquidations.} The worst-case scenario for a red-black coin is a decline in the value of ETH/USD. As a primitive, red-black coins simply force the holders to take on this risk. By contrast, liquidations are the main preventative mechanism used by full-fledged systems like Dai. Liquidations are controversial: many vault holders have lost ETH due to liquidations, they require special monitoring tools (\eg \texttt{DeFiSaver.com}), any analysis includes assumptions about how humans behave and how fast market actions can be taken, and maligned incentives (\eg return DAI for ETH when ETH/DAI is in decline) can lead to economic crises and de-leveraging spirals~\cite{GPH+20,KMM20}. Liquidations failed Dai on Ethereum's "Black Thursday" event in March 2020 and required a bail-out. In this paper, red-black coins can be thought of as "Dai without liquidations". Since liquidations have a downside, it is important to weigh these against what they contribute.
+
+
+\subsection{Liquidations.} 
+Bunch of applications and use-cases described above have a process in common named liquidation which will be discussed in Chapter~\ref{ch:dai}. Liquidation is used in stablecoins, synthetic assets, lending platforms, and derivatives.
