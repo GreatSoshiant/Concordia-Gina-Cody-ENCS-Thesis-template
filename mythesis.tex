@@ -169,39 +169,13 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Introduction}
-% suggestion of intro
-
-
-\section{Motivation/objectives}
-
-
-\section{Thesis Statement/problems}
-
-
-
-
-\section{Outline and contributions}
-%abstracts here
-chapter 3:
-
-This chapter summarizes and evaluates six patterns, developed on Ethereum to enable upgradeability of smart contracts. Modern smart contracts use software tricks to enable upgradeability, raising the research questions of \textit{how} upgradeability is achieved and \textit{who} is authorized to make changes. We develop a measurement framework for finding how many upgradeable contracts are on Ethereum that use certain prominent upgrade patters. We also measure how they implement access control over their upgradeability: about 50\% are are controlled by a single Externally Owned Address (EOA), and about 20\% are controlled by multi-signature wallets in which a limited number of persons can change the whole logic of the contract which is a great risk to the Ethereum ecosystem.
-
-chapter 4:
-
-One fundamental limitation of blockchain-based smart contracts is that they execute in a closed environment. Thus, they only have access to data and functionality that is already on the blockchain, or is fed into the blockchain. Any interactions with the real world need to be mediated by a bridge service, which is called an oracle. As decentralized applications mature, oracles are playing an increasingly prominent role. With their evolution comes more attacks, necessitating greater attention to their trust model. In this chapter, we dissect the design alternatives for oracles, showcase attacks, and discuss attack mitigation strategies.
-
-
-chapter 5:
-
-A number of Ethereum projects for stablecoins and synthetic assets use the same core mechanism for fixing the price of an asset. In this chapter, we distil this shared approach into a primitive we call red-black coins. We use a model to demonstrate the primitive's financial characteristics and to reason about how it should be priced. Real world projects do not use the red-black coin primitive in isolation but lay on other mechanisms and features to provide fungibility and to reduce exposure to price drops. One mechanism is called liquidation, however liquidation is hard to analyze as it relies on human behavior and could produce unintended economic consequences. Therefore we additionally develop a design landscape for extending the red-black coin primitives and put forward a research agenda for alternatives to liquidation.
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%
+\include{chapters/chapter1/chapter1}
 \include{chapters/chapter2/chapter2}
 \include{chapters/chapter3/chapter3}
 \include{chapters/chapter4/chapter4}
@@ -211,8 +185,6 @@ A number of Ethereum projects for stablecoins and synthetic assets use the same 
 %%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Conclusion and future work}
 \label{chap:conclusion}
-
-
 
 
 

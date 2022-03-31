@@ -2,19 +2,19 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Classification of upgradeability patterns.\relax }}{20}{figure.caption.16}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Flowchart for distinguishing upgradeable contracts (green) from forwarders, and for determining the upgradeability pattern type.\relax }}{38}{figure.caption.27}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Upgradeability Proxy Contract Finder\relax }}{42}{figure.caption.30}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Assignment CheckerModule\relax }}{56}{figure.caption.31}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Classification of upgradeability patterns.\relax }}{21}{figure.caption.16}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Flowchart for distinguishing upgradeable contracts (green) from forwarders, and for determining the upgradeability pattern type.\relax }}{39}{figure.caption.27}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Upgradeability Proxy Contract Finder\relax }}{43}{figure.caption.30}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Assignment CheckerModule\relax }}{57}{figure.caption.31}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5}{\ignorespaces A visualization of our oracle workflow as described in the text.\relax }}{63}{figure.caption.40}%
+\contentsline {figure}{\numberline {5}{\ignorespaces A visualization of our oracle workflow as described in the text.\relax }}{64}{figure.caption.40}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6}{\ignorespaces Redemption value in USD (y-axis) as the price of ETH (x-axis) changes. \relax }}{98}{figure.caption.73}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {A red coin, a black coin, and ETH equivalent to \$0.50.}}}{98}{subfigure.6.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {A red coin, ETH equivalent to \$1.50, and a portfolio of a red coin and \$0.94.}}}{98}{subfigure.6.2}%
-\contentsline {figure}{\numberline {7}{\ignorespaces ETH/USD Monte Carlo simulation results. \relax }}{100}{figure.caption.74}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Price of ETH in USD (y-axis) over number of days (x-axis).}}}{100}{subfigure.7.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Histogram of final price of ETH in USD (x-axis).}}}{100}{subfigure.7.2}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Redemption value in USD (y-axis) as the price of ETH (x-axis) changes. \relax }}{99}{figure.caption.73}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {A red coin, a black coin, and ETH equivalent to \$0.50.}}}{99}{subfigure.6.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {A red coin, ETH equivalent to \$1.50, and a portfolio of a red coin and \$0.94.}}}{99}{subfigure.6.2}%
+\contentsline {figure}{\numberline {7}{\ignorespaces ETH/USD Monte Carlo simulation results. \relax }}{101}{figure.caption.74}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Price of ETH in USD (y-axis) over number of days (x-axis).}}}{101}{subfigure.7.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Histogram of final price of ETH in USD (x-axis).}}}{101}{subfigure.7.2}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

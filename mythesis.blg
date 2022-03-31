@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2021)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: mythesis.aux
+A level-1 auxiliary file: chapters/chapter1/chapter1.aux
 A level-1 auxiliary file: chapters/chapter2/chapter2.aux
 A level-1 auxiliary file: chapters/chapter3/chapter3.aux
 A level-1 auxiliary file: chapters/chapter4/chapter4.aux
@@ -37,7 +38,7 @@ Warning--empty journal in uupsAttacks
 Warning--empty year in uupsAttacks
 You've used 155 entries,
             2118 wiz_defined-function locations,
-            1246 strings with 27737 characters,
+            1247 strings with 27767 characters,
 and the built_in function-call counts, 48474 in all, are:
 = -- 4726
 > -- 2344
