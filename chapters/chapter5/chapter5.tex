@@ -1,4 +1,4 @@
-\chapter{Red-Black Coins: Dai Without Liquidations} \label{ch:dai}
+\chapter{Stablecoins and Synthetic Assets in DeFi: Dai Without Liquidations} \label{ch:dai}
 This chapter is adapted from published work supervised by Jeremy Clark and Mohammad Mannan~\cite{salehi2021red}
 
 
@@ -30,7 +30,7 @@ In addition to our work, there are other stablecoins that issue one stablecoin a
         \subfloat[A red coin, a black coin, and ETH equivalent to \$0.50.]{\includegraphics[height=2.5cm]{figures/price1.pdf}}
         \qquad
         \subfloat[A red coin, ETH equivalent to \$1.50, and a portfolio of a red coin and \$0.94.]{\includegraphics[height=2.5cm]{figures/price2.pdf}}
-    \caption{Redemption value in USD (y-axis) as the price of ETH (x-axis) changes. \label{fig:price1} \label{fig:price2}}
+    \caption[Red-Black Coins Price Changes]{Redemption value in USD (y-axis) as the price of ETH (x-axis) changes. \label{fig:price1} \label{fig:price2}}
 \end{figure}
 
 In this section, we answer questions about the financial characteristics of the red-black primitive. Consider a black coin that targets \$1 USD when 1 ETH is \$381.56 USD, and the DApp holds 0.00393126 ETH (worth \$1.5 USD).  Assume for now that (i) a red-black coin is a (non-fungible) contract between two individuals, (ii) it has a fixed maturity date, and (iii) no one intervenes when ETH/USD declines enough that black coins starts to lose value (no liquidations). Figure~\ref{fig:price1}(a) shows how much a black coin is worth (y-axis) as the price of ETH varies (x-axis). The starting point (\$381.56 USD) is marked and if the price of ETH increases (rightward), the black coin is always worth \$1. If the value of ETH decreases (leftward), the black coin is still stable until the value of ETH hits \$254.37 (marked)---at this point, 0.00393126 ETH starts to become worth less than \$1 and the black coin `breaks the buck.'
@@ -48,7 +48,7 @@ Consider a black coin that is purchased today when ETH is \$381.56 USD. How much
         \subfloat[Price of ETH in USD (y-axis) over number of days (x-axis).]{\includegraphics[width=0.4\columnwidth]{figures/mc.pdf}}
         \qquad
         \subfloat[Histogram of final price of ETH in USD (x-axis).]{\includegraphics[width=0.4\columnwidth]{figures/histro.pdf}\label{fig:histro}}
-    \caption{ETH/USD Monte Carlo simulation results. \label{fig:sim}}
+    \caption[Monte Carlo Simulation Results]{ETH/USD Monte Carlo simulation results. \label{fig:sim}}
 \end{figure}
 
 The average value of a black coin for different possible outcomes can be estimated if we have a statistical model for ETH price movements. In finance, many statistical models have been proposed for many assets. Pricing ETH remains an open research problem. Until future research from the finance community advocates for the most appropriate model, we will sketch in some concrete numbers using Geometric Brownian Motion (GBM), which underlies the Black-Scholes model for pricing options~\cite{BS73} and has been used for ETH in other work~\cite{GPH+20}. We omit the details of the model itself (covered in nearly every  financial textbook~\cite{Sey09}). We fit the model to the historical `closing' prices of ETH for 1000 days prior to 18 Sept 2020\footnote{CoinGecko API: \url{https://api.coingecko.com}} and obtain $\mu=0.000744754$ (an upward drift in price over time) and $\sigma=0.0524172$ (a measure of volatility). If we simulate the next 100 days using Monte Carlo, we obtain the results in Figure~\ref{fig:sim}. For the parameters of this example, the average value of the black coin is \$0.94 USD at the maturity date. Our model can be adjusted for the initial price, over-collateralization ratio (section ~\ref{sec:redchar}), and days until redemption. It is available in Python and Mathematica.\footnote{GitHub: https://github.com/GreatSoshiant/Monte-Carlo/tree/master/Code.} 

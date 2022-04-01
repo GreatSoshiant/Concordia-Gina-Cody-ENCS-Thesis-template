@@ -71,7 +71,7 @@ For our main contribution, we deconstruct how an oracle operates into several mo
 \begin{figure}[t!]
     \centering
     \includegraphics[width=0.35\textwidth]{figures/data_flow_vertical.png}
-    \caption{A visualization of our oracle workflow as described in the text.}
+    \caption[Modular Framework for Oracles]{A visualization of our oracle workflow as described in the text.}
     \label{fig:dataflow}
 \end{figure}	
 	
@@ -294,15 +294,18 @@ In a \text{data-oriented} regime, the focus is vetting the data itself. This can
 \subsubsection{Determining the Truth}
 
 In the optimistic case, an oracle system will feed and finalize truthful data, while disputes enable recourse for incorrect data. However disputes also introduce the possibility of two types of errors.
+\begin{table*}
+	
+	\begin{center}
+	\begin{tabular}{l|l|l|}
+	& No Disputes & Disputed \\ \hline
+	Data is correct & Correct & False Positive \\
+	Data is incorrect & False Negative & Correct \\
+	\end{tabular}
+	\end{center}
+	\caption{Errors in Dispute Process}
 
-\begin{center}
-\begin{tabular}{l|l|l|}
-& No Disputes & Disputed \\ \hline
-Data is correct & Correct & False Positive \\
-Data is incorrect & False Negative & Correct \\
-\end{tabular}
-\end{center}
-
+\end{table*}
 Dispute resolution in oracle systems focus on false positives. Incentivizing the discovery of false positives is present in some staking-based systems, however false negatives are not otherwise dealt with. In order to resolve a false positive, correct data must be used as a reference but, of course, if correct data is available as a reference, then it could replace the entire oracle system. That leaves two reasons for why an oracle system might still exist: (a) the reference for correct data is too expensive to consult on a regular basis, or (b) there is no reference for correct data and it must be approximated. 
 
 If feeders are placed on an allowlist by a trusted party, disputes could be filed with the trusted party and manually verified. As far as we know, this is the only example of (a), although (a) is the basis for other blockchain-based dispute resolution protocols like optimistic roll-ups~\cite{KGCWF18}. The rest of the truth discovery mechanisms are based on (b) approximating the truth. 

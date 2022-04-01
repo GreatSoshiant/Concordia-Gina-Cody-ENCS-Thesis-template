@@ -2,29 +2,30 @@
 
 
 \section{Motivation}
-Ethereum is the second-largest cryptocurrency in the world in term of total market cap at the time of writing this thesis. Bitcoin is the first cryptocurrency in total market cap and it supports a limited scripting language. But, Ethereum is the most widely used blockchain that enables developing rich codes (smart contracts) not just limited to a scripting language.
+Ethereum is the second-largest cryptocurrency in the world in term of total market capitalization at the time of writing this thesis. Bitcoin is the first cryptocurrency in total market cap and it supports a limited scripting language. But, Ethereum is the most widely used blockchain that enables developing rich codes (smart contracts) not just limited to a scripting language.
 
-Smart contracts are pieces of codes that run on blockchains such as Ethereum and eliminate the need of use of a trusted third party to run the logic. Also Ethereum has its own native currency, Ether, by which the users and smart contracts can make payments automatically.
-Therefore, there is a growing tendency to move from development of traditional applications which relies on intermediate companies, Web2, to Decentralized Applications (Dapps), Web3, that relies on smart contracts. 
+Smart contracts are pieces of code that run on blockchains such as Ethereum and eliminate the need of use of a trusted third party to run the logic. Also Ethereum has its own native currency, Ether or ETH, by which the users and smart contracts can make payments automatically.
+Therefore, there is a growing tendency to move from the development of traditional applications which relies on intermediate companies (Web2) to Decentralized Applications (Dapps), Web3, that relies on smart contracts. 
 
-Smart contracts usually keeps huge amount of cryptocurrencies in their custody. Also blockchains are immutable, which means that the transactions are irreversible because of nature of blockchains . So, a small mistake or a buggy smart contract could result in a huge hack and a disaster.
+Smart contracts usually keep large amounts of cryptocurrencies in their custody. Also blockchains are immutable, which means that the transactions are irreversible because of nature of blockchains . 
+We have seen that vulnerabilities in code bases of smart contracts result in significant financial loss in DeFi and Ethereum and just in 2021, 1.3 billions of dollars are lost reported by Certik~\cite{certikReport}.
 
 
-A wave of developers changing their careers to develop smart contracts on Ethereum in recent years. In this thesis we try to shed light on some technical and economical difference between web2 apps and web3 Dapps that a new developer should know about them for developing new tools and to try give them a clue about ``Nuances of Ethereum Blockchain'' and development on Ethereum and how it is different to developing a web2 application and using cloud services.  
+A wave of developers have changed their careers to develop smart contracts on Ethereum in recent years. In this dissertation, we try to shed light on some technical and economical nuanced differences Web2 apps and Web3 Dapps that a new developer should know. Ethereum blockchain may be similar to a cloud service to new developers using it for the first time. But, there are nuances where smart contracts are immutable and cannot be changed. Also smart contracts do not have access to real-world data and need oracle systems for this purpose.
 
 
 \section{Thesis Statement}
-The primary aim of this dissertation is to shed light on a specific differences on developing traditional applications on web2 and the Decentralized Applications (Dapps) on web3. The main research questions explored in this dissertation are:
+The primary aim of this dissertation is to shed light on specific differences between developing traditional applications on Web2 and Decentralized Applications (Dapps) on Web3. Over the course of time, developers tried to port more and more Web2 functionalities into Web3, but it almost always requires new risks or trusted third parties. Some of these risks and trust points are explored in this dissertation by answering below questions:
 
 \begin{enumerate}
-    \item \textbf{Question 1:} How to upgrade codes on the blockchain that is supposed to be immutable in case a new feature or a bug fix needed?
-    \item \textbf{Question 2:} How to have access to real-world data on the blockchain? Is it possible to use an API to fetch data on blockchain?
-    \item \textbf{Question 3:} What if a Dapp needs payment in a currency like USD and not native currency of the blockchain which is volatile? What are the solutions and risks regarding them?
+    \item \textbf{Question 1:} How to upgrade code on the blockchain that is supposed to be immutable in case a new feature or a bug fix is needed?
+    \item \textbf{Question 2:} How to have access to real-world data on the blockchain? Is it possible to use an API to fetch data on a blockchain?
+    \item \textbf{Question 3:} What if a Dapp needs payment in a currency like USD and not the native currency of the blockchain which is volatile? What are the solutions and risks regarding the payment solutions in blockchains?
 \end{enumerate}
 
 
 \section{Outline and Contributions}
-The rest of this dissertation is organized as follows. In Chapter~\ref{ch:upgrade} we summarizes and evaluates six patterns, developed on Ethereum to enable upgradeability of smart contracts. Modern smart contracts use software tricks to enable upgradeability, raising the research questions of \textit{how} upgradeability is achieved and \textit{who} is authorized to make changes. We develop a measurement framework for finding how many upgradeable contracts are on Ethereum that use certain prominent upgrade patters. We also measure how they implement access control over their upgradeability: about 50\% are are controlled by a single Externally Owned Address (EOA), and about 13\% are controlled by multi-signature wallets in which a limited number of persons can change the whole logic of the contract which is a great risk to the Ethereum ecosystem.
+The rest of this dissertation is organized as follows. In Chapter~\ref{ch:upgrade} we summarize and evaluate six patterns, developed on Ethereum to enable upgradeability of smart contracts. Modern smart contracts use software tricks to enable upgradeability, raising the research questions of \textit{how} upgradeability is achieved and \textit{who} is authorized to make changes. We develop a measurement framework for finding how many upgradeable contracts are on Ethereum that use certain prominent upgrade patters. We also measure how they implement access control over their upgradeability: about 50\% are are controlled by a single Externally Owned Address (EOA), and about 13\% are controlled by multi-signature wallets in which a limited number of persons can change the whole logic of the contract which is a risk to the Ethereum ecosystem.
 
 In Chapter~\ref{ch:oracle} we describe that one fundamental limitation of blockchain-based smart contracts is that they execute in a closed environment. Thus, they only have access to data and functionality that is already on the blockchain, or is fed into the blockchain. Any interactions with the real world need to be mediated by a bridge service, which is called an oracle. As decentralized applications mature, oracles are playing an increasingly prominent role. With their evolution comes more attacks, necessitating greater attention to their trust model. We also dissect the design alternatives for oracles, showcase attacks, and discuss attack mitigation strategies.
 
@@ -33,3 +34,4 @@ In Chapter~\ref{ch:dai} we shed light on a number of Ethereum projects for stabl
 
 In Chapter ~\ref{chap:conclusion} we provide some concluding remarks and future research directions.
 
+%put published papers here

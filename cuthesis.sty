@@ -167,20 +167,20 @@
     \hspace*{1cm} \raisebox{-0.9em}{\rlap{\it \small \@examinerExternal}}\hrulefill \makebox[4cm][l]{ External Examiner} \\[1.3em]
     \hspace*{1cm} \raisebox{-0.9em}{\rlap{\it \small \@examinerExternalToProgram}}\hrulefill \makebox[4cm][l]{ External to Program} \\[1.3em]
     \else
-    \hspace*{1cm} \raisebox{-0.9em}{\rlap{\it \small \@examinerExternalToProgram}}\hrulefill \makebox[4cm][l]{ External} \\[1.3em]
+    %\hspace*{1cm} \raisebox{-0.9em}{\rlap{\it \small \@examinerExternalToProgram}}\hrulefill \makebox[4cm][l]{ External} \\[1.3em]
     \fi%
     \hspace*{1cm} \raisebox{-0.9em}{\rlap{\it \small \@examinerFirst}}\hrulefill \makebox[4cm][l]{ Examiner} \\[1.3em]
     \hspace*{1cm} \raisebox{-0.9em}{\rlap{\it \small \@examinerSecond}}\hrulefill \makebox[4cm][l]{ Examiner} \\[1.3em]
     \hspace*{1cm} \raisebox{-0.9em}{\rlap{\it \small \@supervisor}}\hrulefill \makebox[4cm][l]{ Thesis Supervisor}
     \ifhasCosupervisor%
-    \\[1.3em]\hspace*{1cm} \raisebox{-0.9em}{\rlap{\it \small \@coSupervisor}}\hrulefill \makebox[4cm][l]{ Co-supervisor}
+    \\[1.3em]\hspace*{1cm} \raisebox{-0.9em}{\rlap{\it \small \@coSupervisor}}\hrulefill \makebox[4cm][l]{ Thesis Supervisor}
     \fi%
     \\[1em] %% Comment if PhD with co-supervisor and long thesis title
     \begin{singlespace}
     	\begin{tabbing}
             \hspace*{2.5cm} \= \kill
             Approved by \> \makebox[10cm]{\hrulefill} \\
-		    ~           \> \@GpdOrChairOfDept, \ifisGpd Graduate Program Director \else Chair of Department\fi
+		    ~           \> \@GpdOrChairOfDept \ifisGpd Graduate Program Director \else Chair of Department\fi
     	\end{tabbing}
 	    \vspace{.1in}
     	\begin{tabbing}

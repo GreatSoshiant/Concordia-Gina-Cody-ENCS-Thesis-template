@@ -63,7 +63,7 @@ Also it should be mentioned that a contract can also call a function of another 
 
 There are other technical explanations needed about Ethereum that a reader should know for this dissertation which we will describe below:
 
-\subsection{Run-time bytecode vs. Contract Creation Code}
+\subsection{Run-time Bytecode vs. Contract Creation Code}
 %run time and contract creation
 In Ethereum the code that is sent to create contract (a.k.a \textbf{Contract Creation Code}), may be different with the code that is stored in the blockchain for that contract account (a.k.a \textbf{Run-time bytecode}). Run-time bytecode is the bytecode which is saved in the blockchain as the code of that specific contract account and each time the contract is called, this code will be executed by EVM. But, Contract Creation code is the input data of the transaction by which a user or a contract tries to deploy a new contract. The Contract Creation code has a field, named \textit{init code}, which is responsible to: 1) make changes to the state of the contract (initializing the storage variables using a constructor), 2) put the run-time bytecode to the memory 3) put the length of the run-time bytecode in the memory 4) put the offset in the memory where the run-time bytecode is saved in the stack 5) execute the \texttt{Return} opcode to push EVM to deploy the contract.\footnote{\url{https://leftasexercise.com/2021/09/05/a-deep-dive-into-solidity-contract-creation-and-the-init-code/}} 
 
@@ -90,7 +90,7 @@ Also it worths mentioning that \texttt{STATICCALL} act completely similar to \te
 
 %compiler ??!!
 
-\subsection{Off-chain access to Blockchain data}\label{sec:nodes}
+\subsection{Off-chain Access to the Blockchain data}\label{sec:nodes}
 
 To have access to the data stored in Ethereum blockchain, one should have access to an ``Ethereum Node''. Ethereum node refer to running a piece of software called Ethereum client, which implemented the rules and specifications defined by Ethereum yellow paper~\cite{wood2014ethereum} to join and sync with Ethereum network and to keep Ethereum network and data secure and safe.
 \footnote{\url{https://ethereum.org/en/developers/docs/nodes-and-clients/}} 
@@ -127,41 +127,41 @@ To mitigate the problem stated above, different solutions are developed to answe
 
 There are myriad of applications developed on top of Ethereum blockchain. Some of them uses the solutions describe in  Chapter~\ref{ch:oracle}, using one of them to address the oracle problem and bring real-world data on-chain. In later part of this section, we will explain the most favorable use-cases and applications on Ethereum.
 
-\subsection{Stablecoins/Synthetic assets \eg \dai}
+\subsection{Stablecoins/Synthetic Assets}
 
 A ``synthetic asset'' is an asset that tracks the price of another asset without holding the obligations of that asset. For instance, a synthetic asset of Apple share tracks the price of Apple share that does not receive dividends and not have any other obligations regarding the Apple share. This can be done by having the price of the asset provided by an oracle which is discussed above and some other ad-hoc mechanisms to stabilize the price of the asset that will be explained in Chapter~\ref{ch:dai}. An example Dapp that is providing synthetic assets is \textit{Synthetix}\footnote{\url{https://synthetix.io}}.
 
 The asset can also be a currency (\eg USD) and in this case, it will be a stablecoin. A stablecoin is an asset that supposed to be peg to a currency such as USD. There are a myriad of stablecoin platform in Ethereum such as \dai which we will discuss in Chapter~\ref{ch:dai}
 
-\subsection{Decentralized Exchange (DeX) \eg Uniswap}
+\subsection{Decentralized Exchange (DeX)}
 Decentralized Exchanges (DeX) are platforms that helps users to exchange their assets without need of an intermediary. Two main types of Decentralized Exchanges are Automated Market Maker (AMM) and orderbook-based exchanges. 
 
 In AMMs a party named Liquidity Provider (LP), creates pools for pairs of assets (could be more than two assets in a pool like Balancer protocol), and put liquidity on the pool. Users can exchange their assets in the pool. The smart contract will calculate the amount a user receive for a trade, using a mathematic formula based on the amount of liquidity in the pool and the amount user wants to exchange. Because the calculations and market making is done by smart contract automatically, this type of DeX is called Automated Market Maker. Uniswap~\footnote{\url{https://uniswap.org}} is the most famous AMM running on Ethereum blockchain.
 
 In traditional finance, majority of exchanges are orderbook-based. In orderbook-based exchanges, a user put her order to sell specific amount of asset A for specific amount of asset B. On the other hand, another user puts an order in reverse, to sell asset B for specific amount of asset A. The exchange will sort the orders of both sides and match the orders. This process is computational costly because of need of sorting and match making and not rational to be implemented on Ethereum mainnet because computations is expensive. But, there are platforms such as Loopring~\footnote{\url{https://loopring.org}}, that implemented the whole process of order taking and match making off-chain, using a layer two solution named StarkEx~\footnote{\url{https://starkware.co/starkex/}}, and put the results on-chain.
 
-\subsection{Lending \eg Compound}
+\subsection{Lending}
 In lending platforms, users can lend and borrow crypto assets. There are pools of assets in these platforms that a user can lend those assets by depositing into the pools and can borrow against them. The borrowers are obliged to pay fees which is directly be paid to the lenders. Compound~\footnote{\url{https://compound.finance}} and Aave~\footnote{\url{https://aave.com}} are two most favorable lending Dapps on Ethereum at the time of writing the paper. 
 
 \subsection{Ethereum Name Service(ENS)}
 Ethereum Name Service (ENS)~\footnote{\url{https://ens.domains}} is one of the most favorite Dapps in Ethereum that is not for financial purposes. ENS is a decentralized naming system that maps a human-readable names to Ethereum addresses. 
 ENS recently adds support for crypto addresses other than Ethereum. Also users can launch their own websites using their ENS.
 
-\subsection{Derivatives \eg dYdX}
+\subsection{Derivatives}
 Derivatives are financial contracts that is based on value of another underlying asset or a basket of assets which include options, swaps, and future contracts. dYdX~\footnote{\url{https://dydx.exchange}} is a decentralized trading platform that traders can go long or short up to 25x on specific assets like ETH, BTC, Link, \etc
 Having 25x leverage position means that the user have exposure of 25x on the price changes means that if the user longs 25x, and if the price increase by 1\%, the user gains 25\%. If the user takes 25x short position and the price falls 1\% then the user gains 25\%.
 
 Options are another type of derivatives in which the user has the right to buy~\footnote{Call option} or sell~\footnote{Put option} a specific amount of an asset, for a specific price~\footnote{strike price}. Options has a expiration date: in American options style, one can exercise the contract before expiration date whenever they want but in European style the user can just exercise on the expiration date. Opyn~\footnote{\url{https://www.opyn.co}} and Hegic~\footnote{\url{https://www.hegic.co}} protocols are two options platform in Ethereum.
 
 
-\subsection{Yield Farming \eg Yearn}
+\subsection{Yield Farming}
 Protocols like Compound give their native tokens to the active users. For instance, in Compound lenders and borrowers receive Comp token.~\footnote{Native token of Compound.} The aggregated fees collected by users in a year counted as Annual Percentage Yield (APY) which is completely related to the price of native token. There are different platforms that do almost the same logic, but with different APRs at the moment. This brings the idea to develop Dapps that calculate the best APR and use different strategies to maximize the APR of the user. Yearn~\footnote{\url{https://yearn.finance}} is one of the leading Dapps that build different strategies to farm most benefit yields for the users. There are other yield farming Dapps such as Harvest~\footnote{\url{https://harvest.finance}} finance or Pickle~\footnote{\url{https://www.pickle.finance}} finance.
 
-\subsection{Privacy tools \eg Tornado Cash}
+\subsection{Privacy Tools}
 Ethereum blockchain do not ensure the anonymity and privacy on the main layer because of transparency. There are different solutions developed to bring privacy to the Ethereum transactions. One of the most favorite solutions is Tornado Cash~\footnote{\url{https://tornado.cash}}. Tornado cash uses Zero-knowledge snarks to mix Ethers deposited into the contract and break the link between the deposited address and the withdrawn one. Another Dapp that uses Zero-knowledge to enable private transactions on Ethereum is Aztec protocol~\footnote{\url{https://aztec.network}}.
 
 
 
 
-\subsection{Liquidations} 
+\subsection{Liquidation} 
 Liquidation is not a type of Dapp but because bunch of applications and use-cases described above have this process in common we put a section for it. It will be discussed in detail in Chapter~\ref{ch:dai}. Liquidation is used in stablecoins, synthetic assets, lending platforms, and derivatives. Liquidation happens when the value of the debt of a user exceeds a pre-specified portion of collateral provided by the user. So it means the user's collateral cannot back the debt in this situation. In traditional finance, the liquidation mostly managed by the broker or service provider. However, in DeFi, because of elimination of the intermediaries, the protocol incentivize the external actors, named \textit{Keepers}, to liquidate the position and top up the collateral or close buy the position.

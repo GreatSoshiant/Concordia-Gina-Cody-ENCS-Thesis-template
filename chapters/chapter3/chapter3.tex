@@ -2,7 +2,7 @@
 \label{ch:upgrade}
 
 
-\section{Introductory remarks}
+\section{Introductory Remarks}
 The key promise of a smart contract running on Ethereum is that its code will execute exactly as it is written, and the code that is written can never be changed. While Ethereum cannot maintain this promise unconditionally, its assumptions (e.g, cryptographic primitives are secure and well-intentioned participants outweigh malicious ones) provide a realistic level of assurance. 
 
 The immutability of a smart contract's code is related to trust. If Alice can validate the code of a contract, she can trust her money to it and not be surprised by its behavior. Unfortunately, disguising malicious behavior in innocuous-looking code is possible (``rug pulls''), and many blockchain users have been victims. On the other hand, if the smart contract is long-standing with lots of attention, and security assessments from third-party professional auditors, the immutability of the code can add confidence. 
@@ -25,7 +25,7 @@ Recent papers have provided security tools for developers that compose with upgr
 \begin{figure}[t]
   \centering
       \includegraphics[width=0.8\textwidth]{figures/New_Classification.png}
-  \caption{Classification of upgradeability patterns.\label{fig:class}}
+  \caption[Classification of Upgradeability Patterns]{Classification of upgradeability patterns.\label{fig:class}}
 \end{figure}
 
 A variety of upgradeability patterns have been proposed for smart contracts. Most leverage Ethereum-specific operations and memory layouts and are not applicable to other blockchain systems.
@@ -202,7 +202,7 @@ One of the main differences between upgradeability approaches is how much does t
 \textit{Metamorphic} method is the most expensive method we have because we need to deploy a new contract, migrate data to the newer version and also we need to self-destruct the previous version before the upgrade event which adds cost to the upgrade process.
 
 
-\subsection{Gas overhead for users}
+\subsection{Gas Overhead for Users}
 Sometimes in upgradeability patterns, we have a tradeoff between adding a feature to the pattern to improve it and increasing the cost (gas needed for the transactions) for users that want to interact with our Dapp.
 
 In patterns that needs indirection, such as \textit{Call-based}, \textit{Delegatecall-based}, and \textit{Component change} pattern an extra cost will be added to the users, because for all or some of the transactions to the Dapp, our system needs to forward the calls to another contract using Call or Delegatecall opcode to the users. 
@@ -218,7 +218,7 @@ In most of \textit{Migration} plan upgrade events, users are responsible for the
 In \textit{Metamorphic} pattern as mentioned before there is a downtime during the upgrade. So users cannot work with the Dapp on that exact time which is not user friendly.
 
 
-\subsection{Dealing with two different new versions}
+\subsection{Dealing with two New Versions of Dapp}
 In \textit{Migration} and \textit{Call-based} pattern we will come up with two different Dapps after each upgrade event. So, a decision must be made for the previous version. One possible choice could be shutting down the old version. It can be done by self-destructing the old version, or by having a pausing mechanism to stop the older version functionality. In migration plan it is not regular to stop the previous version because in most migration plans, users are responsible to move their funds and data from the previous version to the new one and we cannot force them to do that, so we cannot stop the smart contract. 
 The other option could be having a mechanism that after the upgrade, all calls to the previous version just be forwarded to the newer version which add costs and have some limitations like we cannot call the new functions defined in the newer version using the old version. This option is doable in Call based patterns. The other problem of this option is that if we upgrade a system more than one time then the calls to the first version should be redirected through lots of contracts to reach to the newer version. Also it adds complexity because developers must maintain more than one contract~\cite{tobBlogPost}.
 
@@ -252,7 +252,7 @@ We now design a series of measurement studies to shed light on the prevalence of
 
 \begin{figure}[t!]
  \includegraphics[width=1\textwidth]{figures/New-method.png}\label{flowchart}
- \caption{Flowchart for distinguishing upgradeable contracts (green) from forwarders, and for determining the upgradeability pattern type.}
+ \caption[Flowchart for Upgradeable Proxy Finder]{Flowchart for distinguishing upgradeable contracts (green) from forwarders, and for determining the upgradeability pattern type.}
 \end{figure}
 
 % % %
@@ -285,7 +285,7 @@ In the fifth case, we rewind the transaction trace from the proxy-based \texttt{
 \begin{figure}[t!]
  \centering
  \includegraphics[keepaspectratio,height=20cm, width=30cm]{figures/Upgradeability_finder-3.png}
- \caption{Upgradeability Proxy Contract Finder}
+ \caption{Upgradeability Proxy Finder}
  \label{fig:finderModule}
 \end{figure}
 
@@ -304,7 +304,7 @@ The whole process is depicted on figure~\ref{assignmentFinder}.
 \begin{figure}[t]
  \centering
  \includegraphics[keepaspectratio,height=20cm, width=30cm]{figures/Assignment_finder.png}
- \caption{Assignment CheckerModule}
+ \caption{Assignment Checker Module}
  \label{assignmentFinder}
 \end{figure}
 
@@ -322,7 +322,7 @@ The whole process is depicted on figure~\ref{assignmentFinder}.
  UUPS & 403  \\ \hline
  Beacon & 352  \\ \hline
  \end{tabular}
- \caption{\label{tab:updata} Results of each \texttt{DELEGATECALL}-based upgrade pattern for the time-period {Sep-05-2020} to {Jul-20-2021} (2,064,595 blocks).}
+ \caption[Results of Proxy Finder Module]{\label{tab:updata} Results of each \texttt{DELEGATECALL}-based upgrade pattern for the time-period {Sep-05-2020} to {Jul-20-2021} (2,064,595 blocks).}
  \vspace{-10pt}
  \end{table}
  
@@ -410,7 +410,7 @@ EOA 				& 900  	& 1202		& 1313		& 92			& 2		& 49 		\\
 Multisig 			& 255  	& 567		& 104		& 16			& 10		& 36		\\ 
 Governance/Other 	& 53  	& 462		& 			& 			& 		& 160 	\\ \hline
 \end{tabular}
-\caption{\label{tab:admindata} Results of each admin type in upgradeable contracts for the time-period {Sep-05-2020} to {Jul-20-2021} (2,064,595 blocks).}
+\caption[Results of Admin Types]{\label{tab:admindata} Results of each admin type in upgradeable contracts for the time-period {Sep-05-2020} to {Jul-20-2021} (2,064,595 blocks).}
 \vspace{-10pt}
 \end{table}
 
