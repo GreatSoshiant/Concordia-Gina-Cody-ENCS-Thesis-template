@@ -1,139 +1,140 @@
 \babel@toc {english}{}
-\contentsline {chapter}{List of Figures}{ix}{section*.4}%
-\contentsline {chapter}{List of Tables}{x}{section*.6}%
+\contentsline {chapter}{List of Figures}{x}{section*.4}%
+\contentsline {chapter}{List of Tables}{xi}{section*.6}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Thesis Statement}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Outline and Contributions}{3}{section.1.3}%
+\contentsline {paragraph}{Academic Paper. }{4}{section*.8}%
+\contentsline {paragraph}{Academic Paper. }{4}{section*.9}%
 \contentsline {chapter}{\numberline {2}Background}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Dig Deeper into Ethereum}{5}{section.2.1}%
-\contentsline {paragraph}{Sending Ether.}{6}{section*.8}%
-\contentsline {paragraph}{Creating a new Contract Account.}{6}{section*.9}%
-\contentsline {paragraph}{Calling a \textit {Contract Account} to execute a logic.}{8}{section*.10}%
-\contentsline {paragraph}{Transaction Creation by user. }{8}{section*.11}%
-\contentsline {paragraph}{Execution Process. }{9}{section*.12}%
-\contentsline {subsection}{\numberline {2.1.1}Run-time Bytecode vs. Contract Creation Code}{10}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Storage Layout in EVM}{11}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Transaction vs. Message}{11}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Off-chain Access to the Blockchain Data}{12}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Ethereum Use-cases}{13}{section.2.2}%
-\contentsline {paragraph}{The Oracle Problem.}{13}{section*.13}%
-\contentsline {paragraph}{Trusted Third Parties.}{14}{section*.14}%
-\contentsline {subsection}{\numberline {2.2.1}Stablecoins/Synthetic Assets}{15}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Decentralized Exchange (DeX)}{15}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Lending}{16}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Ethereum Name Service (ENS)}{16}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Derivatives}{17}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Yield Farming}{17}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Privacy Tools}{18}{subsection.2.2.7}%
-\contentsline {subsection}{\numberline {2.2.8}Liquidation}{18}{subsection.2.2.8}%
-\contentsline {chapter}{\numberline {3}Not so immutable: Upgradeability of Smart Contracts on Ethereum}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introductory Remarks}{19}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Contributions and Related Work}{20}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Classification of Upgrade Patterns}{21}{section.3.3}%
-\contentsline {paragraph}{Updating vs. upgrading.}{21}{section*.15}%
-\contentsline {subsection}{\numberline {3.3.1}Parameter Configuration}{22}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Functional Component Change}{23}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Consensus Override}{24}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Contract Migration}{24}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}\texttt {CREATE2}-based Metamorphosis}{25}{subsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.3.6}\texttt {CALL}-based Data Separation}{27}{subsection.3.3.6}%
-\contentsline {subsection}{\numberline {3.3.7}\texttt {DELEGATECALL}-based Data Separation}{28}{subsection.3.3.7}%
-\contentsline {section}{\numberline {3.4}Evaluation Framework}{30}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Properties}{31}{subsection.3.4.1}%
-\contentsline {subsubsection}{Can replace entire logic}{31}{section*.18}%
-\contentsline {subsubsection}{No need to migrate state from old contract}{31}{section*.19}%
-\contentsline {subsubsection}{User endpoint address not changed}{31}{section*.20}%
-\contentsline {subsubsection}{No need to instrument source}{32}{section*.21}%
-\contentsline {subsubsection}{No need to deploy a new contract}{32}{section*.22}%
-\contentsline {subsubsection}{No indirection between contracts}{32}{section*.23}%
-\contentsline {subsubsection}{No downtime to upgrade}{33}{section*.24}%
-\contentsline {subsubsection}{Function Selector Clashes}{33}{section*.25}%
-\contentsline {subsubsection}{Storage Clashes}{33}{section*.26}%
-\contentsline {subsection}{\numberline {3.4.2}Evaluation Framework: Take-Aways}{33}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Speed of an Upgrade}{33}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Cost of Upgrade}{35}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Gas Overhead for Users}{36}{subsection.3.4.5}%
-\contentsline {subsection}{\numberline {3.4.6}Useability}{36}{subsection.3.4.6}%
-\contentsline {subsection}{\numberline {3.4.7}Dealing with two New Versions of Dapp}{37}{subsection.3.4.7}%
-\contentsline {subsection}{\numberline {3.4.8}System Complexity}{38}{subsection.3.4.8}%
-\contentsline {section}{\numberline {3.5}Finding Upgradeable Contracts}{39}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Methodology}{40}{subsection.3.5.1}%
-\contentsline {paragraph}{Finding proxies.}{40}{section*.28}%
-\contentsline {paragraph}{Distinguishing forwarders and upgradeability patterns.}{41}{section*.29}%
-\contentsline {subsection}{\numberline {3.5.2}Assignment Checker Module}{43}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Results}{45}{subsection.3.5.3}%
-\contentsline {section}{\numberline {3.6}Finding the Admin}{46}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Methodology}{47}{subsection.3.6.1}%
-\contentsline {paragraph}{Finding the admin account's address.}{47}{section*.33}%
-\contentsline {paragraph}{Finding the admin type.}{48}{section*.34}%
-\contentsline {subsubsection}{EIP-1967.}{48}{section*.35}%
-\contentsline {subsubsection}{Non EIP-1967.}{50}{section*.36}%
-\contentsline {subsection}{\numberline {3.6.2}Results}{52}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Attacking Universal Upgradeable Proxy Standard (UUPS) Contracts}{52}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Concluding Remarks}{55}{section.3.8}%
-\contentsline {chapter}{\numberline {4}SoK: Oracles from the Ground Truth to Market Manipulation}{59}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{59}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Preliminaries}{60}{section.4.2}%
-\contentsline {paragraph}{Methodology.}{61}{section*.38}%
-\contentsline {paragraph}{Oracle Use-Cases.}{61}{section*.39}%
-\contentsline {section}{\numberline {4.3}Related Work}{62}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Modular Work Flow}{63}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Ground Truth}{64}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Data Sources}{66}{subsection.4.4.2}%
-\contentsline {subsubsection}{Humans.}{66}{section*.41}%
-\contentsline {subsubsection}{Sensors.}{66}{section*.42}%
-\contentsline {subsubsection}{Databases and application programming interfaces (APIs).}{67}{section*.43}%
-\contentsline {subsubsection}{Smart Contracts.}{68}{section*.44}%
-\contentsline {subsection}{\numberline {4.4.3}Data Feeders}{68}{subsection.4.4.3}%
-\contentsline {subsubsection}{Source Authentication.}{69}{section*.45}%
-\contentsline {subsubsection}{Confidentiality.}{70}{section*.46}%
-\contentsline {subsubsection}{Non-Repudiation.}{70}{section*.47}%
-\contentsline {subsection}{\numberline {4.4.4}Selection of Data Feeders}{71}{subsection.4.4.4}%
-\contentsline {subsubsection}{Centralized (Allowlist) Selection.}{71}{section*.49}%
-\contentsline {subsubsection}{Decentralized (Allowlist) Selection through Voting.}{72}{section*.50}%
-\contentsline {subsubsection}{Decentralized Selection through Staking.}{72}{section*.51}%
-\contentsline {subsubsection}{Evaluation Framework on the selection of data feeders}{74}{section*.52}%
-\contentsline {subsection}{\numberline {4.4.5}Aggregation of Data Feeds}{76}{subsection.4.4.5}%
-\contentsline {subsubsection}{Statistical Measures.}{77}{section*.53}%
-\contentsline {subsubsection}{Stale Data.}{77}{section*.54}%
-\contentsline {subsection}{\numberline {4.4.6}Dispute Phase}{78}{subsection.4.4.6}%
-\contentsline {subsubsection}{Provider-level and Data-level Vetting}{78}{section*.55}%
-\contentsline {subsubsection}{Determining the Truth}{79}{section*.56}%
-\contentsline {subsubsection}{Consequences for Incorrect Data}{81}{section*.58}%
-\contentsline {subsubsection}{Consequences for Data Feeder}{82}{section*.59}%
-\contentsline {subsection}{\numberline {4.4.7}Classification of Current Oracle Projects}{84}{subsection.4.4.7}%
-\contentsline {section}{\numberline {4.5}Interacting with the Blockchain}{84}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Off-chain Infrastructure}{85}{subsection.4.5.1}%
-\contentsline {subsubsection}{Monitoring the Blockchain}{86}{section*.61}%
-\contentsline {subsubsection}{Connection to Data Source}{86}{section*.62}%
-\contentsline {subsubsection}{Data Feeders Network}{86}{section*.63}%
-\contentsline {subsubsection}{Transaction Creation}{87}{section*.64}%
-\contentsline {subsection}{\numberline {4.5.2}Blockchain Infrastructure}{88}{subsection.4.5.2}%
-\contentsline {subsubsection}{Blockchain Node}{88}{section*.65}%
-\contentsline {subsubsection}{Block Creation}{88}{section*.66}%
-\contentsline {subsubsection}{Consensus}{89}{section*.67}%
-\contentsline {subsection}{\numberline {4.5.3}Smart Contracts}{90}{subsection.4.5.3}%
-\contentsline {subsubsection}{Oracle Interaction Models}{91}{section*.68}%
-\contentsline {subsubsection}{Oracle's Smart Contract}{92}{section*.69}%
-\contentsline {paragraph}{Implementation Flaws}{92}{section*.70}%
-\contentsline {paragraph}{Governance}{93}{section*.71}%
-\contentsline {subsubsection}{Data Consumer Smart Contract}{94}{section*.72}%
-\contentsline {section}{\numberline {4.6}Concluding Remarks}{95}{section.4.6}%
-\contentsline {chapter}{\numberline {5}Stablecoins and Synthetic Assets in DeFi: Dai Without Liquidations}{97}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introductory Remarks}{97}{section.5.1}%
-\contentsline {paragraph}{Relation to Dai.}{98}{section*.73}%
-\contentsline {section}{\numberline {5.2}Contributions and Related Work}{99}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Financial Characteristics}{101}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}How Much Should You Pay for a Black Coin?}{101}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Why Would You Want a Red Coin?}{103}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}Research Agenda: Extending Red-Black Coins}{103}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Fungibility}{104}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}Redemption}{105}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}Under-collateralization}{106}{subsection.5.4.3}%
-\contentsline {subsection}{\numberline {5.4.4}Autonomy}{107}{subsection.5.4.4}%
-\contentsline {section}{\numberline {5.5}Concluding Remarks}{108}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Conclusion and Future Works}{109}{chapter.6}%
-\contentsline {chapter}{Bibliography}{110}{section*.76}%
-\contentsline {chapter}{Appendix \numberline {A}First Appendix}{121}{appendix.a.A}%
-\contentsline {chapter}{Appendix \numberline {B}Concordia Logos}{122}{appendix.a.B}%
+\contentsline {section}{\numberline {2.1}Ethereum Basics}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Dig Deeper into Ethereum}{6}{section.2.2}%
+\contentsline {paragraph}{Sending Ether.}{7}{section*.10}%
+\contentsline {paragraph}{Creating a new Contract Account.}{7}{section*.11}%
+\contentsline {paragraph}{Calling a \textit {Contract Account} to execute a logic.}{9}{section*.12}%
+\contentsline {paragraph}{Transaction Creation by user. }{9}{section*.13}%
+\contentsline {paragraph}{Execution Process. }{10}{section*.14}%
+\contentsline {subsection}{\numberline {2.2.1}Run-time Bytecode vs. Contract Creation Code}{11}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Storage Layout in EVM}{11}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Transaction vs. Message}{12}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Off-chain Access to the Blockchain Data}{13}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Ethereum Use-cases}{14}{section.2.3}%
+\contentsline {paragraph}{The Oracle Problem.}{14}{section*.15}%
+\contentsline {paragraph}{Trusted Third Parties.}{15}{section*.16}%
+\contentsline {subsection}{\numberline {2.3.1}Stablecoins/Synthetic Assets}{15}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Decentralized Exchange (DeX)}{16}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Lending}{17}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Ethereum Name Service (ENS)}{17}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Derivatives}{17}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Yield Farming}{18}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Privacy Tools}{18}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Liquidation}{19}{subsection.2.3.8}%
+\contentsline {chapter}{\numberline {3}Not so immutable: Upgradeability of Smart Contracts on Ethereum}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introductory Remarks}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Contributions and Related Work}{21}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Classification of Upgrade Patterns}{22}{section.3.3}%
+\contentsline {paragraph}{Updating vs. upgrading.}{22}{section*.17}%
+\contentsline {subsection}{\numberline {3.3.1}Parameter Configuration}{23}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Functional Component Change}{24}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Consensus Override}{25}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Contract Migration}{25}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}\texttt {CREATE2}-based Metamorphosis}{26}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}\texttt {CALL}-based Data Separation}{28}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}\texttt {DELEGATECALL}-based Data Separation}{29}{subsection.3.3.7}%
+\contentsline {section}{\numberline {3.4}Evaluation Framework}{31}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Properties}{32}{subsection.3.4.1}%
+\contentsline {subsubsection}{Can replace entire logic}{32}{section*.20}%
+\contentsline {subsubsection}{No need to migrate state from old contract}{32}{section*.21}%
+\contentsline {subsubsection}{User endpoint address not changed}{32}{section*.22}%
+\contentsline {subsubsection}{No need to instrument source}{33}{section*.23}%
+\contentsline {subsubsection}{No need to deploy a new contract}{33}{section*.24}%
+\contentsline {subsubsection}{No indirection between contracts}{33}{section*.25}%
+\contentsline {subsubsection}{No downtime to upgrade}{34}{section*.26}%
+\contentsline {subsubsection}{Function Selector Clashes}{34}{section*.27}%
+\contentsline {subsubsection}{Storage Clashes}{34}{section*.28}%
+\contentsline {subsection}{\numberline {3.4.2}Evaluation Framework: Take-Aways}{34}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Speed of an Upgrade}{34}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Cost of Upgrade}{36}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Gas Overhead for Users}{37}{subsection.3.4.5}%
+\contentsline {subsection}{\numberline {3.4.6}Useability}{37}{subsection.3.4.6}%
+\contentsline {subsection}{\numberline {3.4.7}Dealing with two New Versions of Dapp}{38}{subsection.3.4.7}%
+\contentsline {subsection}{\numberline {3.4.8}System Complexity}{39}{subsection.3.4.8}%
+\contentsline {section}{\numberline {3.5}Finding Upgradeable Contracts}{40}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Methodology}{41}{subsection.3.5.1}%
+\contentsline {paragraph}{Finding proxies.}{41}{section*.30}%
+\contentsline {paragraph}{Distinguishing forwarders and upgradeability patterns.}{42}{section*.31}%
+\contentsline {subsection}{\numberline {3.5.2}Assignment Checker Module}{44}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Results}{46}{subsection.3.5.3}%
+\contentsline {section}{\numberline {3.6}Finding the Admin}{47}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Methodology}{48}{subsection.3.6.1}%
+\contentsline {paragraph}{Finding the admin account's address.}{48}{section*.35}%
+\contentsline {paragraph}{Finding the admin type.}{49}{section*.36}%
+\contentsline {subsubsection}{EIP-1967.}{49}{section*.37}%
+\contentsline {subsubsection}{Non EIP-1967.}{51}{section*.38}%
+\contentsline {subsection}{\numberline {3.6.2}Results}{53}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Attacking Universal Upgradeable Proxy Standard (UUPS) Contracts}{53}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Concluding Remarks}{56}{section.3.8}%
+\contentsline {chapter}{\numberline {4}SoK: Oracles from the Ground Truth to Market Manipulation}{60}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{60}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Preliminaries}{61}{section.4.2}%
+\contentsline {paragraph}{Methodology.}{62}{section*.40}%
+\contentsline {paragraph}{Oracle Use-Cases.}{62}{section*.41}%
+\contentsline {section}{\numberline {4.3}Related Work}{63}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Modular Work Flow}{64}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Ground Truth}{65}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Data Sources}{67}{subsection.4.4.2}%
+\contentsline {subsubsection}{Humans.}{67}{section*.43}%
+\contentsline {subsubsection}{Sensors.}{67}{section*.44}%
+\contentsline {subsubsection}{Databases and application programming interfaces (APIs).}{68}{section*.45}%
+\contentsline {subsubsection}{Smart Contracts.}{69}{section*.46}%
+\contentsline {subsection}{\numberline {4.4.3}Data Feeders}{69}{subsection.4.4.3}%
+\contentsline {subsubsection}{Source Authentication.}{70}{section*.47}%
+\contentsline {subsubsection}{Confidentiality.}{71}{section*.48}%
+\contentsline {subsubsection}{Non-Repudiation.}{71}{section*.49}%
+\contentsline {subsection}{\numberline {4.4.4}Selection of Data Feeders}{72}{subsection.4.4.4}%
+\contentsline {subsubsection}{Centralized (Allowlist) Selection.}{72}{section*.51}%
+\contentsline {subsubsection}{Decentralized (Allowlist) Selection through Voting.}{73}{section*.52}%
+\contentsline {subsubsection}{Decentralized Selection through Staking.}{73}{section*.53}%
+\contentsline {subsubsection}{Evaluation Framework on the selection of data feeders}{75}{section*.54}%
+\contentsline {subsection}{\numberline {4.4.5}Aggregation of Data Feeds}{77}{subsection.4.4.5}%
+\contentsline {subsubsection}{Statistical Measures.}{78}{section*.55}%
+\contentsline {subsubsection}{Stale Data.}{78}{section*.56}%
+\contentsline {subsection}{\numberline {4.4.6}Dispute Phase}{79}{subsection.4.4.6}%
+\contentsline {subsubsection}{Provider-level and Data-level Vetting}{79}{section*.57}%
+\contentsline {subsubsection}{Determining the Truth}{80}{section*.58}%
+\contentsline {subsubsection}{Consequences for Incorrect Data}{82}{section*.60}%
+\contentsline {subsubsection}{Consequences for Data Feeder}{83}{section*.61}%
+\contentsline {subsection}{\numberline {4.4.7}Classification of Current Oracle Projects}{85}{subsection.4.4.7}%
+\contentsline {section}{\numberline {4.5}Interacting with the Blockchain}{85}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Off-chain Infrastructure}{86}{subsection.4.5.1}%
+\contentsline {subsubsection}{Monitoring the Blockchain}{87}{section*.63}%
+\contentsline {subsubsection}{Connection to Data Source}{87}{section*.64}%
+\contentsline {subsubsection}{Data Feeders Network}{87}{section*.65}%
+\contentsline {subsubsection}{Transaction Creation}{88}{section*.66}%
+\contentsline {subsection}{\numberline {4.5.2}Blockchain Infrastructure}{89}{subsection.4.5.2}%
+\contentsline {subsubsection}{Blockchain Node}{89}{section*.67}%
+\contentsline {subsubsection}{Block Creation}{89}{section*.68}%
+\contentsline {subsubsection}{Consensus}{90}{section*.69}%
+\contentsline {subsection}{\numberline {4.5.3}Smart Contracts}{91}{subsection.4.5.3}%
+\contentsline {subsubsection}{Oracle Interaction Models}{92}{section*.70}%
+\contentsline {subsubsection}{Oracle's Smart Contract}{93}{section*.71}%
+\contentsline {paragraph}{Implementation Flaws}{93}{section*.72}%
+\contentsline {paragraph}{Governance}{94}{section*.73}%
+\contentsline {subsubsection}{Data Consumer Smart Contract}{95}{section*.74}%
+\contentsline {section}{\numberline {4.6}Concluding Remarks}{96}{section.4.6}%
+\contentsline {chapter}{\numberline {5}Stablecoins and Synthetic Assets in DeFi: Dai Without Liquidations}{98}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introductory Remarks}{98}{section.5.1}%
+\contentsline {paragraph}{Relation to Dai.}{99}{section*.75}%
+\contentsline {section}{\numberline {5.2}Contributions and Related Work}{100}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Financial Characteristics}{102}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}How Much Should You Pay for a Black Coin?}{102}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Why Would You Want a Red Coin?}{104}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}Research Agenda: Extending Red-Black Coins}{104}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Fungibility}{105}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Redemption}{106}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Under-collateralization}{107}{subsection.5.4.3}%
+\contentsline {subsection}{\numberline {5.4.4}Autonomy}{108}{subsection.5.4.4}%
+\contentsline {section}{\numberline {5.5}Concluding Remarks}{109}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Conclusion and Future Works}{110}{chapter.6}%
+\contentsline {chapter}{Bibliography}{111}{section*.78}%

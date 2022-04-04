@@ -15,6 +15,7 @@
 \usepackage[pdftex]{graphicx}
 \usepackage{caption,tabularx,booktabs}
 \usepackage{array}
+\usepackage{csquotes}
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
 %% OPTIONAL PACKAGES
 %\counterwithout{footnote}{chapter}        % do no reset footnote # between chapters
@@ -112,7 +113,7 @@
 \input{setup/packages}
 %% THESIS SETTINGS
 \author{Mehdi Salehi}
-\title{An analysis of Upgradeability, Oracles, and Stablecoins in Ethereum Blockchain}
+\title{An Analysis of Upgradeability, Oracles, and Stablecoins in Ethereum Blockchain}
 
 % As of 2019, title is no longer used...
 %\titleOfPhDAuthor{Mr.}         % or Ms., Mrs., Miss, etc. (only for PhD's)
@@ -155,6 +156,14 @@
 \begin{abstract}
 {%trick to force double spacing in the abstract, otherwise some paragraphs may show single spaced
 \setstretch{1.6667}
+
+Ethereum blockchain is widely adopted globally as an alternative to cloud computing platforms in specific use-cases such as financial services. Given the large number of funds held by smart contracts and Decentralized Applications on top of Ethereum, there are profound security implications for both users and enterprise developers.
+
+Over time, more complex logic has been brought to the Ethereum blockchain, which requires secure access to real-world data. In most cases, the system's whole logic and security strongly depend on the correctness and safeness of the data pushed to the blockchain. New components are added along with the blockchain infrastructures named oracles to respond to this need.
+The more complex the code, the more probable that the code has bugs or needs to add new features. So, there should be a way to upgrade the codes in Ethereum even though smart contracts are immutable and tamper-proof. New patterns are introduced to handle the upgradeability of the smart contracts in Ethereum. The broad adoption of decentralized applications brought another need in the service layers. The payments by user need to be in stable currencies such as USD and not blockchain native currencies such as ETH, which are volatile in price. This brings the idea of developing stablecoins pegged to a stable currency like the USD.
+
+Adding upgradeability patterns, oracles, and stablecoins to decentralized applications and smart contract logic adds significant security risks and the need to use a trusted third party, which is against disintermediation in the blockchain ecosystem. This thesis explains each component in detail and clarifies the risks and central trusted points that will be added because of each component. We also try to extend the design choices for each component to give the designer a broader spectrum, which may help make the systems more secure.   
+
 
 }
 \end{abstract}
@@ -207,16 +216,16 @@
 \renewcommand{\thetable}{\Alph{chapter}.\arabic{table}}		% numbering the a table in Appendix as Table A.2, Table B.1, etc.
 
 %%%%%%%%%% Body of Appendix %%%%%%%%%%%%%%%%
-\begin{appendices}
-\doublespacing
+%\begin{appendices}
+%\doublespacing
 
-\chapter{First Appendix}
-\label{chap:apdx1}
+%\chapter{First Appendix}
+%\label{chap:apdx1}
 
 
 
-\chapter{Concordia Logos}
-\label{chap:logos}
+%\chapter{Concordia Logos}
+%\label{chap:logos}
 %\begin{figure}[h!]
 %	\centering
 %	\includegraphics{logos/Concordia_University_logo}
@@ -235,6 +244,6 @@
 %	\caption{Gina Cody School of Engineering and Computer Science (horizontal)}
 %\end{figure}
 
-\end{appendices}
+%\end{appendices}
 
 \end{document}

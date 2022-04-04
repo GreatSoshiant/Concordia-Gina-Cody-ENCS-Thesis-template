@@ -35,6 +35,11 @@ G.~Angeris and T.~Chitra.
 \newblock Improved price oracles: Constant function market makers.
 \newblock {\em arXiv preprint arXiv:2003.10001}, 2020.
 
+\bibitem{antonopoulos2018mastering}
+A.~M. Antonopoulos and G.~Wood.
+\newblock {\em Mastering ethereum: building smart contracts and dapps}.
+\newblock O'reilly Media, 2018.
+
 \bibitem{atzei2017survey}
 N.~Atzei, M.~Bartoletti, and T.~Cimoli.
 \newblock A survey of attacks on ethereum smart contracts (sok).

@@ -36,45 +36,45 @@ Warning--empty journal in openzeppelinPost
 Warning--empty year in openzeppelinPost
 Warning--empty journal in uupsAttacks
 Warning--empty year in uupsAttacks
-You've used 155 entries,
+You've used 156 entries,
             2118 wiz_defined-function locations,
-            1247 strings with 27767 characters,
-and the built_in function-call counts, 48474 in all, are:
-= -- 4726
-> -- 2344
+            1251 strings with 27899 characters,
+and the built_in function-call counts, 48725 in all, are:
+= -- 4748
+> -- 2357
 < -- 37
-+ -- 960
-- -- 776
-* -- 2976
-:= -- 8154
-add.period$ -- 472
-call.type$ -- 155
-change.case$ -- 855
++ -- 965
+- -- 780
+* -- 2988
+:= -- 8198
+add.period$ -- 475
+call.type$ -- 156
+change.case$ -- 859
 chr.to.int$ -- 0
-cite$ -- 180
-duplicate$ -- 1983
-empty$ -- 3748
-format.name$ -- 776
-if$ -- 10155
+cite$ -- 181
+duplicate$ -- 1995
+empty$ -- 3770
+format.name$ -- 780
+if$ -- 10208
 int.to.chr$ -- 0
-int.to.str$ -- 155
-missing$ -- 141
-newline$ -- 760
-num.names$ -- 310
-pop$ -- 1022
+int.to.str$ -- 156
+missing$ -- 143
+newline$ -- 765
+num.names$ -- 312
+pop$ -- 1031
 preamble$ -- 1
-purify$ -- 697
+purify$ -- 701
 quote$ -- 0
-skip$ -- 1448
+skip$ -- 1455
 stack$ -- 0
-substring$ -- 2305
-swap$ -- 459
+substring$ -- 2310
+swap$ -- 460
 text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 616
+type$ -- 618
 warning$ -- 25
-while$ -- 449
-width$ -- 158
-write$ -- 1594
+while$ -- 451
+width$ -- 159
+write$ -- 1604
 (There were 25 warnings)
