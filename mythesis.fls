@@ -1203,6 +1203,9 @@ INPUT /Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/
 INPUT /Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter4/data_feeders.tex
 INPUT /Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter4/data_feeders.tex
 INPUT /Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter4/data_feeders.tex
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8t.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/adobe/times/ptmri8t.vf
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter4/table_oracles.tex
 INPUT /Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter4/table_oracles.tex
 INPUT /Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter4/table_oracles.tex
@@ -1275,11 +1278,12 @@ INPUT /Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/
 INPUT /Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.out
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb

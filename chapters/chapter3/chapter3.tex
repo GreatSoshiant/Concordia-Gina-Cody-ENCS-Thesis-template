@@ -420,7 +420,7 @@ To sum up, of 7470 proxies, 3558 are controlled by an EOA address, 988 are contr
 %%%%%%%%%%
 
 
-\section{Attacking Universal Upgradeable Proxy Standard (UUPS) contracts} 
+\section{Attacking Universal Upgradeable Proxy Standard (UUPS) Contracts} 
 \label{sec:attackUUPS}
 In this section, we described one of the use-cases of the dataset provided in section~\ref{sec:proxyFinding}. In Section~\ref{sysComplexity}, we discussed that one of the main challenges to the \texttt{DELEGATECALL}-based data separation pattern (Section~\ref{sec:delegatecall}) is that the constructor inside the implementation contract cannot initialize the proxy itself. So instead, there should be a regular function inside the implementation contract named \textit{Initialize} function that can be called just once after deployment by the proxy contract and has the same functionality as the constructor function. Therefore, the contract creator must call the initialize function quickly after deploying the proxy contract. The Initialize function does not have any access control because it is considered to be called once, and this function is responsible for defining the owner. So, before calling this function, the owner's address is not set, and there is no way to have an access control check for the sender. This is why there should be a check to ensure that this function can just be called once at deployment and not after. 
 The proxy contract deployer will define and initialize the address of the contract owner via the initialize function. So if the deployer forgets to initialize the contract, any external address can call initialize function and change the owner of the contract to her desired address, and take control of the contract.
