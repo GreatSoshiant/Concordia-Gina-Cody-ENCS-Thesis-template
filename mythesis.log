@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.12)  5 APR 2022 12:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.3.12)  5 APR 2022 17:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -789,7 +789,7 @@ Chapter 6.
 
 
 
-] (/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.bbl [110
+] [110] (/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.bbl [111
 
 
 ]
@@ -807,7 +807,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--149
 []\T1/ptm/m/n/12 ChainLink.  What is the blockchain or-a-cle prob-lem.  \T1/ptm/m/it/12 URl:
  []
 
-[111]
+[112]
 Underfull \hbox (badness 10000) in paragraph at lines 239--244
 []\T1/ptm/m/n/12 T. B. Crypto.  Defi at-tacks: the gen-eral pic-ture.  \T1/ptm/m/it/12 URl:
  []
@@ -817,7 +817,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--244
 \T1/ptm/m/it/12 https://www.theblockcrypto.com/research/105472/defi-attacks-the-general-picture\T1/ptm/m/n/12 ,
  []
 
-[112]
+[113]
 Underfull \hbox (badness 1226) in paragraph at lines 260--265
 []\T1/ptm/m/n/12 Decrypt.  Or-a-cle ex-ploit sees $89 mil-lion liq-ui-dated on com-pound.  \T1/ptm/m/it/12 URl:
  []
@@ -832,7 +832,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--298
 []\T1/ptm/m/n/12 S. Es-kan-dari.  Ether-roll bug thread.  \T1/ptm/m/it/12 URl:
  []
 
-[113]
+[114]
 Underfull \hbox (badness 10000) in paragraph at lines 351--356
 []\T1/ptm/m/n/12 M. Fo-rum.  Sci-en-tific gov-er-nance and risk #120.  \T1/ptm/m/it/12 URl:
  []
@@ -842,7 +842,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 351--356
 \T1/ptm/m/it/12 https://forum.makerdao.com/t/agenda-discussion-scientific-governance-and-
  []
 
-[114]
+[115]
 Underfull \hbox (badness 7540) in paragraph at lines 438--442
 []\T1/ptm/m/n/12 H. D. In-sight.  Price or-a-cle - a must have in-fras-truc-ture.  \T1/ptm/m/it/12 URl:
  []
@@ -857,7 +857,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 493--498
 \T1/ptm/m/it/12 https://kleros.io/static/whitepaper_en-8bd3a0480b45c39899787e17049ded26.pdf\T1/ptm/m/n/12 ,
  []
 
-[115]
+[116]
 Underfull \hbox (badness 3068) in paragraph at lines 515--520
 []\T1/ptm/m/n/12 LongForWisdom.  Flash loans and se-cur-ing the maker pro-to-col.  \T1/ptm/m/it/12 URl:
  []
@@ -867,7 +867,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 515--520
 \T1/ptm/m/it/12 https://forum.makerdao.com/t/urgent-flash-loans-and-securing-the-maker-
  []
 
-[116]
+[117]
 Underfull \hbox (badness 6775) in paragraph at lines 581--584
 []\T1/ptm/m/n/12 NEST.  Nest pro-to-col: A dis-tributed price or-a-cle net-work.  \T1/ptm/m/it/12 URl:
  []
@@ -877,7 +877,7 @@ Underfull \hbox (badness 5105) in paragraph at lines 607--611
 []\T1/ptm/m/n/12 C. Or-a-cle.  Ex-plicit stak-ing in chain-link 2.0: An overview.  \T1/ptm/m/it/12 URl:
  []
 
-[117]
+[118]
 Underfull \hbox (badness 10000) in paragraph at lines 666--670
 []\T1/ptm/m/n/12 B. Pro-to-col.  Band-chain whitepa-per.  \T1/ptm/m/it/12 URl:
  []
@@ -897,7 +897,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 740--745
 \T1/ptm/m/it/12 https://cointelegraph.com/explained/uniswap-and-automated-market-makers-
  []
 
-[118]
+[119]
 Underfull \hbox (badness 10000) in paragraph at lines 753--757
 []\T1/ptm/m/n/12 Synthetix.  Syn-thetix re-sponse to or-a-cle in-ci-dent.  \T1/ptm/m/it/12 URl:
  []
@@ -922,7 +922,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 790--796
 \T1/ptm/m/it/12 https://github.com/UMAprotocol/whitepaper/blob/master/UMA-DVM-oracle-
  []
 
-[119]
+[120]
 Underfull \hbox (badness 10000) in paragraph at lines 851--855
 []\T1/ptm/m/n/12 Zaugust.  Cofix: A com-putable trad-ing sys-tem.  \T1/ptm/m/it/12 URl:
  []
@@ -932,22 +932,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 851--855
 Package caption Warning: Unused \captionsetup[tabular] on input line 90.
 See the caption package documentation for explanation.
 
-[120] (/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.aux (/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter1/chapter1.aux) (/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter2/chapter2.aux) (/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter3/chapter3.aux) (/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter4/chapter4.aux) (/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter5/chapter5.aux))
+[121] (/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.aux (/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter1/chapter1.aux) (/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter2/chapter2.aux) (/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter3/chapter3.aux) (/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter4/chapter4.aux) (/Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/chapters/chapter5/chapter5.aux))
 Package rerunfilecheck Info: File `mythesis.out' has not changed.
 (rerunfilecheck)             Checksum: 9CB53DBF143DEACE21E9D7E0D5001CD4;14439.
  ) 
 Here is how much of TeX's memory you used:
- 16264 strings out of 478994
- 247780 string characters out of 5858184
+ 16265 strings out of 478994
+ 247788 string characters out of 5858184
  609173 words of memory out of 5000000
  32801 multiletter control sequences out of 15000+600000
  474597 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,19n,81p,1901b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.pdf (131 pages, 10678237 bytes).
+Output written on /Users/greatsao/Documents/GitHub/Concordia-Gina-Cody-ENCS-Thesis-template/mythesis.pdf (132 pages, 10681300 bytes).
 PDF statistics:
- 2083 PDF objects out of 2487 (max. 8388607)
- 541 named destinations out of 1000 (max. 500000)
+ 2087 PDF objects out of 2487 (max. 8388607)
+ 542 named destinations out of 1000 (max. 500000)
  702 words of extra memory for PDF output out of 10000 (max. 10000000)
 
