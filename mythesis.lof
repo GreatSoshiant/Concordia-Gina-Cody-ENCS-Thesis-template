@@ -2,17 +2,17 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1}{\ignorespaces Classification of Upgradeability Patterns}}{23}{figure.caption.18}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Flowchart for Upgradeable Proxy Finder}}{41}{figure.caption.29}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Upgradeability Proxy Finder\relax }}{44}{figure.caption.32}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Assignment Checker Module\relax }}{46}{figure.caption.33}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Classification of Upgradeability Patterns}}{23}{figure.caption.16}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Flowchart for Upgradeable Proxy Finder}}{42}{figure.caption.27}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Upgradeability Proxy Finder\relax }}{44}{figure.caption.30}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Assignment Checker Module\relax }}{46}{figure.caption.31}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5}{\ignorespaces Modular Framework for Oracles}}{65}{figure.caption.42}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Modular Framework for Oracles}}{65}{figure.caption.40}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6}{\ignorespaces Red-Black Coins Price Changes}}{100}{figure.caption.76}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Red-Black Coins Price Changes}}{100}{figure.caption.74}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {A red coin, a black coin, and ETH equivalent to \$0.50.}}}{100}{subfigure.6.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {A red coin, ETH equivalent to \$1.50, and a portfolio of a red coin and \$0.94.}}}{100}{subfigure.6.2}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Monte Carlo Simulation Results}}{102}{figure.caption.77}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Monte Carlo Simulation Results}}{102}{figure.caption.75}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Price of ETH in USD (y-axis) over number of days (x-axis).}}}{102}{subfigure.7.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Histogram of final price of ETH in USD (x-axis).}}}{102}{subfigure.7.2}%
 \addvspace {10\p@ }
