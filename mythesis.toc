@@ -1,6 +1,6 @@
 \babel@toc {english}{}
-\contentsline {chapter}{List of Figures}{x}{section*.4}%
-\contentsline {chapter}{List of Tables}{xi}{section*.6}%
+\contentsline {chapter}{List of Figures}{xi}{section*.4}%
+\contentsline {chapter}{List of Tables}{xii}{section*.6}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Thesis Statement}{2}{section.1.2}%
