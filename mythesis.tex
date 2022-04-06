@@ -113,7 +113,7 @@
 \input{setup/packages}
 %% THESIS SETTINGS
 \author{Mehdi Salehi}
-\title{An Analysis of Upgradeability, Oracles, and Stablecoins in Ethereum Blockchain}
+\title{An Analysis of Upgradeability, Oracles, and Stablecoins in the Ethereum Blockchain}
 
 % As of 2019, title is no longer used...
 %\titleOfPhDAuthor{Mr.}         % or Ms., Mrs., Miss, etc. (only for PhD's)
@@ -133,9 +133,9 @@
 \isGpd % Chair by default
 %% See current Dean at  https://www.concordia.ca/ginacody/about/leadership/office-dean/dean-of-engineering-and-computer-science.html
 \deanOfENCS{Dr.\ Mourad Debbabi} 
-\chairOfCommittee{Dr.\ Chair}
-\examinerFirst{Dr.\ Examiner1}
-\examinerSecond{Dr.\ Examiner2}
+\chairOfCommittee{Dr.\ Amr Youssef}
+\examinerFirst{Dr.\ Amr Youssef}
+\examinerSecond{Dr.\ Ivan Pustogarov}
 \supervisor{Dr. Jeremy Clark}
 %% Following two lines are required if you have a co-supervisor
 \hasCosupervisor
@@ -157,20 +157,19 @@
 {%trick to force double spacing in the abstract, otherwise some paragraphs may show single spaced
 \setstretch{1.6667}
 
-Ethereum blockchain is widely adopted globally as an alternative to cloud computing platforms in specific use-cases such as financial services. Given the large number of funds held by smart contracts and Decentralized Applications on top of Ethereum, there are profound security implications for both users and enterprise developers.
+The Ethereum blockchain is a widely adopted global alternative to cloud computing platforms, currently used primarily for financial services. Given the large number of funds held by smart contracts and decentralized applications on top of Ethereum, there are profound security implications for both users and enterprise developers.
 
-Over time, more complex logic has been brought to the Ethereum blockchain, which requires secure access to real-world data. In most cases, the system's whole logic and security strongly depend on the correctness and safeness of the data pushed to the blockchain. New components are added along with the blockchain infrastructures named oracles to respond to this need.
-The more complex the code, the more probable that the code has bugs or needs to add new features. So, there should be a way to upgrade the codes in Ethereum even though smart contracts are immutable and tamper-proof. New patterns are introduced to handle the upgradeability of the smart contracts in Ethereum. The broad adoption of decentralized applications brought another need in the service layers. The payments by user need to be in stable currencies such as USD and not blockchain native currencies such as ETH, which are volatile in price. This brings the idea of developing stablecoins pegged to a stable currency like the USD.
+Over time, developers have brought more complex logic to Ethereum. For example, contracts often require access to valid, real-world data. In most cases, the system's functionality and security are strongly dependent on the correctness and safeness of the data pushed to the blockchain. One topic of this thesis are oracles---infrastructure added to the blockchain to respond to this need.
+As contract code becomes more complex, it is increasingly likely that the code has bugs or vulnerabilities. Given smart contracts are immutable and tamper-proof, it seems impossible to upgrade a contract should a fix or patch be needed. Another topic of this thesis examines contract deployment patterns that enable and handle the upgradeability of smart contracts in Ethereum. Finally, the thesis also considers an application of oracle technology: payments made in stable currencies such as USD and not blockchain native currencies such as ETH, which are volatile in price. %  broad adoption of decentralized applications brought another need in the service layers. The payments by user need to be This brings the idea of developing stablecoins pegged to a stable currency like the USD.
 
-Adding upgradeability patterns, oracles, and stablecoins to decentralized applications and smart contract logic adds significant security risks and the need to use a trusted third party, which is against disintermediation in the blockchain ecosystem. This thesis explains each component in detail and clarifies the risks and central trusted points that will be added because of each component. We also try to extend the design choices for each component to give the designer a broader spectrum, which may help make the systems more secure.   
-
+Adding upgradeability patterns, oracles, and stablecoins to decentralized applications and smart contract logic adds significant security risks and the need to use a trusted third party, which is against disintermediation in the blockchain ecosystem. This thesis explains each component in detail and clarifies the risks and central trusted points that will be added because of each component. We also try to extend the design choices for each component to give the designer a broader spectrum, which may help make the systems more secure.
 
 }
 \end{abstract}
 
 %\doublespacing
 \begin{acknowledgments}
-  I would like to thank my supervisors, Dr. Mohammad Mannan and Dr. Jeremy Clark, for their continued support and guidance during the course of my master's degree. Their constant support gave life to this project and made this dissertation possible. I have learned a lot from them and would like to express my gratitude for their patience, motivation, and immense knowledge. I am fortunate to work under the close guidance of them, who inspired me with bright ideas, helpful comments, suggestions, and insights that have contributed to the improvement of this work.
+  I would like to thank my supervisors, Dr. Mohammad Mannan and Dr. Jeremy Clark, for their continued support and guidance during the course of my master's degree. Their constant support gave life to this project and made this thesis possible. I have learned a lot from them and would like to express my gratitude for their patience, motivation, and immense knowledge. I am fortunate to work under the close guidance of them, who inspired me with bright ideas, helpful comments, suggestions, and insights that have contributed to the improvement of this work.
 
   I would like to thank Shayan Eskandari, my colleague, for mentoring me during my master's and sharing his experience, and being by my side through this journey. I want to thank Mahsa Mousavi, my lab-mate, for her continuous feedback and support during our discussions and meetings. She has been very generous with her help during the course of my research.
   
