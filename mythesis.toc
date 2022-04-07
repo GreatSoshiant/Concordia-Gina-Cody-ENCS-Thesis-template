@@ -1,6 +1,6 @@
 \babel@toc {english}{}
-\contentsline {chapter}{List of Figures}{vii}{section*.4}%
-\contentsline {chapter}{List of Tables}{viii}{section*.6}%
+\contentsline {chapter}{List of Figures}{x}{section*.4}%
+\contentsline {chapter}{List of Tables}{xi}{section*.6}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Thesis Statement}{2}{section.1.2}%
@@ -83,38 +83,38 @@
 \contentsline {subsection}{\numberline {4.4.1}Ground Truth}{64}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Data Sources}{66}{subsection.4.4.2}%
 \contentsline {subsubsection}{Humans.}{66}{section*.41}%
-\contentsline {subsubsection}{Sensors.}{66}{section*.42}%
+\contentsline {subsubsection}{Sensors.}{67}{section*.42}%
 \contentsline {subsubsection}{Databases and application programming interfaces (APIs).}{67}{section*.43}%
 \contentsline {subsubsection}{Smart Contracts.}{68}{section*.44}%
 \contentsline {subsection}{\numberline {4.4.3}Data Feeders}{69}{subsection.4.4.3}%
 \contentsline {subsubsection}{Source Authentication.}{69}{section*.45}%
 \contentsline {subsubsection}{Confidentiality.}{70}{section*.46}%
-\contentsline {subsubsection}{Non-Repudiation.}{70}{section*.47}%
+\contentsline {subsubsection}{Non-Repudiation.}{71}{section*.47}%
 \contentsline {subsection}{\numberline {4.4.4}Selection of Data Feeders}{71}{subsection.4.4.4}%
 \contentsline {subsubsection}{Centralized (Allowlist) Selection.}{72}{section*.49}%
 \contentsline {subsubsection}{Decentralized (Allowlist) Selection through Voting.}{72}{section*.50}%
 \contentsline {subsubsection}{Decentralized Selection through Staking.}{73}{section*.51}%
-\contentsline {subsubsection}{Evaluation Framework on the selection of data feeders}{74}{section*.52}%
+\contentsline {subsubsection}{Evaluation Framework on the selection of data feeders}{75}{section*.52}%
 \contentsline {subsection}{\numberline {4.4.5}Aggregation of Data Feeds}{76}{subsection.4.4.5}%
 \contentsline {subsubsection}{Statistical Measures.}{77}{section*.53}%
-\contentsline {subsubsection}{Stale Data.}{77}{section*.54}%
+\contentsline {subsubsection}{Stale Data.}{78}{section*.54}%
 \contentsline {subsection}{\numberline {4.4.6}Dispute Phase}{78}{subsection.4.4.6}%
-\contentsline {subsubsection}{Provider-level and Data-level Vetting}{78}{section*.55}%
+\contentsline {subsubsection}{Provider-level and Data-level Vetting}{79}{section*.55}%
 \contentsline {subsubsection}{Determining the Truth}{79}{section*.56}%
 \contentsline {subsubsection}{Consequences for Incorrect Data}{81}{section*.58}%
 \contentsline {subsubsection}{Consequences for Data Feeder}{82}{section*.59}%
-\contentsline {subsection}{\numberline {4.4.7}Classification of Current Oracle Projects}{84}{subsection.4.4.7}%
+\contentsline {subsection}{\numberline {4.4.7}Classification of Current Oracle Projects}{83}{subsection.4.4.7}%
 \contentsline {section}{\numberline {4.5}Interacting with the Blockchain}{84}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Off-chain Infrastructure}{85}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.1}Off-chain Infrastructure}{86}{subsection.4.5.1}%
 \contentsline {subsubsection}{Monitoring the Blockchain}{86}{section*.61}%
 \contentsline {subsubsection}{Connection to Data Source}{86}{section*.62}%
-\contentsline {subsubsection}{Data Feeders Network}{86}{section*.63}%
+\contentsline {subsubsection}{Data Feeders Network}{87}{section*.63}%
 \contentsline {subsubsection}{Transaction Creation}{87}{section*.64}%
 \contentsline {subsection}{\numberline {4.5.2}Blockchain Infrastructure}{88}{subsection.4.5.2}%
 \contentsline {subsubsection}{Blockchain Node}{88}{section*.65}%
-\contentsline {subsubsection}{Block Creation}{88}{section*.66}%
-\contentsline {subsubsection}{Consensus}{89}{section*.67}%
-\contentsline {subsection}{\numberline {4.5.3}Smart Contracts}{90}{subsection.4.5.3}%
+\contentsline {subsubsection}{Block Creation}{89}{section*.66}%
+\contentsline {subsubsection}{Consensus}{90}{section*.67}%
+\contentsline {subsection}{\numberline {4.5.3}Smart Contracts}{91}{subsection.4.5.3}%
 \contentsline {subsubsection}{Oracle Interaction Models}{91}{section*.68}%
 \contentsline {subsubsection}{Oracle's Smart Contract}{92}{section*.69}%
 \contentsline {paragraph}{Implementation Flaws}{92}{section*.70}%
