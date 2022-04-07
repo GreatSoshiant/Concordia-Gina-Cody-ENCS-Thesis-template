@@ -1,4 +1,4 @@
-\chapter{Not so immutable: Upgradeability of Smart Contracts on Ethereum} 
+\chapter{Not So Immutable: Upgradeability of Smart Contracts on Ethereum} 
 \label{ch:upgrade}
 
 \textit{
@@ -174,7 +174,7 @@ Upgradeability methods in which the developer should take care of storage clashe
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{Evaluation Framework: Take-Aways}
+\subsection{Take-Aways}
 \label{app:eval2}
 
 In this section we discuss about the consequence of each upgrade methods regarding the criteria we mentioned in the previous part for users and developers that want to use the upgradeability pattern or uses a Dapp that uses one of the mentioned patterns.
@@ -221,7 +221,7 @@ In most of \textit{Migration} plan upgrade events, users are responsible for the
 In \textit{Metamorphic} pattern as mentioned before there is a downtime during the upgrade. So users cannot work with the Dapp on that exact time which is not user friendly.
 
 
-\subsection{Dealing with two New Versions of Dapp}
+\subsection{Dealing with two New Versions of a Dapp}
 In \textit{Migration} and \textit{Call-based} pattern we will come up with two different Dapps after each upgrade event. So, a decision must be made for the previous version. One possible choice could be shutting down the old version. It can be done by self-destructing the old version, or by having a pausing mechanism to stop the older version functionality. In migration plan it is not regular to stop the previous version because in most migration plans, users are responsible to move their funds and data from the previous version to the new one and we cannot force them to do that, so we cannot stop the smart contract. 
 The other option could be having a mechanism that after the upgrade, all calls to the previous version just be forwarded to the newer version which add costs and have some limitations like we cannot call the new functions defined in the newer version using the old version. This option is doable in Call based patterns. The other problem of this option is that if we upgrade a system more than one time then the calls to the first version should be redirected through lots of contracts to reach to the newer version. Also it adds complexity because developers must maintain more than one contract~\cite{tobBlogPost}.
 
