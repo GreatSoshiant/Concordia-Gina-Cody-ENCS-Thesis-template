@@ -20,7 +20,7 @@
 \BOOKMARK [2][-]{subsection.2.3.6}{Yield Farming}{section.2.3}% 20
 \BOOKMARK [2][-]{subsection.2.3.7}{Privacy Tools}{section.2.3}% 21
 \BOOKMARK [2][-]{subsection.2.3.8}{Liquidation}{section.2.3}% 22
-\BOOKMARK [0][-]{chapter.3}{Not so immutable: Upgradeability of Smart Contracts on Ethereum}{}% 23
+\BOOKMARK [0][-]{chapter.3}{Upgradeability of Smart Contracts on Ethereum}{}% 23
 \BOOKMARK [1][-]{section.3.1}{Introductory Remarks}{chapter.3}% 24
 \BOOKMARK [1][-]{section.3.2}{Contributions and Related Work}{chapter.3}% 25
 \BOOKMARK [1][-]{section.3.3}{Classification of Upgrade Patterns}{chapter.3}% 26
@@ -49,7 +49,7 @@
 \BOOKMARK [2][-]{subsection.3.6.2}{Results}{section.3.6}% 49
 \BOOKMARK [1][-]{section.3.7}{Attacking Universal Upgradeable Proxy Standard \(UUPS\) Contracts}{chapter.3}% 50
 \BOOKMARK [1][-]{section.3.8}{Concluding Remarks}{chapter.3}% 51
-\BOOKMARK [0][-]{chapter.4}{SoK: Oracles from the Ground Truth to Market Manipulation}{}% 52
+\BOOKMARK [0][-]{chapter.4}{Oracles: from the Ground Truth to Market Manipulation}{}% 52
 \BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 53
 \BOOKMARK [1][-]{section.4.2}{Preliminaries}{chapter.4}% 54
 \BOOKMARK [1][-]{section.4.3}{Related Work}{chapter.4}% 55
@@ -66,7 +66,7 @@
 \BOOKMARK [2][-]{subsection.4.5.2}{Blockchain Infrastructure}{section.4.5}% 66
 \BOOKMARK [2][-]{subsection.4.5.3}{Smart Contracts}{section.4.5}% 67
 \BOOKMARK [1][-]{section.4.6}{Concluding Remarks}{chapter.4}% 68
-\BOOKMARK [0][-]{chapter.5}{Stablecoins and Synthetic Assets in DeFi: Dai Without Liquidations}{}% 69
+\BOOKMARK [0][-]{chapter.5}{Stablecoins and Synthetic Assets in DeFi}{}% 69
 \BOOKMARK [1][-]{section.5.1}{Introductory Remarks}{chapter.5}% 70
 \BOOKMARK [1][-]{section.5.2}{Contributions and Related Work}{chapter.5}% 71
 \BOOKMARK [1][-]{section.5.3}{Financial Characteristics}{chapter.5}% 72
