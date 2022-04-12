@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.4.8)  6 APR 2022 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.4.8)  10 APR 2022 10:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -559,8 +559,7 @@ File: l3backend-pdfmode.def 2020-02-23 L3 backend support: PDF mode
 \l__pdf_internal_box=\box52
 )
 (./mythesis.aux (./chapters/chapter1/chapter1.aux)
-(./chapters/chapter2/chapter2.aux)
-No file chapters/chapter3/chapter3.aux.
+(./chapters/chapter2/chapter2.aux) (./chapters/chapter3/chapter3.aux)
 (./chapters/chapter4/chapter4.aux) (./chapters/chapter5/chapter5.aux))
 \openout1 = `mythesis.aux'.
 
@@ -679,7 +678,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [6
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 40
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 38
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1pcr.fd
@@ -710,58 +709,36 @@ Chapter 1.
 [1
 
 
-]
-Overfull \hbox (2.26108pt too wide) in paragraph at lines 14--15
-[]\T1/ptm/m/n/12 A wave of de-vel-op-ers have changed their ca-reers to de-velo
-p smart con-tracts on Ethereum
- []
-
-
-LaTeX Warning: Reference `ch:upgrade' on page 2 undefined on input line 28.
-
-[2] [3]) [4]
+] [2] [3]) [4]
 \openout2 = `chapters/chapter2/chapter2.aux'.
 
  (./chapters/chapter2/chapter2.tex
 Chapter 2.
+
+Overfull \hbox (0.54826pt too wide) in paragraph at lines 3--4
+\T1/ptm/m/n/12 This chap-ter cov-ers back-ground in-for-ma-tion about Ethereum 
+ba-sics, de-tails about Ethereum
+ []
+
 [5
 
 
 
-] [6] [7]
-
-LaTeX Warning: Reference `ch:upgrade' on page 8 undefined on input line 51.
-
-[8] [9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
+] [6] [7] [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
 [][][][][]$\T1/pcr/m/n/10 https : / / leftasexercise . com / 2021 / 09 / 05 / a
  -[] deep -[] dive -[] into -[] solidity -[]
  []
 
-
-LaTeX Warning: Reference `ch:upgrade' on page 11 undefined on input line 79.
-
-
-LaTeX Warning: Reference `sec:metamorphic' on page 11 undefined on input line 7
-9.
-
-[11]
-
-LaTeX Warning: Reference `ch:upgrade' on page 12 undefined on input line 94.
-
-
-LaTeX Warning: Reference `sec:delegatecall' on page 12 undefined on input line 
-94.
-
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 [][][][][]$\T1/pcr/m/n/10 https : / / ethdocs . org / en / latest / contracts -
 [] and -[] transactions / account -[]
  []
 
-[13] [14] [15]
+[12] [13] [14]
 LaTeX Font Info:    Trying to load font information for T1+phv on input line 14
-3.
+0.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 
@@ -785,7 +762,7 @@ LaTeX Warning: Font shape declaration has incorrect series value `mc'.
                It should not contain an `m'! Please correct it.
                Found on input line 46.
 
-) [16] [17] [18]) [19]
+) [15] [16] [17]) [18] [19]
 \openout2 = `chapters/chapter3/chapter3.aux'.
 
  (./chapters/chapter3/chapter3.tex
@@ -794,188 +771,70 @@ Chapter 3.
 
 
 
-]
-
-LaTeX Warning: Reference `sec:classification' on page 21 undefined on input lin
-e 18.
-
-[21]
-
-LaTeX Warning: Reference `sec:metamorphic' on page 22 undefined on input line 2
-0.
-
-
+] [21]
 Overfull \hbox (10.63768pt too wide) in paragraph at lines 20--21
 []\T1/ptm/m/n/12 Fröwis and Böhme [[]] con-ducted a mea-sure-ment study on the 
 use-cases of the \T1/pcr/m/n/12 CREATE2
  []
 
-
-LaTeX Warning: Reference `sec:metamorphic' on page 22 undefined on input line 2
-2.
-
 [22]
-<figures/New_Classification.png, id=822, 470.4777pt x 211.0284pt>
+<figures/New_Classification.png, id=820, 470.4777pt x 211.0284pt>
 File: figures/New_Classification.png Graphic file (type png)
 <use figures/New_Classification.png>
 Package pdftex.def Info: figures/New_Classification.png  used on input line 30.
 
 (pdftex.def)             Requested size: 346.89731pt x 155.59828pt.
-
-
-LaTeX Warning: Reference `sec:governance' on page 23 undefined on input line 42
-.
-
-[23 <./figures/New_Classification.png>]
+ [23 <./figures/New_Classification.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 53--53
 [][][][][]$\T1/pcr/m/n/10 https : / / github . com / compound -[] finance / com
 pound -[] protocol / blob / v2 . 3 /
  []
 
-[24]
-
-LaTeX Warning: Reference `sec:callbased' on page 25 undefined on input line 57.
-
-
-
-LaTeX Warning: Reference `sec:delegatecall' on page 25 undefined on input line 
-57.
-
-[25] [26] [27] [28]
-
-LaTeX Warning: Reference `sec:component' on page 29 undefined on input line 101
-.
-
-
-LaTeX Warning: Reference `sec:delegatecall' on page 29 undefined on input line 
-101.
-
-[29] [30]
+[24] [25] [26] [27] [28] [29] [30]
 Overfull \hbox (6.31963pt too wide) in paragraph at lines 124--125
 \T1/ptm/m/n/12 proxy con-tract (us-ing \T1/pcr/m/n/12 msg.sender()\T1/ptm/m/n/1
 2 )---if it is the ad-min, the proxy con-tract catches
  []
 
-(./chapters/chapter3/table.tex)
-
-LaTeX Warning: Reference `tab:eval' on page 31 undefined on input line 137.
-
-[31] [32] [33]
-
-LaTeX Warning: Reference `sec:governance' on page 34 undefined on input line 18
-3.
-
-[34] [35] [36] [37] [38] [39]
-
-LaTeX Warning: Reference `sec:delegatecall' on page 40 undefined on input line 
-245.
-
-[40]
-<figures/New-method.png, id=945, 689.4558pt x 235.6002pt>
+(./chapters/chapter3/table.tex) [31] [32] [33] [34] [35] [36] [37] [38]
+[39] [40]
+<figures/New-method.png, id=951, 685.8423pt x 250.0542pt>
 File: figures/New-method.png Graphic file (type png)
 <use figures/New-method.png>
 Package pdftex.def Info: figures/New-method.png  used on input line 257.
-(pdftex.def)             Requested size: 433.62pt x 148.17725pt.
+(pdftex.def)             Requested size: 433.62pt x 158.09966pt.
  [41] [42 <./figures/New-method.png>]
-
-LaTeX Warning: Reference `app:assignment' on page 43 undefined on input line 27
-7.
-
-
 Overfull \hbox (1.1818pt too wide) in paragraph at lines 281--282
 []\T1/ptm/m/n/12 In the fifth case, we rewind the trans-ac-tion trace from the 
 proxy-based \T1/pcr/m/n/12 DELEGATECALL
  []
 
 [43]
-<figures/proxy-finder-module.png, id=978, 1572.5952pt x 1637.6382pt>
+<figures/proxy-finder-module.png, id=985, 1511.1657pt x 1695.4542pt>
 File: figures/proxy-finder-module.png Graphic file (type png)
 <use figures/proxy-finder-module.png>
 Package pdftex.def Info: figures/proxy-finder-module.png  used on input line 28
 9.
-(pdftex.def)             Requested size: 426.79001pt x 444.44217pt.
-
-
-LaTeX Warning: Reference `fig:finderModule' on page 44 undefined on input line 
-294.
-
-[44 <./figures/proxy-finder-module.png>] [45]
-
-LaTeX Warning: Reference `assignmentFinder' on page 46 undefined on input line 
-304.
-
-<figures/Assignment-checker-module.png, id=992, 1480.0896pt x 1154.1519pt>
+(pdftex.def)             Requested size: 426.78981pt x 478.83736pt.
+ [44] [45 <./figures/proxy-finder-module.png>]
+<figures/Assignment-checker-module.png, id=1001, 1438.173pt x 1166.4378pt>
 File: figures/Assignment-checker-module.png Graphic file (type png)
 <use figures/Assignment-checker-module.png>
 Package pdftex.def Info: figures/Assignment-checker-module.png  used on input l
 ine 308.
-(pdftex.def)             Requested size: 426.7759pt x 332.7935pt.
-[46 <./figures/Assignment-checker-module.png>]
-
-LaTeX Warning: Reference `tab:updata' on page 47 undefined on input line 331.
-
-
+(pdftex.def)             Requested size: 426.781pt x 346.14299pt.
+ [46 <./figures/Assignment-checker-module.png>]
 Overfull \hbox (10.38004pt too wide) in paragraph at lines 342--342
 [][][][][]$\T1/pcr/m/n/10 https : / / etherscan . io / address / 0xb45d6c089772
 1bb6ffa9451c2c80f99b24b573b9$[][]| 
  []
 
-[47] [48]
-
-LaTeX Warning: Reference `sec:proxyFinding' on page 49 undefined on input line 
-359.
-
-
-LaTeX Warning: Reference `sec:proxyFinding' on page 49 undefined on input line 
-362.
-
-[49] [50] [51]
-
-LaTeX Warning: Reference `sec:proxyFinding' on page 52 undefined on input line 
-386.
-
-
-LaTeX Warning: Reference `sec:proxyFinding' on page 52 undefined on input line 
-392.
-
-[52]
-
-LaTeX Warning: Reference `tab:admindata' on page 53 undefined on input line 419
-.
-
-[53]
+[47] [48] [49] [50] [51] [52] [53]
 Overfull \hbox (29.96448pt too wide) in paragraph at lines 425--425
 []\T1/ptm/b/n/17.28 Attacking Uni-ver-sal Up-grade-able Proxy Stan-dard (UUPS)
  []
 
-
-LaTeX Warning: Reference `sec:proxyFinding' on page 54 undefined on input line 
-427.
-
-
-LaTeX Warning: Reference `sysComplexity' on page 54 undefined on input line 427
-.
-
-
-LaTeX Warning: Reference `sec:delegatecall' on page 54 undefined on input line 
-427.
-
-[54]
-
-LaTeX Warning: Reference `sec:delegatecall' on page 55 undefined on input line 
-438.
-
-[55]
-
-LaTeX Warning: Reference `sec:proxyFinding' on page 56 undefined on input line 
-441.
-
-[56] [57]
-
-LaTeX Warning: Reference `sec:attackUUPS' on page 58 undefined on input line 46
-9.
-
-) [58]
+[54] [55] [56] [57]) [58]
 \openout2 = `chapters/chapter4/chapter4.aux'.
 
  (./chapters/chapter4/chapter4.tex
@@ -991,7 +850,7 @@ ypto-collectables that can be minted,
  []
 
 [62] [63]
-<figures/data_flow_vertical.png, id=1206, 682.55pt x 1967.35pt>
+<figures/data_flow_vertical.png, id=1227, 682.55pt x 1967.35pt>
 File: figures/data_flow_vertical.png Graphic file (type png)
 <use figures/data_flow_vertical.png>
 Package pdftex.def Info: figures/data_flow_vertical.png  used on input line 75.
@@ -1019,7 +878,7 @@ Chapter 5.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/price1.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figures/price1.pdf, id=1714, 182.53996pt x 116.435pt>
+<figures/price1.pdf, id=1734, 182.53996pt x 116.435pt>
 File: figures/price1.pdf Graphic file (type pdf)
 <use figures/price1.pdf>
 Package pdftex.def Info: figures/price1.pdf  used on input line 34.
@@ -1033,7 +892,7 @@ Underfull \hbox (badness 2213) in paragraph at lines 34--34
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/price2.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figures/price2.pdf, id=1715, 299.1175pt x 116.435pt>
+<figures/price2.pdf, id=1735, 299.1175pt x 116.435pt>
 File: figures/price2.pdf Graphic file (type pdf)
 <use figures/price2.pdf>
 Package pdftex.def Info: figures/price2.pdf  used on input line 36.
@@ -1046,7 +905,7 @@ nclusion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/mc.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<figures/mc.pdf, id=1750, 180.675pt x 112.42pt>
+<figures/mc.pdf, id=1770, 180.675pt x 112.42pt>
 File: figures/mc.pdf Graphic file (type pdf)
 <use figures/mc.pdf>
 Package pdftex.def Info: figures/mc.pdf  used on input line 52.
@@ -1055,7 +914,7 @@ Package pdftex.def Info: figures/mc.pdf  used on input line 52.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./figures/histro.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<figures/histro.pdf, id=1751, 180.675pt x 122.4575pt>
+<figures/histro.pdf, id=1771, 180.675pt x 122.4575pt>
 File: figures/histro.pdf Graphic file (type pdf)
 <use figures/histro.pdf>
 Package pdftex.def Info: figures/histro.pdf  used on input line 54.
@@ -1251,20 +1110,14 @@ Package rerunfilecheck Warning: File `mythesis.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `mythesis.out':
-(rerunfilecheck)             Before: 03C166B086D04E2AEBA492B5C828B646;5933
-(rerunfilecheck)             After:  BFF0F52821F6E75B682104FEB0682625;5885.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Before: AFB5D8FCBC66D950071F46849C2A2E57;5741
+(rerunfilecheck)             After:  FFD0E3934944AA166756601D79149850;5798.
  ) 
 Here is how much of TeX's memory you used:
- 13294 strings out of 480994
- 199519 string characters out of 5912143
- 510268 words of memory out of 5000000
- 27874 multiletter control sequences out of 15000+600000
+ 13293 strings out of 480994
+ 199561 string characters out of 5912143
+ 512475 words of memory out of 5000000
+ 27873 multiletter control sequences out of 15000+600000
  603505 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,19n,91p,1827b,554s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1284,9 +1137,9 @@ ype1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/ut
 mbi8a.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on mythesis.pdf (132 pages, 10667616 bytes).
+Output written on mythesis.pdf (132 pages, 2369906 bytes).
 PDF statistics:
- 2049 PDF objects out of 2073 (max. 8388607)
- 540 named destinations out of 1000 (max. 500000)
- 702 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2069 PDF objects out of 2073 (max. 8388607)
+ 538 named destinations out of 1000 (max. 500000)
+ 686 words of extra memory for PDF output out of 10000 (max. 10000000)
 
