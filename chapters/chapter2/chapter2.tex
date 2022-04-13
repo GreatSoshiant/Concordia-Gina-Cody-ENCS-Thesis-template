@@ -1,17 +1,20 @@
+% !TEX root = ../../mythesis.tex
+
 \chapter{Background}
 \label{chap:background}
-This chapter covers background information about Ethereum basics, details about Ethereum Virtual Machine (EVM), explanations on contract creation in Ethereum, and the way users interact with Ethereum network. Also, there is a section that briefly explains some use-cases and Dapps on Ethereum blockchain.
+This chapter covers background information about Ethereum, details about the Ethereum Virtual Machine (EVM), an explanation of contract creation in Ethereum, and demonstrates how users interact with the network and contracts. We also provide a brief exploration of some current decentralized applications (Dapps) widely used today on Ethereum.
  
 \section{Ethereum Background}
 
-Ethereum is a state machine that is globally accessible and its Ethereum Virtual Machine, applies the changes to the state based on the rules defined for the Ethereum network. Ethereum is often described as ``world computer'' because anybody from anywhere can have access to Ethereum and use the stack of Ethereum and the EVM to execute their computations. 
+The Ethereum Virtual Machine (EVM) is a state machine that is globally accessible to anyone with an internet connection and applies state changes according to hardcoded rules agreed upon and used by network nodes in a decentralized network. Ethereum is often described as ``world computer'' because anybody from anywhere can have access to it and use it to execute their computations. 
 
-Ethereum is the next generation of blockchains compared to Bitcoin. Bitcoin is just handling payments and some specific limited logic based on a limited scripting language which is called ``Bitcoin Scripting Language''. For instance, Bitcoin scripts cannot handle loops. But in Ethereum, EVM can handle more general and complex code named \textit{Smart Contracts}. EVM is quasi-Turing-complete state machine. It is ``quasi'' because computation in Ethereum is bounded to specific number of gas, which is a unit of measurement of computations and storage resources in Ethereum. 
+Ethereum represents the second generation of blockchain technology, following Bitcoin. Bitcoin introduced the idea of a blockchain, which uses a novel consensus mechanism for maintaining shared state on an open network that anyone can join or leave at anytime. The Bitcoin project has maintained a tight focus on providing payments (in its native currency BTC) and only very limited user-defined contracts based on a simple scripting language (which is called ``Bitcoin Scripting Language''). For instance, Bitcoin scripts cannot handle loops. By contrast, Ethereum's EVM allows users to define general purpose code (called smart contracts) that Ethereum will execute for them.  The EVM is a quasi-Turing-complete state machine. It is ``quasi'' because computation in Ethereum is paid for by the user (in its native currency ether or ETH) and thus computation is bounded the amount they are willing to pay. Computation and storage operations are priced in a custom unit called gas, and users auction off how much ETH they are willing to pay per unit of gas to have their transactions executed.
 
-Users can work with Ethereum blockchain by sending transactions to the network. They can just transfer Ether (or ETH), the native currency of Ethereum blockchain, or they can do their desired computations by executing smart contract functionalities in Ethereum. Users must pay the fee to work with Ethereum. This fee is calculated in gas, and it is based on the amount of computations and storage load on the Ethereum network and also network congestion.  
+Users of Ethereum prepare transactions using client software (which is called a ``wallet'') and send them to the Ethereum network, which consists of nodes (called ``miners'') that process and finalize transactions. The simplest transaction will transfer ETH from one account to another account. A transaction can also ask for a smart contract to be deployed by providing its code (or instructions on how to fetch the code). Once a contract is deployed, it is given its own address. Contracts specify a set of functions that can be called, and users can also use a transaction to invoke the function of a specific contract at a specific address. Every transaction type requires a gas fee and so users cannot use Ethereum without first owning some amount of ETH. 
 
-For more details about the basics of Ethereum, we refer Antonopoulos and Wood~\cite{antonopoulos2018mastering} (chapter one and two) to the readers who are eager to learn more about Ethereum.
-In the further parts of this section, we explain the more detailed aspects of Ethereum Virtual Machine (EVM), Ethereum infrastructure, and Decentralized Applications (Dapps) running on top of Ethereum. 
+For more details about the technology that underlies Ethereum (\eg consensus mechanism, networking details, mining, wallets, \etc), we refer the reader to Antonopoulos and Wood~\cite{antonopoulos2018mastering}.
+
+\section{Smart Contracts}
 
 Smart contracts (in Ethereum) are usually written in high-level programming languages such as Solidity and Vyper and compiled into a low-level EVM bytecodes using a compiler (\eg Solc). An EVM bytecode is a binary string that is interpretable by EVM. Then EVM bytecode will be deployed to the Ethereum blockchain.
 
