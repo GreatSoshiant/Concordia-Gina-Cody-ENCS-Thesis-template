@@ -9,76 +9,77 @@
 \BOOKMARK [1][-]{section.2.2}{Smart Contracts}{chapter.2}% 9
 \BOOKMARK [2][-]{subsection.2.2.1}{Sending ETH between EOAs}{section.2.2}% 10
 \BOOKMARK [2][-]{subsection.2.2.2}{Creating a new Contract Account.}{section.2.2}% 11
-\BOOKMARK [2][-]{subsection.2.2.3}{Run-time Bytecode vs. Contract Creation Code}{section.2.2}% 12
-\BOOKMARK [2][-]{subsection.2.2.4}{Storage Layout in EVM}{section.2.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.5}{Transaction vs. Message}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.6}{Off-chain Access to the Blockchain Data}{section.2.2}% 15
-\BOOKMARK [1][-]{section.2.3}{Ethereum Use-cases}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.3.1}{Stablecoins/Synthetic Assets}{section.2.3}% 17
-\BOOKMARK [2][-]{subsection.2.3.2}{Decentralized Exchange \(DeX\)}{section.2.3}% 18
-\BOOKMARK [2][-]{subsection.2.3.3}{Lending}{section.2.3}% 19
-\BOOKMARK [2][-]{subsection.2.3.4}{Ethereum Name Service \(ENS\)}{section.2.3}% 20
-\BOOKMARK [2][-]{subsection.2.3.5}{Derivatives}{section.2.3}% 21
-\BOOKMARK [2][-]{subsection.2.3.6}{Yield Farming}{section.2.3}% 22
-\BOOKMARK [2][-]{subsection.2.3.7}{Privacy Tools}{section.2.3}% 23
-\BOOKMARK [2][-]{subsection.2.3.8}{Liquidation}{section.2.3}% 24
-\BOOKMARK [0][-]{chapter.3}{Upgradeability of Smart Contracts on Ethereum}{}% 25
-\BOOKMARK [1][-]{section.3.1}{Introductory Remarks}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.2}{Contributions and Related Work}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.3}{Classification of Upgrade Patterns}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.3.1}{Parameter Configuration}{section.3.3}% 29
-\BOOKMARK [2][-]{subsection.3.3.2}{Functional Component Change}{section.3.3}% 30
-\BOOKMARK [2][-]{subsection.3.3.3}{Consensus Override}{section.3.3}% 31
-\BOOKMARK [2][-]{subsection.3.3.4}{Contract Migration}{section.3.3}% 32
-\BOOKMARK [2][-]{subsection.3.3.5}{CREATE2-based Metamorphosis}{section.3.3}% 33
-\BOOKMARK [2][-]{subsection.3.3.6}{CALL-based Data Separation}{section.3.3}% 34
-\BOOKMARK [2][-]{subsection.3.3.7}{DELEGATECALL-based Data Separation}{section.3.3}% 35
-\BOOKMARK [1][-]{section.3.4}{Evaluation Framework}{chapter.3}% 36
-\BOOKMARK [2][-]{subsection.3.4.1}{Properties}{section.3.4}% 37
-\BOOKMARK [2][-]{subsection.3.4.2}{Take-Aways}{section.3.4}% 38
-\BOOKMARK [2][-]{subsection.3.4.3}{Speed of an Upgrade}{section.3.4}% 39
-\BOOKMARK [2][-]{subsection.3.4.4}{Cost of Upgrade}{section.3.4}% 40
-\BOOKMARK [2][-]{subsection.3.4.5}{Gas Overhead for Users}{section.3.4}% 41
-\BOOKMARK [2][-]{subsection.3.4.6}{Useability}{section.3.4}% 42
-\BOOKMARK [2][-]{subsection.3.4.7}{Dealing with two New Versions of a Dapp}{section.3.4}% 43
-\BOOKMARK [2][-]{subsection.3.4.8}{System Complexity}{section.3.4}% 44
-\BOOKMARK [1][-]{section.3.5}{Finding Upgradeable Contracts}{chapter.3}% 45
-\BOOKMARK [2][-]{subsection.3.5.1}{Methodology}{section.3.5}% 46
-\BOOKMARK [2][-]{subsection.3.5.2}{Assignment Checker Module}{section.3.5}% 47
-\BOOKMARK [2][-]{subsection.3.5.3}{Results}{section.3.5}% 48
-\BOOKMARK [1][-]{section.3.6}{Finding the Admin}{chapter.3}% 49
-\BOOKMARK [2][-]{subsection.3.6.1}{Methodology}{section.3.6}% 50
-\BOOKMARK [2][-]{subsection.3.6.2}{Results}{section.3.6}% 51
-\BOOKMARK [1][-]{section.3.7}{Attacking Universal Upgradeable Proxy Standard \(UUPS\) Contracts}{chapter.3}% 52
-\BOOKMARK [1][-]{section.3.8}{Concluding Remarks}{chapter.3}% 53
-\BOOKMARK [0][-]{chapter.4}{Oracles: from the Ground Truth to Market Manipulation}{}% 54
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 55
-\BOOKMARK [1][-]{section.4.2}{Preliminaries}{chapter.4}% 56
-\BOOKMARK [1][-]{section.4.3}{Related Work}{chapter.4}% 57
-\BOOKMARK [1][-]{section.4.4}{Modular Work Flow}{chapter.4}% 58
-\BOOKMARK [2][-]{subsection.4.4.1}{Ground Truth}{section.4.4}% 59
-\BOOKMARK [2][-]{subsection.4.4.2}{Data Sources}{section.4.4}% 60
-\BOOKMARK [2][-]{subsection.4.4.3}{Data Feeders}{section.4.4}% 61
-\BOOKMARK [2][-]{subsection.4.4.4}{Selection of Data Feeders}{section.4.4}% 62
-\BOOKMARK [2][-]{subsection.4.4.5}{Aggregation of Data Feeds}{section.4.4}% 63
-\BOOKMARK [2][-]{subsection.4.4.6}{Dispute Phase}{section.4.4}% 64
-\BOOKMARK [2][-]{subsection.4.4.7}{Classification of Current Oracle Projects}{section.4.4}% 65
-\BOOKMARK [1][-]{section.4.5}{Interacting with the Blockchain}{chapter.4}% 66
-\BOOKMARK [2][-]{subsection.4.5.1}{Off-chain Infrastructure}{section.4.5}% 67
-\BOOKMARK [2][-]{subsection.4.5.2}{Blockchain Infrastructure}{section.4.5}% 68
-\BOOKMARK [2][-]{subsection.4.5.3}{Smart Contracts}{section.4.5}% 69
-\BOOKMARK [1][-]{section.4.6}{Concluding Remarks}{chapter.4}% 70
-\BOOKMARK [0][-]{chapter.5}{Stablecoins and Synthetic Assets in DeFi}{}% 71
-\BOOKMARK [1][-]{section.5.1}{Introductory Remarks}{chapter.5}% 72
-\BOOKMARK [1][-]{section.5.2}{Contributions and Related Work}{chapter.5}% 73
-\BOOKMARK [1][-]{section.5.3}{Financial Characteristics}{chapter.5}% 74
-\BOOKMARK [2][-]{subsection.5.3.1}{How Much Should You Pay for a Black Coin?}{section.5.3}% 75
-\BOOKMARK [2][-]{subsection.5.3.2}{Why Would You Want a Red Coin?}{section.5.3}% 76
-\BOOKMARK [1][-]{section.5.4}{Research Agenda: Extending Red-Black Coins}{chapter.5}% 77
-\BOOKMARK [2][-]{subsection.5.4.1}{Fungibility}{section.5.4}% 78
-\BOOKMARK [2][-]{subsection.5.4.2}{Redemption}{section.5.4}% 79
-\BOOKMARK [2][-]{subsection.5.4.3}{Under-collateralization}{section.5.4}% 80
-\BOOKMARK [2][-]{subsection.5.4.4}{Autonomy}{section.5.4}% 81
-\BOOKMARK [1][-]{section.5.5}{Concluding Remarks}{chapter.5}% 82
-\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Work}{}% 83
-\BOOKMARK [0][-]{section*.74}{Bibliography}{}% 84
+\BOOKMARK [2][-]{subsection.2.2.3}{Calling a Contract Account to execute a function}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.4}{Run-time Bytecode vs. Contract Creation Code}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.5}{Storage Layout in EVM}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.6}{Transaction vs. Message}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.7}{Off-chain Access to the Blockchain Data}{section.2.2}% 16
+\BOOKMARK [1][-]{section.2.3}{Ethereum Use-cases}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.3.1}{Stablecoins/Synthetic Assets}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.2}{Decentralized Exchange \(DeX\)}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.3}{Lending}{section.2.3}% 20
+\BOOKMARK [2][-]{subsection.2.3.4}{Ethereum Name Service \(ENS\)}{section.2.3}% 21
+\BOOKMARK [2][-]{subsection.2.3.5}{Derivatives}{section.2.3}% 22
+\BOOKMARK [2][-]{subsection.2.3.6}{Yield Farming}{section.2.3}% 23
+\BOOKMARK [2][-]{subsection.2.3.7}{Privacy Tools}{section.2.3}% 24
+\BOOKMARK [2][-]{subsection.2.3.8}{Liquidation}{section.2.3}% 25
+\BOOKMARK [0][-]{chapter.3}{Upgradeability of Smart Contracts on Ethereum}{}% 26
+\BOOKMARK [1][-]{section.3.1}{Introductory Remarks}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.2}{Contributions and Related Work}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.3}{Classification of Upgrade Patterns}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.1}{Parameter Configuration}{section.3.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.2}{Functional Component Change}{section.3.3}% 31
+\BOOKMARK [2][-]{subsection.3.3.3}{Consensus Override}{section.3.3}% 32
+\BOOKMARK [2][-]{subsection.3.3.4}{Contract Migration}{section.3.3}% 33
+\BOOKMARK [2][-]{subsection.3.3.5}{CREATE2-based Metamorphosis}{section.3.3}% 34
+\BOOKMARK [2][-]{subsection.3.3.6}{CALL-based Data Separation}{section.3.3}% 35
+\BOOKMARK [2][-]{subsection.3.3.7}{DELEGATECALL-based Data Separation}{section.3.3}% 36
+\BOOKMARK [1][-]{section.3.4}{Evaluation Framework}{chapter.3}% 37
+\BOOKMARK [2][-]{subsection.3.4.1}{Properties}{section.3.4}% 38
+\BOOKMARK [2][-]{subsection.3.4.2}{Take-Aways}{section.3.4}% 39
+\BOOKMARK [2][-]{subsection.3.4.3}{Speed of an Upgrade}{section.3.4}% 40
+\BOOKMARK [2][-]{subsection.3.4.4}{Cost of Upgrade}{section.3.4}% 41
+\BOOKMARK [2][-]{subsection.3.4.5}{Gas Overhead for Users}{section.3.4}% 42
+\BOOKMARK [2][-]{subsection.3.4.6}{Useability}{section.3.4}% 43
+\BOOKMARK [2][-]{subsection.3.4.7}{Dealing with two New Versions of a Dapp}{section.3.4}% 44
+\BOOKMARK [2][-]{subsection.3.4.8}{System Complexity}{section.3.4}% 45
+\BOOKMARK [1][-]{section.3.5}{Finding Upgradeable Contracts}{chapter.3}% 46
+\BOOKMARK [2][-]{subsection.3.5.1}{Methodology}{section.3.5}% 47
+\BOOKMARK [2][-]{subsection.3.5.2}{Assignment Checker Module}{section.3.5}% 48
+\BOOKMARK [2][-]{subsection.3.5.3}{Results}{section.3.5}% 49
+\BOOKMARK [1][-]{section.3.6}{Finding the Admin}{chapter.3}% 50
+\BOOKMARK [2][-]{subsection.3.6.1}{Methodology}{section.3.6}% 51
+\BOOKMARK [2][-]{subsection.3.6.2}{Results}{section.3.6}% 52
+\BOOKMARK [1][-]{section.3.7}{Attacking Universal Upgradeable Proxy Standard \(UUPS\) Contracts}{chapter.3}% 53
+\BOOKMARK [1][-]{section.3.8}{Concluding Remarks}{chapter.3}% 54
+\BOOKMARK [0][-]{chapter.4}{Oracles: from the Ground Truth to Market Manipulation}{}% 55
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 56
+\BOOKMARK [1][-]{section.4.2}{Preliminaries}{chapter.4}% 57
+\BOOKMARK [1][-]{section.4.3}{Related Work}{chapter.4}% 58
+\BOOKMARK [1][-]{section.4.4}{Modular Work Flow}{chapter.4}% 59
+\BOOKMARK [2][-]{subsection.4.4.1}{Ground Truth}{section.4.4}% 60
+\BOOKMARK [2][-]{subsection.4.4.2}{Data Sources}{section.4.4}% 61
+\BOOKMARK [2][-]{subsection.4.4.3}{Data Feeders}{section.4.4}% 62
+\BOOKMARK [2][-]{subsection.4.4.4}{Selection of Data Feeders}{section.4.4}% 63
+\BOOKMARK [2][-]{subsection.4.4.5}{Aggregation of Data Feeds}{section.4.4}% 64
+\BOOKMARK [2][-]{subsection.4.4.6}{Dispute Phase}{section.4.4}% 65
+\BOOKMARK [2][-]{subsection.4.4.7}{Classification of Current Oracle Projects}{section.4.4}% 66
+\BOOKMARK [1][-]{section.4.5}{Interacting with the Blockchain}{chapter.4}% 67
+\BOOKMARK [2][-]{subsection.4.5.1}{Off-chain Infrastructure}{section.4.5}% 68
+\BOOKMARK [2][-]{subsection.4.5.2}{Blockchain Infrastructure}{section.4.5}% 69
+\BOOKMARK [2][-]{subsection.4.5.3}{Smart Contracts}{section.4.5}% 70
+\BOOKMARK [1][-]{section.4.6}{Concluding Remarks}{chapter.4}% 71
+\BOOKMARK [0][-]{chapter.5}{Stablecoins and Synthetic Assets in DeFi}{}% 72
+\BOOKMARK [1][-]{section.5.1}{Introductory Remarks}{chapter.5}% 73
+\BOOKMARK [1][-]{section.5.2}{Contributions and Related Work}{chapter.5}% 74
+\BOOKMARK [1][-]{section.5.3}{Financial Characteristics}{chapter.5}% 75
+\BOOKMARK [2][-]{subsection.5.3.1}{How Much Should You Pay for a Black Coin?}{section.5.3}% 76
+\BOOKMARK [2][-]{subsection.5.3.2}{Why Would You Want a Red Coin?}{section.5.3}% 77
+\BOOKMARK [1][-]{section.5.4}{Research Agenda: Extending Red-Black Coins}{chapter.5}% 78
+\BOOKMARK [2][-]{subsection.5.4.1}{Fungibility}{section.5.4}% 79
+\BOOKMARK [2][-]{subsection.5.4.2}{Redemption}{section.5.4}% 80
+\BOOKMARK [2][-]{subsection.5.4.3}{Under-collateralization}{section.5.4}% 81
+\BOOKMARK [2][-]{subsection.5.4.4}{Autonomy}{section.5.4}% 82
+\BOOKMARK [1][-]{section.5.5}{Concluding Remarks}{chapter.5}% 83
+\BOOKMARK [0][-]{chapter.6}{Conclusion and Future Work}{}% 84
+\BOOKMARK [0][-]{section*.73}{Bibliography}{}% 85
