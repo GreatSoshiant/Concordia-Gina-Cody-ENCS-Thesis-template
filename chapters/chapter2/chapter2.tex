@@ -12,27 +12,28 @@ Ethereum represents the second generation of blockchain technology, following Bi
 
 Users of Ethereum prepare transactions using client software (which is called a ``wallet'') and send them to the Ethereum network, which consists of nodes (called ``miners'') that process and finalize transactions. The simplest transaction will transfer ETH from one account to another account. A transaction can also ask for a smart contract to be deployed by providing its code (or instructions on how to fetch the code). Once a contract is deployed, it is given its own address. Contracts specify a set of functions that can be called, and users can also use a transaction to invoke the function of a specific contract at a specific address. Every transaction type requires a gas fee and so users cannot use Ethereum without first owning some amount of ETH. 
 
-For more details about the technology that underlies Ethereum (\eg consensus mechanism, networking details, mining, wallets, \etc), we refer the reader to Antonopoulos and Wood~\cite{antonopoulos2018mastering}.
+For more details about the technology that underlies Ethereum (\eg consensus mechanism, networking details, cryptographic details, \etc), we refer the reader to Antonopoulos and Wood~\cite{antonopoulos2018mastering}.
 
 \section{Smart Contracts}
 
-Smart contracts (in Ethereum) are usually written in high-level programming languages such as Solidity and Vyper and compiled into a low-level EVM bytecodes using a compiler (\eg Solc). An EVM bytecode is a binary string that is interpretable by EVM. Then EVM bytecode will be deployed to the Ethereum blockchain.
+Ethereum smart contracts are usually written in a high-level programming language and compiled into low-level EVM bytecodes using a compiler (\eg Solc). The most popular high-level language is Solidity which is object oriented and similar to Java in syntax.  Vyper also has significant use and resembles Python. An EVM bytecode is a binary string that is stored by the blockchain and is interpretable by the EVM.
 
-To understand the process of deployment of a smart contract one should have familiarity with different types of accounts in Ethereum. There are two types of Ethereum accounts: \textit{Externally Owned Account (EOA)} and \textit{Contract Account}. 
-EOA is an account that is controlled by a private key and keeps balance of Ethers that the account has and also a \textit{nonce}, which indicates the number of transactions sent by the account and acts like a counter to mitigate replay attacks. Any external actor can generate a random private key and use ECDSA encryption algorithm. Ethereum uses SECP-256k1 curve for ECDSA as described in the Ethereum yellow paper~\cite{wood2014ethereum}.
-The EOA addresses can create new transactions, sign them with the private key related to the account and sent them to Ethereum network to be confirmed and recorded on the Ethereum blockchain. This transaction can:
+There are two types of Ethereum accounts: an \textit{Externally Owned Account (EOA)} and a \textit{Contract Account}. Every Ethereum transaction is sent by an account. 
+An EOA is an account that is controlled by a private key and maintains a balance of ETH. Any external actor can generate a random private key and the hash of the corresponding public key will serve as the EOA's address, at which it can receive ETH. Transactions sent from the EOA are signed using the private key with the ECDSA signature algorithm over the SECP-256k1 elliptic curve curve, as specified in the Ethereum yellow paper~\cite{wood2014ethereum}.
+
+EOA acounts can create new transactions, sign them with the private key related to the account and sent them to Ethereum network to be confirmed and recorded on the Ethereum blockchain. This transaction can:
 \begin{enumerate}
-    \item Send Ether to another EOA.
-    \item Create a new \textit{Contract Account} by sending a bytecode.
-    \item Call a \textit{Contract Account} to execute a logic.
+    \item Send ETH to another EOA.
+    \item Create a new \textit{Contract Account} by deploying bytecode.
+    \item Call a \textit{Contract Account} to execute a function.
 \end{enumerate}
 
-Each transaction type is explained below:
+Each transaction type is explained below.
 
-\paragraph{Sending Ether.} 
-For sending Ether into another EOA account, the sender should specify the address which should be an EOA and not a contract account and also an amount to be sent.
+\subsection{Sending ETH between EOAs} 
+An EOA can send ETH to another EOA account by specifying the amount and the address of the destination. Note that the receiving EOA does not need to authorize the transaction and, in fact, cannot block the transaction even if it wanted to. Each transaction also contains a counter (called a \textit{nonce}) which must be greater than the last confirmed transaction from the EOA or it will be rejected by the Ethereum network. This is to prevent replay attacks. 
 
-\paragraph{Creating a new Contract Account.}
+\subsection{Creating a new Contract Account.}
 Creating a new \textit{Contract Account} is a bit tricky. The EOA should send a transaction containing the bytecode of the contract and setting the destination address to \emph{null}. Then EVM will create an address for the newly generated contract. The newly generated account (which is a contract account) keeps four fields: A \textit{nonce} which is similar to the nonce field in EOA accounts which keeps track of number of transactions created by that account; Ether balance which indicates number of Ether the account holds; \textit{Contract Code} which keeps the bytecode of the account which is executed each time a transaction calls the account; \textit{Contract Storage} which is a Merkle Patricia Tree data structure that maintains the data related to the contract account. Detailed explanation of the contract storage can be found in Section~\ref{sec:storagelayout}. 
 The other important aspect of contract creation in Ethereum is how EVM generates the address for newly generated contract account. In EOA contract creation, EVM calculates the contract address by using the transaction sender's address and its nonce. The formula is show below:
 \begin{equation}
