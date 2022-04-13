@@ -10,24 +10,25 @@
 \contentsline {section}{\numberline {2.2}Smart Contracts}{6}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Sending ETH between EOAs}{7}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Creating a new Contract Account.}{8}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Calling a \textit {Contract Account} to execute a function}{9}{subsection.2.2.3}%
-\contentsline {paragraph}{Transaction creation by user. }{10}{section*.8}%
+\contentsline {subsection}{\numberline {2.2.3}Calling a \textit {Contract Account} to execute a function}{10}{subsection.2.2.3}%
+\contentsline {paragraph}{Transaction creation by EOA.}{10}{section*.8}%
 \contentsline {paragraph}{Execution Process. }{10}{section*.9}%
-\contentsline {subsection}{\numberline {2.2.4}Run-time Bytecode vs. Contract Creation Code}{11}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Storage Layout in EVM}{12}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Transaction vs. Message}{13}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Off-chain Access to the Blockchain Data}{13}{subsection.2.2.7}%
-\contentsline {section}{\numberline {2.3}Ethereum Use-cases}{14}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Other Ethereum Details}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Run-time Bytecode vs. Contract Creation Code}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Storage Layout in EVM}{12}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Transaction vs. Message}{13}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Off-chain Access to the Blockchain Data}{13}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Ethereum Use-cases}{14}{section.2.4}%
 \contentsline {paragraph}{The Oracle Problem.}{15}{section*.10}%
 \contentsline {paragraph}{Trusted Third Parties.}{15}{section*.11}%
-\contentsline {subsection}{\numberline {2.3.1}Stablecoins/Synthetic Assets}{16}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Decentralized Exchange (DeX)}{16}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Lending}{17}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Ethereum Name Service (ENS)}{18}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Derivatives}{18}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Yield Farming}{19}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}Privacy Tools}{19}{subsection.2.3.7}%
-\contentsline {subsection}{\numberline {2.3.8}Liquidation}{19}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2.4.1}Stablecoins/Synthetic Assets}{16}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Decentralized Exchange (DeX)}{16}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Lending}{17}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Ethereum Name Service (ENS)}{18}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Derivatives}{18}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.6}Yield Farming}{19}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.7}Privacy Tools}{19}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.8}Liquidation}{19}{subsection.2.4.8}%
 \contentsline {chapter}{\numberline {3}Upgradeability of Smart Contracts on Ethereum}{21}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introductory Remarks}{21}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Contributions and Related Work}{23}{section.3.2}%
