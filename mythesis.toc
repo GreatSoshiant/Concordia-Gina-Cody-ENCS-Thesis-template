@@ -74,7 +74,7 @@
 \contentsline {subsection}{\numberline {3.6.2}Results}{54}{subsection.3.6.2}%
 \contentsline {section}{\numberline {3.7}Attacking Universal Upgradeable Proxy Standard (UUPS) Contracts}{55}{section.3.7}%
 \contentsline {section}{\numberline {3.8}Concluding Remarks}{58}{section.3.8}%
-\contentsline {chapter}{\numberline {4}Oracles: from the Ground Truth to Market Manipulation}{60}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Oracles: From the Ground Truth to Market Manipulation}{60}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduction}{60}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Preliminaries}{61}{section.4.2}%
 \contentsline {paragraph}{Methodology.}{62}{section*.35}%
